@@ -173,14 +173,24 @@ export default function VocabDetailPage({ params }: VocabDetailPageProps) {
   );
 }
 
-// 生成静态路径（可选，用于静态生成）
+// 生成静态路径（为前100个高频词汇生成静态页面）
 export async function generateStaticParams() {
   const vocabList = getVocabList();
   
-  // 只为前100个高频词汇生成静态页面，其他的使用动态生成
+  // 为前100个高频词汇生成静态页面，其他使用ISR
   return vocabList
     .slice(0, 100)
+    .filter(vocab => {
+      // 过滤掉可能导致路径问题的特殊字符
+      return !/[\/<>:"|?*]/.test(vocab.word);
+    })
     .map((vocab) => ({
-      word: encodeURIComponent(vocab.word),
+      word: vocab.word,
     }));
 }
+
+// 启用动态参数，允许ISR
+export const dynamicParams = true;
+
+// 启用ISR，24小时重新验证
+export const revalidate = 86400;
