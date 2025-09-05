@@ -3,7 +3,7 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import { getVocabList, getAvailableJlptLevels, getAvailableSeries, getAvailableAnimes, getAvailableSeasons } from "@/lib/vocabData";
-import { VocabListItem, SearchFilters } from "@/types/vocab";
+import { SearchFilters } from "@/types/vocab";
 
 export default function VocabPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -18,7 +18,7 @@ export default function VocabPage() {
   const availableSeasons = getAvailableSeasons(filters.series, filters.anime);
 
   const filteredAndSortedVocab = useMemo(() => {
-    let filtered = allVocab.filter(item => {
+    const filtered = allVocab.filter(item => {
       // 搜索过滤
       const matchesSearch = !searchQuery || 
         item.word.includes(searchQuery) || 

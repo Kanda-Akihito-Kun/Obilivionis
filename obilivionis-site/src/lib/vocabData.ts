@@ -1,21 +1,19 @@
 import { VocabData, VocabListItem, SearchFilters, AnimeSeries, VocabStats, VocabWord } from '@/types/vocab';
 import { getAnimeSeriesConfig, getSourceFromPath } from '@/data/animeData';
 
-// 动态导入JSON文件的映射
-const dataFileImports: { [key: string]: () => Promise<any> } = {
-  '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json': () => import('../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json')
-};
+
 
 // 缓存数据
 let cachedVocabData: VocabData | null = null;
 let cachedAnimeSeries: AnimeSeries[] | null = null;
 
 // 同步加载JSON文件（用于已知的静态文件）
-function loadJsonFile(filePath: string): any {
+function loadJsonFile(filePath: string): Record<string, unknown> {
   try {
     // 对于已知的文件路径，直接返回导入的数据
     if (filePath === '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json') {
       // 直接导入已知的JSON文件
+      // eslint-disable-next-line @typescript-eslint/no-require-imports
       const ep8Data = require('../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json');
       return ep8Data;
     }
@@ -87,11 +85,11 @@ export function getVocabData(): VocabData {
           if (!sourceInfo || !jsonData || Object.keys(jsonData).length === 0) return;
           
           // 为每个词汇添加来源信息
-          Object.entries(jsonData).forEach(([word, vocabInfo]: [string, any]) => {
+          Object.entries(jsonData).forEach(([word, vocabInfo]) => {
             const vocabWithSource: VocabWord = {
-              ...vocabInfo,
+              ...(vocabInfo as Record<string, unknown>),
               source: sourceInfo
-            };
+            } as VocabWord;
             
             // 如果词汇已存在，合并数据
             if (allVocabData[word]) {

@@ -1,10 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import { pipeline } from 'stream';
-import { promisify } from 'util';
-
-const pipelineAsync = promisify(pipeline);
 
 // 支持的媒体文件类型
 const MEDIA_TYPES: { [key: string]: string } = {
@@ -76,7 +72,7 @@ export async function GET(
       headers.set('Content-Range', `bytes ${start}-${end}/${stats.size}`);
       headers.set('Content-Length', chunksize.toString());
       
-      return new NextResponse(fileStream as any, {
+      return new NextResponse(fileStream as unknown as ReadableStream, {
         status: 206,
         headers
       });
@@ -128,7 +124,7 @@ export async function HEAD(
       }
     });
     
-  } catch (error) {
+  } catch {
     return new NextResponse(null, { status: 500 });
   }
 }
