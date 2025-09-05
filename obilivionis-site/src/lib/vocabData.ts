@@ -1,7 +1,7 @@
 import { VocabData, VocabListItem, SearchFilters, AnimeSeries, VocabStats, VocabWord } from '@/types/vocab';
 import { getAnimeSeriesConfig, getSourceFromPath } from '@/data/animeData';
-
-
+// 导入静态JSON数据
+import ep8Data from '../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json';
 
 // 缓存数据
 let cachedVocabData: VocabData | null = null;
@@ -12,10 +12,8 @@ function loadJsonFile(filePath: string): Record<string, unknown> {
   try {
     // 对于已知的文件路径，直接返回导入的数据
     if (filePath === '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json') {
-      // 直接导入已知的JSON文件
-      // eslint-disable-next-line @typescript-eslint/no-require-imports
-      const ep8Data = require('../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json');
-      return ep8Data;
+      // 直接返回静态导入的数据
+      return ep8Data as Record<string, unknown>;
     }
     return {};
   } catch (error) {
