@@ -1,0 +1,5832 @@
+{
+  "10": {
+    "word": "10",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "これは10万20万いくな",
+        "chinese": "这个能冲上十几二十万吧",
+        "time_range": "00:19:39,305 --> 00:19:41,683"
+      }
+    ],
+    "meaning": "ten, 10",
+    "furigana": "じゅう",
+    "romaji": "",
+    "level": ""
+  },
+  "20": {
+    "word": "20",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "これは10万20万いくな",
+        "chinese": "这个能冲上十几二十万吧",
+        "time_range": "00:19:39,305 --> 00:19:41,683"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "ライブ": {
+    "word": "ライブ",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "ちゃんとライブしたかったのに結局これ",
+        "chinese": "我还想好好演出呢结果搞成这样",
+        "time_range": "00:00:44,545 --> 00:00:46,797"
+      },
+      {
+        "japanese": "ライブして",
+        "chinese": "经过演出后",
+        "time_range": "00:16:42,629 --> 00:16:43,504"
+      },
+      {
+        "japanese": "ライブどうだった？",
+        "chinese": "演出怎么样？",
+        "time_range": "00:17:49,070 --> 00:17:51,197"
+      }
+    ],
+    "meaning": "专有名词",
+    "furigana": "",
+    "romaji": "",
+    "level": "N0"
+  },
+  "MyGO": {
+    "word": "MyGO",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "It's MyGO!",
+        "chinese": "It's MyGO!",
+        "time_range": "00:04:08,373 --> 00:04:09,249"
+      },
+      {
+        "japanese": "MyGOでした",
+        "chinese": "我们是MyGO",
+        "time_range": "00:16:03,715 --> 00:16:04,841"
+      }
+    ],
+    "meaning": "专有名词",
+    "furigana": "",
+    "romaji": "",
+    "level": "N0"
+  },
+  "ギター": {
+    "word": "ギター",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あギターです",
+        "chinese": "她是吉他手",
+        "time_range": "00:10:52,653 --> 00:10:54,154"
+      }
+    ],
+    "meaning": "专有名词",
+    "furigana": "",
+    "romaji": "",
+    "level": "N0"
+  },
+  "ドラム": {
+    "word": "ドラム",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "もちろんドラムはもっと上達して頂かなくてはなりませんが",
+        "chinese": "当然还是得请你继续磨炼鼓技",
+        "time_range": "00:20:51,878 --> 00:20:55,757"
+      }
+    ],
+    "meaning": "专有名词",
+    "furigana": "",
+    "romaji": "",
+    "level": "N0"
+  },
+  "ベース": {
+    "word": "ベース",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "加えてベースには",
+        "chinese": "而我找到的贝斯手",
+        "time_range": "00:21:16,903 --> 00:21:18,029"
+      }
+    ],
+    "meaning": "专有名词",
+    "furigana": "",
+    "romaji": "",
+    "level": "N0"
+  },
+  "いく": {
+    "word": "いく",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "いくよ",
+        "chinese": "走了",
+        "time_range": "00:00:32,407 --> 00:00:33,283"
+      },
+      {
+        "japanese": "これは10万20万いくな",
+        "chinese": "这个能冲上十几二十万吧",
+        "time_range": "00:19:39,305 --> 00:19:41,683"
+      }
+    ],
+    "meaning": "to come; to orgasm",
+    "furigana": "",
+    "romaji": "iku",
+    "level": "N1"
+  },
+  "答え": {
+    "word": "答え",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "なんで答えてくんないの",
+        "chinese": "为什么都不回答我啊",
+        "time_range": "00:02:49,795 --> 00:02:51,672"
+      }
+    ],
+    "meaning": "answer; response",
+    "furigana": "こたえ",
+    "romaji": "kotae",
+    "level": "N1"
+  },
+  "良い": {
+    "word": "良い",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "あれで良いかは分かんない",
+        "chinese": "我不知道那样算不算行",
+        "time_range": "00:02:58,303 --> 00:02:59,805"
+      },
+      {
+        "japanese": "良いって言ったじゃん",
+        "chinese": "你不也说了可以吗",
+        "time_range": "00:03:52,107 --> 00:03:53,108"
+      },
+      {
+        "japanese": "ゆつくり考えると良いです",
+        "chinese": "慢慢考虑就好",
+        "time_range": "00:18:39,746 --> 00:18:41,372"
+      }
+    ],
+    "meaning": "good",
+    "furigana": "いい",
+    "romaji": "ii",
+    "level": "N1"
+  },
+  "合わせ": {
+    "word": "合わせ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こういうのは何度も音合わせてそれで分かるっていうか",
+        "chinese": "这种事要多合练几次才判断得出来",
+        "time_range": "00:03:00,931 --> 00:03:04,434"
+      }
+    ],
+    "meaning": "joint together; opposite; facing",
+    "furigana": "あわせ",
+    "romaji": "awase",
+    "level": "N1"
+  },
+  "衣装": {
+    "word": "衣装",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "それよりこの衣装本当に大丈夫？",
+        "chinese": "比起这个这套服装真的没问题吗",
+        "time_range": "00:04:00,365 --> 00:04:03,118"
+      },
+      {
+        "japanese": "ね衣装作って良かったでしよ",
+        "chinese": "你看服装没白做吧",
+        "time_range": "00:04:46,036 --> 00:04:48,288"
+      }
+    ],
+    "meaning": "clothing; costume; outfit; garment; dress",
+    "furigana": "いしょう",
+    "romaji": "ishō",
+    "level": "N1"
+  },
+  "大胆": {
+    "word": "大胆",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "わあ大胆",
+        "chinese": "好大胆啊",
+        "time_range": "00:04:32,522 --> 00:04:33,774"
+      }
+    ],
+    "meaning": "bold; daring; audacious",
+    "furigana": "だいたん",
+    "romaji": "daitan",
+    "level": "N1"
+  },
+  "なんか": {
+    "word": "なんか",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ともりんなんか喋んないの",
+        "chinese": "灯灯向大家说点什么吧",
+        "time_range": "00:10:07,233 --> 00:10:09,109"
+      }
+    ],
+    "meaning": "things like ...; or something like that .. (often derogatory)",
+    "furigana": "",
+    "romaji": "nanka",
+    "level": "N1"
+  },
+  "心細い": {
+    "word": "心細い",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "心細い時にそばにいてくれます",
+        "chinese": "我不安时她都会在我身边",
+        "time_range": "00:11:06,792 --> 00:11:09,044"
+      }
+    ],
+    "meaning": "helpless; forlorn; hopeless; unpromising; lonely; discouraging; disheartening",
+    "furigana": "こころぼそい",
+    "romaji": "kokorobosoi",
+    "level": "N1"
+  },
+  "さん": {
+    "word": "さん",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ライブハウスCiRCLEさんに来ちゃいました",
+        "chinese": "我们来到了LiveHouse CiRCLE",
+        "time_range": "00:18:53,134 --> 00:18:55,762"
+      },
+      {
+        "japanese": "では改めて祐天寺にやむさん",
+        "chinese": "那么容我再问一次祐天寺若麦小姐",
+        "time_range": "00:21:45,682 --> 00:21:48,309"
+      }
+    ],
+    "meaning": "Mr or Mrs",
+    "furigana": "",
+    "romaji": "san",
+    "level": "N1"
+  },
+  "スタジオ": {
+    "word": "スタジオ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あのパスパレやロゼリアも御用達のスタジオなんだって",
+        "chinese": "听说这里是PasPale和Roselia的常用排练室哦",
+        "time_range": "00:18:56,012 --> 00:18:59,390"
+      }
+    ],
+    "meaning": "studio",
+    "furigana": "",
+    "romaji": "sutajio",
+    "level": "N1"
+  },
+  "腕前": {
+    "word": "腕前",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "プロと遜色ない腕前の人間を",
+        "chinese": "水准也丝毫不输职业级",
+        "time_range": "00:21:18,404 --> 00:21:20,406"
+      }
+    ],
+    "meaning": "ability; skill; facility",
+    "furigana": "うでまえ",
+    "romaji": "udemae",
+    "level": "N1"
+  },
+  "楽器": {
+    "word": "楽器",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "早く楽器しまって",
+        "chinese": "快把乐器收好",
+        "time_range": "00:00:16,892 --> 00:00:18,393"
+      }
+    ],
+    "meaning": "musical instrument",
+    "furigana": "がっき",
+    "romaji": "gakki",
+    "level": "N2"
+  },
+  "見直す": {
+    "word": "見直す",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見直す時間とか全然なかったし",
+        "chinese": "但这次完全没时间调整",
+        "time_range": "00:03:05,435 --> 00:03:07,562"
+      }
+    ],
+    "meaning": "to look again, to get a better opinion of",
+    "furigana": "みなおす",
+    "romaji": "minaosu",
+    "level": "N2"
+  },
+  "バンド": {
+    "word": "バンド",
+    "count": 14,
+    "sentences": [
+      {
+        "japanese": "あの迷子のバンドです",
+        "chinese": "那个我们是迷路的乐队",
+        "time_range": "00:03:23,704 --> 00:03:25,080"
+      },
+      {
+        "japanese": "あ迷子のバンド",
+        "chinese": "是「迷路的乐队』·…",
+        "time_range": "00:03:34,589 --> 00:03:36,091"
+      },
+      {
+        "japanese": "バンドにバンドってつけるから",
+        "chinese": "谁让你在乐队名里加了「乐队』」2个字",
+        "time_range": "00:03:50,105 --> 00:03:51,857"
+      },
+      {
+        "japanese": "バンドにバンドってつけるから",
+        "chinese": "谁让你在乐队名里加了「乐队』」2个字",
+        "time_range": "00:03:50,105 --> 00:03:51,857"
+      },
+      {
+        "japanese": "私たちのバンドいっつも迷子だからって",
+        "chinese": "你说我们乐队的成员总是在迷路",
+        "time_range": "00:03:55,610 --> 00:03:58,238"
+      },
+      {
+        "japanese": "今日は楽奈ちゃんのバンドを見に？",
+        "chinese": "您今天是来看小乐奈的乐队吗",
+        "time_range": "00:06:05,741 --> 00:06:07,368"
+      },
+      {
+        "japanese": "私たちは迷子のバンドです",
+        "chinese": "我们是迷路的乐队",
+        "time_range": "00:10:23,123 --> 00:10:25,876"
+      },
+      {
+        "japanese": "すごくバンドのこといつぱい考えてくれて",
+        "chinese": "她真的为乐队考虑了很多",
+        "time_range": "00:11:13,173 --> 00:11:16,677"
+      },
+      {
+        "japanese": "前のバンドから一緒で",
+        "chinese": "我们从上一支乐队就在一起",
+        "time_range": "00:11:28,188 --> 00:11:29,940"
+      },
+      {
+        "japanese": "バンドのことずっと大事に思ってくれて",
+        "chinese": "她一直非常珍视乐队",
+        "time_range": "00:11:30,691 --> 00:11:33,569"
+      },
+      {
+        "japanese": "バンド名変わるし",
+        "chinese": "连乐队名都改了",
+        "time_range": "00:16:27,739 --> 00:16:28,865"
+      },
+      {
+        "japanese": "それでにゃむをバンドに入れたいんだっけ？",
+        "chinese": "所以你说想让我加入乐队？",
+        "time_range": "00:20:12,714 --> 00:20:15,216"
+      },
+      {
+        "japanese": "それで是非わたくレのバンドにと",
+        "chinese": "所以希望你务必加入我的乐队",
+        "time_range": "00:20:48,875 --> 00:20:51,127"
+      },
+      {
+        "japanese": "バンドとして盤石の布陣ですわ",
+        "chinese": "以乐队来说这个阵容可谓稳如磐石",
+        "time_range": "00:21:23,284 --> 00:21:26,037"
+      }
+    ],
+    "meaning": "band",
+    "furigana": "",
+    "romaji": "bando",
+    "level": "N2"
+  },
+  "応援": {
+    "word": "応援",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "応援してるね",
+        "chinese": "我会帮你们加油的",
+        "time_range": "00:04:42,783 --> 00:04:44,284"
+      }
+    ],
+    "meaning": "aid, assistance, help, reinforcement",
+    "furigana": "おうえん",
+    "romaji": "ōen",
+    "level": "N2"
+  },
+  "仲良し": {
+    "word": "仲良し",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "すごく仲良しでもなくて…",
+        "chinese": "大家的感情也不算很要好",
+        "time_range": "00:11:53,213 --> 00:11:55,090"
+      }
+    ],
+    "meaning": "intimate friend, bosom buddy, chum",
+    "furigana": "なかよし",
+    "romaji": "nakayoshi",
+    "level": "N2"
+  },
+  "感激": {
+    "word": "感激",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "え一にゃむ感激",
+        "chinese": "喵姆好感动哦",
+        "time_range": "00:19:35,802 --> 00:19:38,054"
+      }
+    ],
+    "meaning": "deep emotion, impression, inspiration",
+    "furigana": "かんげき",
+    "romaji": "kangeki",
+    "level": "N2"
+  },
+  "指定": {
+    "word": "指定",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こんな場所指定して無理させちゃった？",
+        "chinese": "指定这样的地方是不是太勉强你了呢",
+        "time_range": "00:20:05,582 --> 00:20:07,458"
+      }
+    ],
+    "meaning": "designation, specification, assignment, pointing at",
+    "furigana": "してい",
+    "romaji": "shitei",
+    "level": "N2"
+  },
+  "特殊": {
+    "word": "特殊",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "特殊なき方で",
+        "chinese": "打鼓方式很特殊",
+        "time_range": "00:20:45,121 --> 00:20:46,247"
+      }
+    ],
+    "meaning": "special, unique",
+    "furigana": "とくしゅ",
+    "romaji": "tokushu",
+    "level": "N2"
+  },
+  "派手": {
+    "word": "派手",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見栄えも派手で華がありますお",
+        "chinese": "看起来惊艳又华丽",
+        "time_range": "00:20:46,497 --> 00:20:48,499"
+      }
+    ],
+    "meaning": "showy, loud, gay, flashy, gaudy",
+    "furigana": "はで",
+    "romaji": "hade",
+    "level": "N2"
+  },
+  "改めて": {
+    "word": "改めて",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "では改めて祐天寺にやむさん",
+        "chinese": "那么容我再问一次祐天寺若麦小姐",
+        "time_range": "00:21:45,682 --> 00:21:48,309"
+      }
+    ],
+    "meaning": "another time, again, over again, anew, formally",
+    "furigana": "あらためて",
+    "romaji": "aratamete",
+    "level": "N2"
+  },
+  "迷子": {
+    "word": "迷子",
+    "count": 11,
+    "sentences": [
+      {
+        "japanese": "なんが迷子?",
+        "chinese": "好像叫什么迷路」？",
+        "time_range": "00:00:06,256 --> 00:00:08,008"
+      },
+      {
+        "japanese": "あの迷子のバンドです",
+        "chinese": "那个我们是迷路的乐队",
+        "time_range": "00:03:23,704 --> 00:03:25,080"
+      },
+      {
+        "japanese": "あ迷子のバンド",
+        "chinese": "是「迷路的乐队』·…",
+        "time_range": "00:03:34,589 --> 00:03:36,091"
+      },
+      {
+        "japanese": "私たちのバンドいっつも迷子だからって",
+        "chinese": "你说我们乐队的成员总是在迷路",
+        "time_range": "00:03:55,610 --> 00:03:58,238"
+      },
+      {
+        "japanese": "私たちは迷子のバンドです",
+        "chinese": "我们是迷路的乐队",
+        "time_range": "00:10:23,123 --> 00:10:25,876"
+      },
+      {
+        "japanese": "えっとあのちゃんはすごい迷子で",
+        "chinese": "那个小爱她一直在迷路",
+        "time_range": "00:10:45,271 --> 00:10:48,023"
+      },
+      {
+        "japanese": "私もあのちゃんみたいな迷子になりたくて",
+        "chinese": "我也·想和小爱一样迷失方向",
+        "time_range": "00:10:48,274 --> 00:10:52,403"
+      },
+      {
+        "japanese": "そんなに迷子じゃないです地図も読めるので",
+        "chinese": "我没那么容易迷路啦地图我也看得懂",
+        "time_range": "00:10:55,781 --> 00:10:58,909"
+      },
+      {
+        "japanese": "私たちみんな迷子で",
+        "chinese": "我们大家都迷失了方向",
+        "time_range": "00:11:45,581 --> 00:11:48,208"
+      },
+      {
+        "japanese": "迷子でもいい",
+        "chinese": "迷失方向也无所谓",
+        "time_range": "00:16:16,853 --> 00:16:17,979"
+      },
+      {
+        "japanese": "迷子でも進め",
+        "chinese": "在迷茫中前进吧！",
+        "time_range": "00:16:18,730 --> 00:16:21,482"
+      }
+    ],
+    "meaning": "lost (stray) child",
+    "furigana": "まいご",
+    "romaji": "maigo",
+    "level": "N3"
+  },
+  "完成": {
+    "word": "完成",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "これで完成だよね？",
+        "chinese": "这样算大功告成了吧",
+        "time_range": "00:00:15,390 --> 00:00:16,517"
+      },
+      {
+        "japanese": "ねえあれで完成だよね？",
+        "chinese": "那样算是完成了吧？",
+        "time_range": "00:00:48,423 --> 00:00:50,175"
+      },
+      {
+        "japanese": "やるってことは完成したんだよね？",
+        "chinese": "既然要演奏就表示完成了吧？",
+        "time_range": "00:02:44,790 --> 00:02:47,167"
+      }
+    ],
+    "meaning": "(1) complete, completion, (2) perfection, accomplishment",
+    "furigana": "かんせい",
+    "romaji": "kansei",
+    "level": "N3"
+  },
+  "だって": {
+    "word": "だって",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "だって…",
+        "chinese": "可是",
+        "time_range": "00:00:24,775 --> 00:00:25,275"
+      }
+    ],
+    "meaning": "but, because, even, also, too",
+    "furigana": "",
+    "romaji": "datte",
+    "level": "N3"
+  },
+  "いい": {
+    "word": "いい",
+    "count": 9,
+    "sentences": [
+      {
+        "japanese": "燈それはいいから",
+        "chinese": "灯那些不用管了",
+        "time_range": "00:00:25,651 --> 00:00:26,777"
+      },
+      {
+        "japanese": "これ好きに飲んでいいから",
+        "chinese": "想喝的可以自己拿",
+        "time_range": "00:03:20,701 --> 00:03:22,077"
+      },
+      {
+        "japanese": "すっごいいい意味じゃない？",
+        "chinese": "不觉得这个意思很棒吗",
+        "time_range": "00:04:19,634 --> 00:04:20,886"
+      },
+      {
+        "japanese": "お一いい感じ",
+        "chinese": "感觉不错哦",
+        "time_range": "00:04:34,024 --> 00:04:35,776"
+      },
+      {
+        "japanese": "私のことはいいから",
+        "chinese": "我的事就不用多提了",
+        "time_range": "00:11:22,933 --> 00:11:24,310"
+      },
+      {
+        "japanese": "迷子でもいい",
+        "chinese": "迷失方向也无所谓",
+        "time_range": "00:16:16,853 --> 00:16:17,979"
+      },
+      {
+        "japanese": "いいと思う",
+        "chinese": "我觉得不错",
+        "time_range": "00:16:45,506 --> 00:16:46,007"
+      },
+      {
+        "japanese": "いいんじゃない？",
+        "chinese": "挺好的啊",
+        "time_range": "00:16:49,010 --> 00:16:49,761"
+      },
+      {
+        "japanese": "うんいいよ",
+        "chinese": "好啊",
+        "time_range": "00:19:10,026 --> 00:19:10,777"
+      }
+    ],
+    "meaning": "good",
+    "furigana": "",
+    "romaji": "ii",
+    "level": "N3"
+  },
+  "お腹": {
+    "word": "お腹",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お腹すいた",
+        "chinese": "我饿了",
+        "time_range": "00:00:28,779 --> 00:00:29,655"
+      }
+    ],
+    "meaning": "stomach",
+    "furigana": "おなか",
+    "romaji": "onaka",
+    "level": "N3"
+  },
+  "あと": {
+    "word": "あと",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あとで",
+        "chinese": "待会再说",
+        "time_range": "00:00:29,905 --> 00:00:30,405"
+      }
+    ],
+    "meaning": "(1) trace, tracks, (2) remains, ruins, (3) scar",
+    "furigana": "",
+    "romaji": "ato",
+    "level": "N3"
+  },
+  "ちゃんと": {
+    "word": "ちゃんと",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ちゃんとライブしたかったのに結局これ",
+        "chinese": "我还想好好演出呢结果搞成这样",
+        "time_range": "00:00:44,545 --> 00:00:46,797"
+      },
+      {
+        "japanese": "傷つけたりちゃんと言えなかったり…",
+        "chinese": "有时伤害对方有时没能好好诉说",
+        "time_range": "00:11:59,845 --> 00:12:02,973"
+      }
+    ],
+    "meaning": "perfectly, properly, exactly",
+    "furigana": "",
+    "romaji": "chanto",
+    "level": "N3"
+  },
+  "結局": {
+    "word": "結局",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ちゃんとライブしたかったのに結局これ",
+        "chinese": "我还想好好演出呢结果搞成这样",
+        "time_range": "00:00:44,545 --> 00:00:46,797"
+      }
+    ],
+    "meaning": "after all, eventually",
+    "furigana": "けっきょく",
+    "romaji": "kekkyoku",
+    "level": "N3"
+  },
+  "全然": {
+    "word": "全然",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見直す時間とか全然なかったし",
+        "chinese": "但这次完全没时间调整",
+        "time_range": "00:03:05,435 --> 00:03:07,562"
+      }
+    ],
+    "meaning": "(1) wholly, entirely, completely, (2) not at all (with neg. verb)",
+    "furigana": "ぜんぜん",
+    "romaji": "zenzen",
+    "level": "N3"
+  },
+  "すみません": {
+    "word": "すみません",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ギリギリですみません",
+        "chinese": "不好意思这么赶",
+        "time_range": "00:03:27,207 --> 00:03:28,458"
+      }
+    ],
+    "meaning": "sorry, excuse me",
+    "furigana": "（感）",
+    "romaji": "()",
+    "level": "N3"
+  },
+  "よろしく": {
+    "word": "よろしく",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こちらこそよろしくね",
+        "chinese": "也请你们多多关照哦",
+        "time_range": "00:03:30,711 --> 00:03:32,087"
+      }
+    ],
+    "meaning": "well, properly, suitably, best regards, please remember me",
+    "furigana": "（感）",
+    "romaji": "()",
+    "level": "N3"
+  },
+  "うるさい": {
+    "word": "うるさい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "うるさい",
+        "chinese": "吵死了",
+        "time_range": "00:04:10,250 --> 00:04:10,876"
+      }
+    ],
+    "meaning": "noisy, loud, fussy",
+    "furigana": "",
+    "romaji": "urusai",
+    "level": "N3"
+  },
+  "ありがとう": {
+    "word": "ありがとう",
+    "count": 6,
+    "sentences": [
+      {
+        "japanese": "ありがとう",
+        "chinese": "谢谢大家",
+        "time_range": "00:04:25,891 --> 00:04:28,018"
+      },
+      {
+        "japanese": "ありがとうございます",
+        "chinese": "谢谢夸奖",
+        "time_range": "00:04:38,528 --> 00:04:39,780"
+      },
+      {
+        "japanese": "ありがとうございます",
+        "chinese": "谢谢大家",
+        "time_range": "00:10:11,987 --> 00:10:13,239"
+      },
+      {
+        "japanese": "ありがとう",
+        "chinese": "谢谢你",
+        "time_range": "00:11:34,445 --> 00:11:35,571"
+      },
+      {
+        "japanese": "今日はありがとうビざいました",
+        "chinese": "今天真的非常感谢大家",
+        "time_range": "00:16:01,462 --> 00:16:03,339"
+      },
+      {
+        "japanese": "離さないでくれてありがとう",
+        "chinese": "谢谢你没有放开我",
+        "time_range": "00:17:19,666 --> 00:17:22,418"
+      }
+    ],
+    "meaning": "(conj, exp, int) Thank you",
+    "furigana": "",
+    "romaji": "arigatō",
+    "level": "N3"
+  },
+  "感じ": {
+    "word": "感じ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お一いい感じ",
+        "chinese": "感觉不错哦",
+        "time_range": "00:04:34,024 --> 00:04:35,776"
+      }
+    ],
+    "meaning": "feeling, sense, impression",
+    "furigana": "かんじ",
+    "romaji": "kanji",
+    "level": "N3"
+  },
+  "メンバー": {
+    "word": "メンバー",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "メンバー紹介は？",
+        "chinese": "先介绍一下成员吧？",
+        "time_range": "00:10:34,760 --> 00:10:36,262"
+      }
+    ],
+    "meaning": "member",
+    "furigana": "",
+    "romaji": "menbā",
+    "level": "N3"
+  },
+  "すごい": {
+    "word": "すごい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "えっとあのちゃんはすごい迷子で",
+        "chinese": "那个小爱她一直在迷路",
+        "time_range": "00:10:45,271 --> 00:10:48,023"
+      }
+    ],
+    "meaning": "terrible, dreadful, terrific, amazing, great",
+    "furigana": "",
+    "romaji": "sugoi",
+    "level": "N3"
+  },
+  "考え": {
+    "word": "考え",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "すごくバンドのこといつぱい考えてくれて",
+        "chinese": "她真的为乐队考虑了很多",
+        "time_range": "00:11:13,173 --> 00:11:16,677"
+      }
+    ],
+    "meaning": "thinking, thought, ideas, intention",
+    "furigana": "かんがえ",
+    "romaji": "kangae",
+    "level": "N3"
+  },
+  "ずっと": {
+    "word": "ずっと",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "バンドのことずっと大事に思ってくれて",
+        "chinese": "她一直非常珍视乐队",
+        "time_range": "00:11:30,691 --> 00:11:33,569"
+      }
+    ],
+    "meaning": "consecutively, throughout, a lot",
+    "furigana": "",
+    "romaji": "zutto",
+    "level": "N3"
+  },
+  "喧嘩": {
+    "word": "喧嘩",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "喧嘩もいつぱいして苦しくて…",
+        "chinese": "我们吵过很多次架经历过痛苦",
+        "time_range": "00:11:55,966 --> 00:11:58,969"
+      }
+    ],
+    "meaning": "quarrel, (drunken) brawl, failure",
+    "furigana": "けんか",
+    "romaji": "kenka",
+    "level": "N3"
+  },
+  "あっ": {
+    "word": "あっ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "もうなにがあっても離さない",
+        "chinese": "不管发生什么都不会再放手",
+        "time_range": "00:12:15,487 --> 00:12:18,490"
+      },
+      {
+        "japanese": "こんなのあった？",
+        "chinese": "之前有这个吗",
+        "time_range": "00:17:25,171 --> 00:17:26,047"
+      }
+    ],
+    "meaning": "Ah!, Oh!",
+    "furigana": "",
+    "romaji": "a'",
+    "level": "N3"
+  },
+  "一生": {
+    "word": "一生",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "一生離さないから",
+        "chinese": "一辈子都不会放手",
+        "time_range": "00:12:19,616 --> 00:12:20,992"
+      },
+      {
+        "japanese": "一生のことですから",
+        "chinese": "毕竟这是一辈子的事",
+        "time_range": "00:18:41,873 --> 00:18:42,999"
+      }
+    ],
+    "meaning": "whole life, a lifetime, all through life",
+    "furigana": "いっしょう",
+    "romaji": "isshō",
+    "level": "N3"
+  },
+  "はあ": {
+    "word": "はあ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "はあ？",
+        "chinese": "哈?",
+        "time_range": "00:16:46,382 --> 00:16:46,883"
+      }
+    ],
+    "meaning": "",
+    "furigana": "（感）",
+    "romaji": "()",
+    "level": "N3"
+  },
+  "行き": {
+    "word": "行き",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "行きましょうか",
+        "chinese": "我们走吧",
+        "time_range": "00:18:23,480 --> 00:18:24,355"
+      }
+    ],
+    "meaning": "going",
+    "furigana": "いき",
+    "romaji": "iki",
+    "level": "N3"
+  },
+  "本物": {
+    "word": "本物",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "本物だ",
+        "chinese": "是本人啊",
+        "time_range": "00:19:07,023 --> 00:19:07,774"
+      }
+    ],
+    "meaning": "genuine article",
+    "furigana": "ほんもの",
+    "romaji": "honmono",
+    "level": "N3"
+  },
+  "申し訳": {
+    "word": "申し訳",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お待たせして申し訳ございません",
+        "chinese": "抱让你久等了",
+        "time_range": "00:19:44,060 --> 00:19:45,937"
+      }
+    ],
+    "meaning": "apology, excuse",
+    "furigana": "もうしわけ",
+    "romaji": "mōshiwake",
+    "level": "N3"
+  },
+  "感謝": {
+    "word": "感謝",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "本日はご足労いただき感謝いたします",
+        "chinese": "今天非常感谢你特地前来",
+        "time_range": "00:19:54,445 --> 00:19:57,073"
+      }
+    ],
+    "meaning": "thanks, gratitude",
+    "furigana": "かんしゃ",
+    "romaji": "kansha",
+    "level": "N3"
+  },
+  "いえ": {
+    "word": "いえ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "いえ",
+        "chinese": "并不",
+        "time_range": "00:20:10,086 --> 00:20:10,712"
+      },
+      {
+        "japanese": "とはいえ",
+        "chinese": "话虽如此",
+        "time_range": "00:20:20,346 --> 00:20:20,972"
+      }
+    ],
+    "meaning": "TODO same as いいえ?",
+    "furigana": "いえ",
+    "romaji": "ie",
+    "level": "N3"
+  },
+  "人気": {
+    "word": "人気",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "さすが人気は上々",
+        "chinese": "真不愧是人气宠儿",
+        "time_range": "00:20:18,344 --> 00:20:19,971"
+      }
+    ],
+    "meaning": "sign of life",
+    "furigana": "にんき",
+    "romaji": "ninki",
+    "level": "N3"
+  },
+  "スタイル": {
+    "word": "スタイル",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "いつまでも今のスタイルを続けてはいけませんわよね？",
+        "chinese": "一直走现在的路线也不是办法吧？",
+        "time_range": "00:20:21,222 --> 00:20:24,100"
+      }
+    ],
+    "meaning": "style",
+    "furigana": "",
+    "romaji": "sutairu",
+    "level": "N3"
+  },
+  "自身": {
+    "word": "自身",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あなたご自身思うところがあるんじゃありませんの？",
+        "chinese": "我想你心里应该多少也有些想法吧",
+        "time_range": "00:20:28,229 --> 00:20:31,107"
+      }
+    ],
+    "meaning": "by oneself, personally",
+    "furigana": "じしん",
+    "romaji": "jishin",
+    "level": "N3"
+  },
+  "数字": {
+    "word": "数字",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "顔と数字ですわ",
+        "chinese": "因为长相和数字",
+        "time_range": "00:20:36,613 --> 00:20:38,865"
+      }
+    ],
+    "meaning": "numeral, figure",
+    "furigana": "すうじ",
+    "romaji": "sūji",
+    "level": "N3"
+  },
+  "是非": {
+    "word": "是非",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それで是非わたくレのバンドにと",
+        "chinese": "所以希望你务必加入我的乐队",
+        "time_range": "00:20:48,875 --> 00:20:51,127"
+      }
+    ],
+    "meaning": "certainly, without fail",
+    "furigana": "ぜひ",
+    "romaji": "zehi",
+    "level": "N3"
+  },
+  "上達": {
+    "word": "上達",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "もちろんドラムはもっと上達して頂かなくてはなりませんが",
+        "chinese": "当然还是得请你继续磨炼鼓技",
+        "time_range": "00:20:51,878 --> 00:20:55,757"
+      }
+    ],
+    "meaning": "improvement, advance, progress",
+    "furigana": "じょうたつ",
+    "romaji": "jōtatsu",
+    "level": "N3"
+  },
+  "女優": {
+    "word": "女優",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "女優の森みなみの娘でしょ？",
+        "chinese": "她是女演员森美奈美的女儿吧",
+        "time_range": "00:21:04,766 --> 00:21:06,643"
+      }
+    ],
+    "meaning": "actress",
+    "furigana": "じょゆう",
+    "romaji": "joyū",
+    "level": "N3"
+  },
+  "プロ": {
+    "word": "プロ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "プロと遜色ない腕前の人間を",
+        "chinese": "水准也丝毫不输职业级",
+        "time_range": "00:21:18,404 --> 00:21:20,406"
+      }
+    ],
+    "meaning": "professional",
+    "furigana": "",
+    "romaji": "puro",
+    "level": "N3"
+  },
+  "人間": {
+    "word": "人間",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "プロと遜色ない腕前の人間を",
+        "chinese": "水准也丝毫不输职业级",
+        "time_range": "00:21:18,404 --> 00:21:20,406"
+      }
+    ],
+    "meaning": "human being, man, person",
+    "furigana": "にんげん",
+    "romaji": "ningen",
+    "level": "N3"
+  },
+  "検討": {
+    "word": "検討",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "前向きにご検討頂けますでしょうか？",
+        "chinese": "能否请你积极考虑我的邀请呢？",
+        "time_range": "00:21:35,672 --> 00:21:38,049"
+      }
+    ],
+    "meaning": "consideration, examination, investigation, study, scrutiny",
+    "furigana": "けんとう",
+    "romaji": "kentō",
+    "level": "N3"
+  },
+  "残り": {
+    "word": "残り",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "残りの人生わたくしにくださいませんか",
+        "chinese": "你愿意将剩余的人生交给我吗",
+        "time_range": "00:21:50,311 --> 00:21:54,816"
+      }
+    ],
+    "meaning": "remnant, residue, remaining, left-over",
+    "furigana": "のこり",
+    "romaji": "nokori",
+    "level": "N3"
+  },
+  "人生": {
+    "word": "人生",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "残りの人生わたくしにくださいませんか",
+        "chinese": "你愿意将剩余的人生交给我吗",
+        "time_range": "00:21:50,311 --> 00:21:54,816"
+      }
+    ],
+    "meaning": "(human) life (i.e. conception to death)",
+    "furigana": "じんせい",
+    "romaji": "jinsei",
+    "level": "N3"
+  },
+  "楽しみ": {
+    "word": "楽しみ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "Afterglowめっちゃ楽しみ",
+        "chinese": "好期待Afterglow的演出啊",
+        "time_range": "00:00:01,251 --> 00:00:03,003"
+      }
+    ],
+    "meaning": "joy",
+    "furigana": "たのしみ",
+    "romaji": "tanoshimi",
+    "level": "N4"
+  },
+  "支度": {
+    "word": "支度",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それより支度してはやく",
+        "chinese": "现在先去做准备动作快",
+        "time_range": "00:00:30,781 --> 00:00:32,157"
+      }
+    ],
+    "meaning": "to prepare",
+    "furigana": "したく・する",
+    "romaji": "shitaku-suru",
+    "level": "N4"
+  },
+  "こう": {
+    "word": "こう",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こうなると思ってた",
+        "chinese": "我早知道会这样了",
+        "time_range": "00:00:47,047 --> 00:00:48,173"
+      }
+    ],
+    "meaning": "this way",
+    "furigana": "",
+    "romaji": "kō",
+    "level": "N4"
+  },
+  "こと": {
+    "word": "こと",
+    "count": 8,
+    "sentences": [
+      {
+        "japanese": "やるってことは完成したんだよね？",
+        "chinese": "既然要演奏就表示完成了吧？",
+        "time_range": "00:02:44,790 --> 00:02:47,167"
+      },
+      {
+        "japanese": "すごくバンドのこといつぱい考えてくれて",
+        "chinese": "她真的为乐队考虑了很多",
+        "time_range": "00:11:13,173 --> 00:11:16,677"
+      },
+      {
+        "japanese": "私のことはいいから",
+        "chinese": "我的事就不用多提了",
+        "time_range": "00:11:22,933 --> 00:11:24,310"
+      },
+      {
+        "japanese": "バンドのことずっと大事に思ってくれて",
+        "chinese": "她一直非常珍视乐队",
+        "time_range": "00:11:30,691 --> 00:11:33,569"
+      },
+      {
+        "japanese": "目の前のことにいつも迷ってて…",
+        "chinese": "总是对眼前的事物感到迷范！",
+        "time_range": "00:11:48,959 --> 00:11:51,337"
+      },
+      {
+        "japanese": "愛音ちゃんそういうことするよね",
+        "chinese": "爱音就喜欢加这种小细节",
+        "time_range": "00:17:01,022 --> 00:17:02,899"
+      },
+      {
+        "japanese": "一生のことですから",
+        "chinese": "毕竟这是一辈子的事",
+        "time_range": "00:18:41,873 --> 00:18:42,999"
+      },
+      {
+        "japanese": "ここに来られたということは",
+        "chinese": "既然你会来到这里",
+        "time_range": "00:20:26,227 --> 00:20:27,979"
+      }
+    ],
+    "meaning": "thing, matter",
+    "furigana": "",
+    "romaji": "koto",
+    "level": "N4"
+  },
+  "もうすぐ": {
+    "word": "もうすぐ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "もうすぐだよ",
+        "chinese": "快到你们了哦",
+        "time_range": "00:03:39,970 --> 00:03:41,221"
+      }
+    ],
+    "meaning": "soon",
+    "furigana": "",
+    "romaji": "mōsugu",
+    "level": "N4"
+  },
+  "そう": {
+    "word": "そう",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "そうそれ",
+        "chinese": "对就是这个",
+        "time_range": "00:04:18,633 --> 00:04:19,384"
+      },
+      {
+        "japanese": "そう最後マイゴって言ってたけど",
+        "chinese": "对了你在最后讲的「MyGO]",
+        "time_range": "00:16:29,115 --> 00:16:31,367"
+      }
+    ],
+    "meaning": "really",
+    "furigana": "",
+    "romaji": "sō",
+    "level": "N4"
+  },
+  "最初": {
+    "word": "最初",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "最初どれだっけ？",
+        "chinese": "一开始要调哪个啊？",
+        "time_range": "00:05:20,946 --> 00:05:22,197"
+      }
+    ],
+    "meaning": "beginning, first",
+    "furigana": "さいしょ",
+    "romaji": "saisho",
+    "level": "N4"
+  },
+  "うん": {
+    "word": "うん",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "うんさっすがおね一ちゃん",
+        "chinese": "嗯不愧是姐姐",
+        "time_range": "00:05:41,216 --> 00:05:43,093"
+      },
+      {
+        "japanese": "うんいいよ",
+        "chinese": "好啊",
+        "time_range": "00:19:10,026 --> 00:19:10,777"
+      }
+    ],
+    "meaning": "(informal) yes",
+    "furigana": "",
+    "romaji": "un",
+    "level": "N4"
+  },
+  "ちゃん": {
+    "word": "ちゃん",
+    "count": 14,
+    "sentences": [
+      {
+        "japanese": "うんさっすがおね一ちゃん",
+        "chinese": "嗯不愧是姐姐",
+        "time_range": "00:05:41,216 --> 00:05:43,093"
+      },
+      {
+        "japanese": "今日は楽奈ちゃんのバンドを見に？",
+        "chinese": "您今天是来看小乐奈的乐队吗",
+        "time_range": "00:06:05,741 --> 00:06:07,368"
+      },
+      {
+        "japanese": "立希ちゃん",
+        "chinese": "立希",
+        "time_range": "00:06:17,628 --> 00:06:18,379"
+      },
+      {
+        "japanese": "あのちゃんは同じクラスで",
+        "chinese": "小爱和我是同班同学",
+        "time_range": "00:10:40,391 --> 00:10:41,892"
+      },
+      {
+        "japanese": "えっとあのちゃんはすごい迷子で",
+        "chinese": "那个小爱她一直在迷路",
+        "time_range": "00:10:45,271 --> 00:10:48,023"
+      },
+      {
+        "japanese": "私もあのちゃんみたいな迷子になりたくて",
+        "chinese": "我也·想和小爱一样迷失方向",
+        "time_range": "00:10:48,274 --> 00:10:52,403"
+      },
+      {
+        "japanese": "楽奈ちゃんはまだよく分からなくて",
+        "chinese": "我对乐奈还不是很了解",
+        "time_range": "00:11:02,413 --> 00:11:05,541"
+      },
+      {
+        "japanese": "あ立希ちゃんもそばにいてくれます",
+        "chinese": "立希也会陪在我身边",
+        "time_range": "00:11:09,795 --> 00:11:12,298"
+      },
+      {
+        "japanese": "それから そよちゃんはべ一スです",
+        "chinese": "然后爽世是贝斯手",
+        "time_range": "00:11:24,685 --> 00:11:27,438"
+      },
+      {
+        "japanese": "あのちゃんの聞いて",
+        "chinese": "我听见小爱说的话",
+        "time_range": "00:16:40,126 --> 00:16:41,377"
+      },
+      {
+        "japanese": "愛音ちゃんそういうことするよね",
+        "chinese": "爱音就喜欢加这种小细节",
+        "time_range": "00:17:01,022 --> 00:17:02,899"
+      },
+      {
+        "japanese": "そよちゃん…",
+        "chinese": "爽世",
+        "time_range": "00:17:23,670 --> 00:17:24,921"
+      },
+      {
+        "japanese": "睦ちゃん",
+        "chinese": "小睦",
+        "time_range": "00:17:41,938 --> 00:17:42,563"
+      },
+      {
+        "japanese": "ロゼリアのあこちゃん？",
+        "chinese": "Roselia的亚子?",
+        "time_range": "00:19:04,896 --> 00:19:06,147"
+      }
+    ],
+    "meaning": "suffix for familiar female person",
+    "furigana": "",
+    "romaji": "chan",
+    "level": "N4"
+  },
+  "世話": {
+    "word": "世話",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "孫が世話になってるね",
+        "chinese": "我的外孙女受你照顾了",
+        "time_range": "00:06:02,487 --> 00:06:03,864"
+      },
+      {
+        "japanese": "世話だなんて",
+        "chinese": "说照顾太夸张了啦",
+        "time_range": "00:06:04,115 --> 00:06:05,366"
+      }
+    ],
+    "meaning": "to look after",
+    "furigana": "せわ・する",
+    "romaji": "sewa-suru",
+    "level": "N4"
+  },
+  "ああ": {
+    "word": "ああ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ああ",
+        "chinese": "是啊",
+        "time_range": "00:06:07,618 --> 00:06:07,994"
+      }
+    ],
+    "meaning": "like that",
+    "furigana": "",
+    "romaji": "aa",
+    "level": "N4"
+  },
+  "さっき": {
+    "word": "さっき",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "さっきまで練習してました",
+        "chinese": "我们直到刚才都还在练习",
+        "time_range": "00:10:28,754 --> 00:10:30,756"
+      }
+    ],
+    "meaning": "some time ago",
+    "furigana": "",
+    "romaji": "sakki",
+    "level": "N4"
+  },
+  "紹介": {
+    "word": "紹介",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "メンバー紹介は？",
+        "chinese": "先介绍一下成员吧？",
+        "time_range": "00:10:34,760 --> 00:10:36,262"
+      },
+      {
+        "japanese": "みんなの紹介をします",
+        "chinese": "我来介绍一下大家",
+        "time_range": "00:10:37,513 --> 00:10:39,139"
+      }
+    ],
+    "meaning": "introduction",
+    "furigana": "しょうかい",
+    "romaji": "shōkai",
+    "level": "N4"
+  },
+  "そんなに": {
+    "word": "そんなに",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "そんなに迷子じゃないです地図も読めるので",
+        "chinese": "我没那么容易迷路啦地图我也看得懂",
+        "time_range": "00:10:55,781 --> 00:10:58,909"
+      }
+    ],
+    "meaning": "so much, like that",
+    "furigana": "",
+    "romaji": "sonnani",
+    "level": "N4"
+  },
+  "大事": {
+    "word": "大事",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "バンドのことずっと大事に思ってくれて",
+        "chinese": "她一直非常珍视乐队",
+        "time_range": "00:11:30,691 --> 00:11:33,569"
+      }
+    ],
+    "meaning": "important, valuable, serious matter",
+    "furigana": "だいじ",
+    "romaji": "daiji",
+    "level": "N4"
+  },
+  "最後": {
+    "word": "最後",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "次が最後の曲です一",
+        "chinese": "接下来是最后一首歌",
+        "time_range": "00:15:59,460 --> 00:16:01,087"
+      },
+      {
+        "japanese": "そう最後マイゴって言ってたけど",
+        "chinese": "对了你在最后讲的「MyGO]",
+        "time_range": "00:16:29,115 --> 00:16:31,367"
+      }
+    ],
+    "meaning": "last, end",
+    "furigana": "さいご",
+    "romaji": "saigo",
+    "level": "N4"
+  },
+  "変わる": {
+    "word": "変わる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "バンド名変わるし",
+        "chinese": "连乐队名都改了",
+        "time_range": "00:16:27,739 --> 00:16:28,865"
+      }
+    ],
+    "meaning": "to change",
+    "furigana": "かわる",
+    "romaji": "kawaru",
+    "level": "N4"
+  },
+  "思う": {
+    "word": "思う",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "いいと思う",
+        "chinese": "我觉得不错",
+        "time_range": "00:16:45,506 --> 00:16:46,007"
+      },
+      {
+        "japanese": "あなたご自身思うところがあるんじゃありませんの？",
+        "chinese": "我想你心里应该多少也有些想法吧",
+        "time_range": "00:20:28,229 --> 00:20:31,107"
+      }
+    ],
+    "meaning": "to think, to feel",
+    "furigana": "おもう",
+    "romaji": "omō",
+    "level": "N4"
+  },
+  "うち": {
+    "word": "うち",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "これってうちら5人ってにと？",
+        "chinese": "意思是这代表了我们五个人吗",
+        "time_range": "00:16:58,895 --> 00:17:00,772"
+      }
+    ],
+    "meaning": "within",
+    "furigana": "",
+    "romaji": "uchi",
+    "level": "N4"
+  },
+  "眠い": {
+    "word": "眠い",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "なんでお前が眠いんだよ",
+        "chinese": "为什么是你犯困啊",
+        "time_range": "00:17:10,907 --> 00:17:12,659"
+      }
+    ],
+    "meaning": "sleepy",
+    "furigana": "ねむい",
+    "romaji": "nemui",
+    "level": "N4"
+  },
+  "うそ": {
+    "word": "うそ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "うそ寝てたじゃん",
+        "chinese": "骗人你明明睡过觉",
+        "time_range": "00:17:15,662 --> 00:17:16,788"
+      }
+    ],
+    "meaning": "a lie",
+    "furigana": "",
+    "romaji": "uso",
+    "level": "N4"
+  },
+  "考える": {
+    "word": "考える",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ゆつくり考えると良いです",
+        "chinese": "慢慢考虑就好",
+        "time_range": "00:18:39,746 --> 00:18:41,372"
+      }
+    ],
+    "meaning": "to consider",
+    "furigana": "かんがえる",
+    "romaji": "kangaeru",
+    "level": "N4"
+  },
+  "連絡": {
+    "word": "連絡",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ご連絡した豊川祥子と申します",
+        "chinese": "我是先前联系你的丰川祥子",
+        "time_range": "00:19:46,312 --> 00:19:48,565"
+      }
+    ],
+    "meaning": "contact",
+    "furigana": "れんらく",
+    "romaji": "renraku",
+    "level": "N4"
+  },
+  "場所": {
+    "word": "場所",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こんな場所指定して無理させちゃった？",
+        "chinese": "指定这样的地方是不是太勉强你了呢",
+        "time_range": "00:20:05,582 --> 00:20:07,458"
+      }
+    ],
+    "meaning": "location",
+    "furigana": "ばしょ",
+    "romaji": "basho",
+    "level": "N4"
+  },
+  "無理": {
+    "word": "無理",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こんな場所指定して無理させちゃった？",
+        "chinese": "指定这样的地方是不是太勉强你了呢",
+        "time_range": "00:20:05,582 --> 00:20:07,458"
+      }
+    ],
+    "meaning": "impossible",
+    "furigana": "むり",
+    "romaji": "muri",
+    "level": "N4"
+  },
+  "それで": {
+    "word": "それで",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "それでにゃむをバンドに入れたいんだっけ？",
+        "chinese": "所以你说想让我加入乐队？",
+        "time_range": "00:20:12,714 --> 00:20:15,216"
+      },
+      {
+        "japanese": "それで是非わたくレのバンドにと",
+        "chinese": "所以希望你务必加入我的乐队",
+        "time_range": "00:20:48,875 --> 00:20:51,127"
+      }
+    ],
+    "meaning": "because of that",
+    "furigana": "",
+    "romaji": "sorede",
+    "level": "N4"
+  },
+  "もちろん": {
+    "word": "もちろん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "もちろんドラムはもっと上達して頂かなくてはなりませんが",
+        "chinese": "当然还是得请你继续磨炼鼓技",
+        "time_range": "00:20:51,878 --> 00:20:55,757"
+      }
+    ],
+    "meaning": "of course",
+    "furigana": "",
+    "romaji": "mochiron",
+    "level": "N4"
+  },
+  "事務所": {
+    "word": "事務所",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "事務所ともすでに話がついていますわ",
+        "chinese": "我已经和经纪公司谈妥了",
+        "time_range": "00:21:11,648 --> 00:21:14,025"
+      }
+    ],
+    "meaning": "office",
+    "furigana": "じむしょ",
+    "romaji": "jimusho",
+    "level": "N4"
+  },
+  "もう": {
+    "word": "もう",
+    "count": 4,
+    "sentences": [
+      {
+        "japanese": "もう",
+        "chinese": "真是的",
+        "time_range": "00:00:38,664 --> 00:00:39,414"
+      },
+      {
+        "japanese": "マイゴって…もう略されてる",
+        "chinese": "这就已经被省略成「迷路』了",
+        "time_range": "00:03:47,477 --> 00:03:49,730"
+      },
+      {
+        "japanese": "もうオーナーじゃないよ",
+        "chinese": "我已经不是店长了",
+        "time_range": "00:06:00,360 --> 00:06:02,237"
+      },
+      {
+        "japanese": "もうなにがあっても離さない",
+        "chinese": "不管发生什么都不会再放手",
+        "time_range": "00:12:15,487 --> 00:12:18,490"
+      }
+    ],
+    "meaning": "already",
+    "furigana": "",
+    "romaji": "mō",
+    "level": "N5"
+  },
+  "なる": {
+    "word": "なる",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "こうなると思ってた",
+        "chinese": "我早知道会这样了",
+        "time_range": "00:00:47,047 --> 00:00:48,173"
+      },
+      {
+        "japanese": "マジでどうなるかと思った",
+        "chinese": "我还以为要出问题了呢",
+        "time_range": "00:16:25,737 --> 00:16:27,488"
+      }
+    ],
+    "meaning": "to become",
+    "furigana": "",
+    "romaji": "naru",
+    "level": "N5"
+  },
+  "どれ": {
+    "word": "どれ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "どれやるの？",
+        "chinese": "要演奏哪首？",
+        "time_range": "00:02:42,788 --> 00:02:43,538"
+      },
+      {
+        "japanese": "最初どれだっけ？",
+        "chinese": "一开始要调哪个啊？",
+        "time_range": "00:05:20,946 --> 00:05:22,197"
+      }
+    ],
+    "meaning": "which (of three or more)",
+    "furigana": "",
+    "romaji": "dore",
+    "level": "N5"
+  },
+  "やる": {
+    "word": "やる",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "どれやるの？",
+        "chinese": "要演奏哪首？",
+        "time_range": "00:02:42,788 --> 00:02:43,538"
+      },
+      {
+        "japanese": "やるってことは完成したんだよね？",
+        "chinese": "既然要演奏就表示完成了吧？",
+        "time_range": "00:02:44,790 --> 00:02:47,167"
+      }
+    ],
+    "meaning": "to do",
+    "furigana": "",
+    "romaji": "yaru",
+    "level": "N5"
+  },
+  "分かる": {
+    "word": "分かる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こういうのは何度も音合わせてそれで分かるっていうか",
+        "chinese": "这种事要多合练几次才判断得出来",
+        "time_range": "00:03:00,931 --> 00:03:04,434"
+      }
+    ],
+    "meaning": "to be understood",
+    "furigana": "わかる",
+    "romaji": "wakaru",
+    "level": "N5"
+  },
+  "時間": {
+    "word": "時間",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見直す時間とか全然なかったし",
+        "chinese": "但这次完全没时间调整",
+        "time_range": "00:03:05,435 --> 00:03:07,562"
+      }
+    ],
+    "meaning": "time",
+    "furigana": "じかん",
+    "romaji": "jikan",
+    "level": "N5"
+  },
+  "ちょっと": {
+    "word": "ちょっと",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ちょっと",
+        "chinese": "别闹了",
+        "time_range": "00:03:18,323 --> 00:03:18,949"
+      },
+      {
+        "japanese": "ちょっとまって",
+        "chinese": "等一下",
+        "time_range": "00:05:19,694 --> 00:05:20,695"
+      }
+    ],
+    "meaning": "somewhat",
+    "furigana": "",
+    "romaji": "chotto",
+    "level": "N5"
+  },
+  "はい": {
+    "word": "はい",
+    "count": 5,
+    "sentences": [
+      {
+        "japanese": "はい",
+        "chinese": "来",
+        "time_range": "00:03:19,324 --> 00:03:19,825"
+      },
+      {
+        "japanese": "はい",
+        "chinese": "好的",
+        "time_range": "00:03:41,471 --> 00:03:42,097"
+      },
+      {
+        "japanese": "はい",
+        "chinese": "来",
+        "time_range": "00:05:13,313 --> 00:05:13,814"
+      },
+      {
+        "japanese": "はい",
+        "chinese": "好的",
+        "time_range": "00:05:17,818 --> 00:05:18,443"
+      },
+      {
+        "japanese": "は？いつ？どこで？",
+        "chinese": "哈？什么时候？在哪里？",
+        "time_range": "00:17:17,038 --> 00:17:18,539"
+      }
+    ],
+    "meaning": "yes",
+    "furigana": "",
+    "romaji": "hai",
+    "level": "N5"
+  },
+  "好き": {
+    "word": "好き",
+    "count": 4,
+    "sentences": [
+      {
+        "japanese": "これ好きに飲んでいいから",
+        "chinese": "想喝的可以自己拿",
+        "time_range": "00:03:20,701 --> 00:03:22,077"
+      },
+      {
+        "japanese": "好き",
+        "chinese": "喜欢",
+        "time_range": "00:16:50,011 --> 00:16:50,762"
+      },
+      {
+        "japanese": "わあこのチョコ好き",
+        "chinese": "我喜欢这牌子的巧克力",
+        "time_range": "00:17:27,048 --> 00:17:29,300"
+      },
+      {
+        "japanese": "あ一そういうの好き",
+        "chinese": "我喜欢你的说法",
+        "time_range": "00:20:40,116 --> 00:20:42,368"
+      }
+    ],
+    "meaning": "likeable",
+    "furigana": "すき",
+    "romaji": "suki",
+    "level": "N5"
+  },
+  "大丈夫": {
+    "word": "大丈夫",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ううん大丈夫だよ",
+        "chinese": "没关系的",
+        "time_range": "00:03:28,834 --> 00:03:30,460"
+      },
+      {
+        "japanese": "それよりこの衣装本当に大丈夫？",
+        "chinese": "比起这个这套服装真的没问题吗",
+        "time_range": "00:04:00,365 --> 00:04:03,118"
+      }
+    ],
+    "meaning": "all right",
+    "furigana": "だいじょうぶ",
+    "romaji": "daijōbu",
+    "level": "N5"
+  },
+  "こちら": {
+    "word": "こちら",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "こちらこそよろしくね",
+        "chinese": "也请你们多多关照哦",
+        "time_range": "00:03:30,711 --> 00:03:32,087"
+      },
+      {
+        "japanese": "こちらを",
+        "chinese": "请看这个",
+        "time_range": "00:20:59,385 --> 00:21:00,261"
+      }
+    ],
+    "meaning": "this person or way",
+    "furigana": "",
+    "romaji": "kochira",
+    "level": "N5"
+  },
+  "つける": {
+    "word": "つける",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "バンドにバンドってつけるから",
+        "chinese": "谁让你在乐队名里加了「乐队』」2个字",
+        "time_range": "00:03:50,105 --> 00:03:51,857"
+      }
+    ],
+    "meaning": "to turn on",
+    "furigana": "",
+    "romaji": "tsukeru",
+    "level": "N5"
+  },
+  "半分": {
+    "word": "半分",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "半分ないんだけど",
+        "chinese": "少了半边啊",
+        "time_range": "00:04:03,493 --> 00:04:04,745"
+      },
+      {
+        "japanese": "あたしも半分",
+        "chinese": "我的也只有半边",
+        "time_range": "00:04:05,120 --> 00:04:06,121"
+      }
+    ],
+    "meaning": "half minute",
+    "furigana": "はんぶん",
+    "romaji": "hanbun",
+    "level": "N5"
+  },
+  "意味": {
+    "word": "意味",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "私の出番って意味？",
+        "chinese": "意思是「轮到我出场了」吗",
+        "time_range": "00:04:16,882 --> 00:04:18,383"
+      },
+      {
+        "japanese": "すっごいいい意味じゃない？",
+        "chinese": "不觉得这个意思很棒吗",
+        "time_range": "00:04:19,634 --> 00:04:20,886"
+      }
+    ],
+    "meaning": "meaning",
+    "furigana": "いみ",
+    "romaji": "imi",
+    "level": "N5"
+  },
+  "自分": {
+    "word": "自分",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "自分でやって",
+        "chinese": "你的自己调",
+        "time_range": "00:05:22,447 --> 00:05:23,448"
+      }
+    ],
+    "meaning": "oneself",
+    "furigana": "じぶん",
+    "romaji": "jibun",
+    "level": "N5"
+  },
+  "まだ": {
+    "word": "まだ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "私まだ踏んでないのに",
+        "chinese": "我都还没踩过呢",
+        "time_range": "00:05:31,706 --> 00:05:33,458"
+      },
+      {
+        "japanese": "楽奈ちゃんはまだよく分からなくて",
+        "chinese": "我对乐奈还不是很了解",
+        "time_range": "00:11:02,413 --> 00:11:05,541"
+      }
+    ],
+    "meaning": "yet, still",
+    "furigana": "",
+    "romaji": "mada",
+    "level": "N5"
+  },
+  "ください": {
+    "word": "ください",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "来てるなら声かけてくださいよ",
+        "chinese": "您要来怎么不和我说一声呢",
+        "time_range": "00:05:58,108 --> 00:06:00,110"
+      },
+      {
+        "japanese": "残りの人生わたくしにくださいませんか",
+        "chinese": "你愿意将剩余的人生交给我吗",
+        "time_range": "00:21:50,311 --> 00:21:54,816"
+      }
+    ],
+    "meaning": "please",
+    "furigana": "",
+    "romaji": "kudasai",
+    "level": "N5"
+  },
+  "今日": {
+    "word": "今日",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "今日は楽奈ちゃんのバンドを見に？",
+        "chinese": "您今天是来看小乐奈的乐队吗",
+        "time_range": "00:06:05,741 --> 00:06:07,368"
+      },
+      {
+        "japanese": "今日はありがとうビざいました",
+        "chinese": "今天真的非常感谢大家",
+        "time_range": "00:16:01,462 --> 00:16:03,339"
+      },
+      {
+        "japanese": "今日はなんと",
+        "chinese": "想不到今天呢",
+        "time_range": "00:18:49,506 --> 00:18:51,132"
+      }
+    ],
+    "meaning": "today",
+    "furigana": "きょう",
+    "romaji": "kyō",
+    "level": "N5"
+  },
+  "言う": {
+    "word": "言う",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "居場所を見つけたって言うからさ",
+        "chinese": "她说她找到归宿了",
+        "time_range": "00:06:08,744 --> 00:06:10,746"
+      }
+    ],
+    "meaning": "to say",
+    "furigana": "いう",
+    "romaji": "iu",
+    "level": "N5"
+  },
+  "練習": {
+    "word": "練習",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "さっきまで練習してました",
+        "chinese": "我们直到刚才都还在练习",
+        "time_range": "00:10:28,754 --> 00:10:30,756"
+      }
+    ],
+    "meaning": "to practice",
+    "furigana": "れんしゅうする",
+    "romaji": "renshūsuru",
+    "level": "N5"
+  },
+  "みんな": {
+    "word": "みんな",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "みんなの紹介をします",
+        "chinese": "我来介绍一下大家",
+        "time_range": "00:10:37,513 --> 00:10:39,139"
+      },
+      {
+        "japanese": "私たちみんな迷子で",
+        "chinese": "我们大家都迷失了方向",
+        "time_range": "00:11:45,581 --> 00:11:48,208"
+      }
+    ],
+    "meaning": "everyone",
+    "furigana": "",
+    "romaji": "minna",
+    "level": "N5"
+  },
+  "同じ": {
+    "word": "同じ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あのちゃんは同じクラスで",
+        "chinese": "小爱和我是同班同学",
+        "time_range": "00:10:40,391 --> 00:10:41,892"
+      }
+    ],
+    "meaning": "same",
+    "furigana": "おなじ",
+    "romaji": "onaji",
+    "level": "N5"
+  },
+  "クラス": {
+    "word": "クラス",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あのちゃんは同じクラスで",
+        "chinese": "小爱和我是同班同学",
+        "time_range": "00:10:40,391 --> 00:10:41,892"
+      }
+    ],
+    "meaning": "class",
+    "furigana": "",
+    "romaji": "kurasu",
+    "level": "N5"
+  },
+  "地図": {
+    "word": "地図",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "そんなに迷子じゃないです地図も読めるので",
+        "chinese": "我没那么容易迷路啦地图我也看得懂",
+        "time_range": "00:10:55,781 --> 00:10:58,909"
+      }
+    ],
+    "meaning": "map",
+    "furigana": "ちず",
+    "romaji": "chizu",
+    "level": "N5"
+  },
+  "よく": {
+    "word": "よく",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "楽奈ちゃんはまだよく分からなくて",
+        "chinese": "我对乐奈还不是很了解",
+        "time_range": "00:11:02,413 --> 00:11:05,541"
+      },
+      {
+        "japanese": "よくない？",
+        "chinese": "不错吧？",
+        "time_range": "00:16:55,892 --> 00:16:56,517"
+      }
+    ],
+    "meaning": "often, well",
+    "furigana": "",
+    "romaji": "yoku",
+    "level": "N5"
+  },
+  "でも": {
+    "word": "でも",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "でも",
+        "chinese": "不过",
+        "time_range": "00:11:05,916 --> 00:11:06,417"
+      },
+      {
+        "japanese": "でも",
+        "chinese": "但是",
+        "time_range": "00:12:04,601 --> 00:12:05,226"
+      }
+    ],
+    "meaning": "but",
+    "furigana": "",
+    "romaji": "demo",
+    "level": "N5"
+  },
+  "そば": {
+    "word": "そば",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "心細い時にそばにいてくれます",
+        "chinese": "我不安时她都会在我身边",
+        "time_range": "00:11:06,792 --> 00:11:09,044"
+      },
+      {
+        "japanese": "あ立希ちゃんもそばにいてくれます",
+        "chinese": "立希也会陪在我身边",
+        "time_range": "00:11:09,795 --> 00:11:12,298"
+      }
+    ],
+    "meaning": "near, beside",
+    "furigana": "",
+    "romaji": "soba",
+    "level": "N5"
+  },
+  "降りる": {
+    "word": "降りる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "降りる駅が違うのに",
+        "chinese": "下车的车站明明不一样",
+        "time_range": "00:11:18,178 --> 00:11:19,930"
+      }
+    ],
+    "meaning": "to get off, to descend",
+    "furigana": "おりる",
+    "romaji": "oriru",
+    "level": "N5"
+  },
+  "違う": {
+    "word": "違う",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "降りる駅が違うのに",
+        "chinese": "下车的车站明明不一样",
+        "time_range": "00:11:18,178 --> 00:11:19,930"
+      }
+    ],
+    "meaning": "to differ",
+    "furigana": "ちがう",
+    "romaji": "chigau",
+    "level": "N5"
+  },
+  "それから": {
+    "word": "それから",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それから そよちゃんはべ一スです",
+        "chinese": "然后爽世是贝斯手",
+        "time_range": "00:11:24,685 --> 00:11:27,438"
+      }
+    ],
+    "meaning": "after that",
+    "furigana": "",
+    "romaji": "sorekara",
+    "level": "N5"
+  },
+  "一緒": {
+    "word": "一緒",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "前のバンドから一緒で",
+        "chinese": "我们从上一支乐队就在一起",
+        "time_range": "00:11:28,188 --> 00:11:29,940"
+      }
+    ],
+    "meaning": "together",
+    "furigana": "いっしょ",
+    "romaji": "issho",
+    "level": "N5"
+  },
+  "いつも": {
+    "word": "いつも",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "目の前のことにいつも迷ってて…",
+        "chinese": "总是对眼前的事物感到迷范！",
+        "time_range": "00:11:48,959 --> 00:11:51,337"
+      }
+    ],
+    "meaning": "always",
+    "furigana": "",
+    "romaji": "itsumo",
+    "level": "N5"
+  },
+  "どう": {
+    "word": "どう",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "マジでどうなるかと思った",
+        "chinese": "我还以为要出问题了呢",
+        "time_range": "00:16:25,737 --> 00:16:27,488"
+      },
+      {
+        "japanese": "ライブどうだった？",
+        "chinese": "演出怎么样？",
+        "time_range": "00:17:49,070 --> 00:17:51,197"
+      },
+      {
+        "japanese": "どうです",
+        "chinese": "如何？",
+        "time_range": "00:21:34,796 --> 00:21:35,421"
+      }
+    ],
+    "meaning": "how, in what way",
+    "furigana": "",
+    "romaji": "dō",
+    "level": "N5"
+  },
+  "始まる": {
+    "word": "始まる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "始まる前なにそれって言ってたじゃん",
+        "chinese": "演出开始前你不是还说「什么玩意」吗",
+        "time_range": "00:16:47,008 --> 00:16:48,760"
+      }
+    ],
+    "meaning": "to begin",
+    "furigana": "はじまる",
+    "romaji": "hajimaru",
+    "level": "N5"
+  },
+  "ある": {
+    "word": "ある",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "このほうが進んでる感あるよ",
+        "chinese": "这样更有前进的感觉哦",
+        "time_range": "00:16:56,768 --> 00:16:58,269"
+      },
+      {
+        "japanese": "あなたご自身思うところがあるんじゃありませんの？",
+        "chinese": "我想你心里应该多少也有些想法吧",
+        "time_range": "00:20:28,229 --> 00:20:31,107"
+      }
+    ],
+    "meaning": "to be, to have (used for inanimate objects)",
+    "furigana": "",
+    "romaji": "aru",
+    "level": "N5"
+  },
+  "する": {
+    "word": "する",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "愛音ちゃんそういうことするよね",
+        "chinese": "爱音就喜欢加这种小细节",
+        "time_range": "00:17:01,022 --> 00:17:02,899"
+      }
+    ],
+    "meaning": "to do",
+    "furigana": "",
+    "romaji": "suru",
+    "level": "N5"
+  },
+  "どこ": {
+    "word": "どこ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "は？いつ？どこで？",
+        "chinese": "哈？什么时候？在哪里？",
+        "time_range": "00:17:17,038 --> 00:17:18,539"
+      }
+    ],
+    "meaning": "where",
+    "furigana": "",
+    "romaji": "doko",
+    "level": "N5"
+  },
+  "こんな": {
+    "word": "こんな",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "こんなのあった？",
+        "chinese": "之前有这个吗",
+        "time_range": "00:17:25,171 --> 00:17:26,047"
+      },
+      {
+        "japanese": "こんな場所指定して無理させちゃった？",
+        "chinese": "指定这样的地方是不是太勉强你了呢",
+        "time_range": "00:20:05,582 --> 00:20:07,458"
+      }
+    ],
+    "meaning": "such",
+    "furigana": "",
+    "romaji": "konna",
+    "level": "N5"
+  },
+  "こっち": {
+    "word": "こっち",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こっちこそごめんね",
+        "chinese": "我才该道个歉呢",
+        "time_range": "00:20:03,955 --> 00:20:05,331"
+      }
+    ],
+    "meaning": "this person or way",
+    "furigana": "",
+    "romaji": "kotchi",
+    "level": "N5"
+  },
+  "いつ": {
+    "word": "いつ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "いつまでも今のスタイルを続けてはいけませんわよね？",
+        "chinese": "一直走现在的路线也不是办法吧？",
+        "time_range": "00:20:21,222 --> 00:20:24,100"
+      }
+    ],
+    "meaning": "when",
+    "furigana": "",
+    "romaji": "itsu",
+    "level": "N5"
+  },
+  "あなた": {
+    "word": "あなた",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "あなたご自身思うところがあるんじゃありませんの？",
+        "chinese": "我想你心里应该多少也有些想法吧",
+        "time_range": "00:20:28,229 --> 00:20:31,107"
+      },
+      {
+        "japanese": "あなた両利きですわね？",
+        "chinese": "你的双手都是惯用手吧",
+        "time_range": "00:20:42,619 --> 00:20:43,995"
+      }
+    ],
+    "meaning": "you",
+    "furigana": "",
+    "romaji": "anata",
+    "level": "N5"
+  },
+  "もっと": {
+    "word": "もっと",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "もちろんドラムはもっと上達して頂かなくてはなりませんが",
+        "chinese": "当然还是得请你继续磨炼鼓技",
+        "time_range": "00:20:51,878 --> 00:20:55,757"
+      }
+    ],
+    "meaning": "more",
+    "furigana": "",
+    "romaji": "motto",
+    "level": "N5"
+  },
+  "では": {
+    "word": "では",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "では改めて祐天寺にやむさん",
+        "chinese": "那么容我再问一次祐天寺若麦小姐",
+        "time_range": "00:21:45,682 --> 00:21:48,309"
+      }
+    ],
+    "meaning": "with that...",
+    "furigana": "",
+    "romaji": "deha",
+    "level": "N5"
+  },
+  "afterglow": {
+    "word": "afterglow",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "Afterglowめっちゃ楽しみ",
+        "chinese": "好期待Afterglow的演出啊",
+        "time_range": "00:00:01,251 --> 00:00:03,003"
+      },
+      {
+        "japanese": "Afterglowほんとすごかったね",
+        "chinese": "Afterglow真的好厉害啊",
+        "time_range": "00:05:39,089 --> 00:05:40,966"
+      }
+    ],
+    "meaning": "英语单词",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "めっちゃ": {
+    "word": "めっちゃ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "Afterglowめっちゃ楽しみ",
+        "chinese": "好期待Afterglow的演出啊",
+        "time_range": "00:00:01,251 --> 00:00:03,003"
+      }
+    ],
+    "meaning": "extremely, very, really, super, so",
+    "furigana": "めっちゃ",
+    "romaji": "",
+    "level": ""
+  },
+  "なん": {
+    "word": "なん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "なんが迷子?",
+        "chinese": "好像叫什么迷路」？",
+        "time_range": "00:00:06,256 --> 00:00:08,008"
+      }
+    ],
+    "meaning": "difficulty, trouble, hardship, shortage",
+    "furigana": "なん",
+    "romaji": "",
+    "level": ""
+  },
+  "でき": {
+    "word": "でき",
+    "count": 5,
+    "sentences": [
+      {
+        "japanese": "できた",
+        "chinese": "完成了",
+        "time_range": "00:00:14,014 --> 00:00:14,890"
+      },
+      {
+        "japanese": "ねえできたんだよね新曲？",
+        "chinese": "我们的新歌算是完成了吧？",
+        "time_range": "00:00:20,521 --> 00:00:22,648"
+      },
+      {
+        "japanese": "できたはできたよ",
+        "chinese": "完成是完成了",
+        "time_range": "00:02:53,548 --> 00:02:54,675"
+      },
+      {
+        "japanese": "できたはできたよ",
+        "chinese": "完成是完成了",
+        "time_range": "00:02:53,548 --> 00:02:54,675"
+      },
+      {
+        "japanese": "今の曲は朝できた曲で",
+        "chinese": "这首歌是早上才完成的",
+        "time_range": "00:10:26,252 --> 00:10:28,504"
+      }
+    ],
+    "meaning": "workmanship, craftsmanship, execution, finish",
+    "furigana": "でき",
+    "romaji": "",
+    "level": ""
+  },
+  "早く": {
+    "word": "早く",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "早く楽器しまって",
+        "chinese": "快把乐器收好",
+        "time_range": "00:00:16,892 --> 00:00:18,393"
+      }
+    ],
+    "meaning": "early, soon",
+    "furigana": "はやく",
+    "romaji": "",
+    "level": ""
+  },
+  "しまっ": {
+    "word": "しまっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "早く楽器しまって",
+        "chinese": "快把乐器收好",
+        "time_range": "00:00:16,892 --> 00:00:18,393"
+      }
+    ],
+    "meaning": "darn it!, darn!, oops!, oh dear!, oh no!",
+    "furigana": "しまった",
+    "romaji": "",
+    "level": ""
+  },
+  "ねえ": {
+    "word": "ねえ",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "ねえできたんだよね新曲？",
+        "chinese": "我们的新歌算是完成了吧？",
+        "time_range": "00:00:20,521 --> 00:00:22,648"
+      },
+      {
+        "japanese": "ねえあれで完成だよね？",
+        "chinese": "那样算是完成了吧？",
+        "time_range": "00:00:48,423 --> 00:00:50,175"
+      },
+      {
+        "japanese": "ねえ",
+        "chinese": "怎么样",
+        "time_range": "00:04:09,624 --> 00:04:10,125"
+      }
+    ],
+    "meaning": "older sister",
+    "furigana": "ねえ",
+    "romaji": "",
+    "level": ""
+  },
+  "新曲": {
+    "word": "新曲",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ねえできたんだよね新曲？",
+        "chinese": "我们的新歌算是完成了吧？",
+        "time_range": "00:00:20,521 --> 00:00:22,648"
+      },
+      {
+        "japanese": "新曲",
+        "chinese": "我们的新歌",
+        "time_range": "00:00:51,927 --> 00:00:53,303"
+      }
+    ],
+    "meaning": "new (musical) composition, new piece, new song",
+    "furigana": "しんきょく",
+    "romaji": "",
+    "level": ""
+  },
+  "やっ": {
+    "word": "やっ",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "何やってんの急いで",
+        "chinese": "磨蹭什么呢快一点",
+        "time_range": "00:00:23,023 --> 00:00:24,399"
+      },
+      {
+        "japanese": "自分でやって",
+        "chinese": "你的自己调",
+        "time_range": "00:05:22,447 --> 00:05:23,448"
+      },
+      {
+        "japanese": "やった一",
+        "chinese": "好耶",
+        "time_range": "00:19:11,027 --> 00:19:12,278"
+      }
+    ],
+    "meaning": "eight",
+    "furigana": "やっつ",
+    "romaji": "",
+    "level": ""
+  },
+  "急い": {
+    "word": "急い",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "何やってんの急いで",
+        "chinese": "磨蹭什么呢快一点",
+        "time_range": "00:00:23,023 --> 00:00:24,399"
+      }
+    ],
+    "meaning": "hurriedly, in haste, in a rush, quickly",
+    "furigana": "いそいで",
+    "romaji": "",
+    "level": ""
+  },
+  "すい": {
+    "word": "すい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お腹すいた",
+        "chinese": "我饿了",
+        "time_range": "00:00:28,779 --> 00:00:29,655"
+      }
+    ],
+    "meaning": "Wednesday",
+    "furigana": "すい",
+    "romaji": "",
+    "level": ""
+  },
+  "はやく": {
+    "word": "はやく",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それより支度してはやく",
+        "chinese": "现在先去做准备动作快",
+        "time_range": "00:00:30,781 --> 00:00:32,157"
+      }
+    ],
+    "meaning": "early, soon",
+    "furigana": "はやく",
+    "romaji": "",
+    "level": ""
+  },
+  "待っ": {
+    "word": "待っ",
+    "count": 4,
+    "sentences": [
+      {
+        "japanese": "待って待って",
+        "chinese": "等一下等一下",
+        "time_range": "00:00:33,784 --> 00:00:35,285"
+      },
+      {
+        "japanese": "待って待って",
+        "chinese": "等一下等一下",
+        "time_range": "00:00:33,784 --> 00:00:35,285"
+      },
+      {
+        "japanese": "ここで待っててね",
+        "chinese": "你们先在这边等吧",
+        "time_range": "00:03:22,327 --> 00:03:23,328"
+      },
+      {
+        "japanese": "待ってよマジで言ってる？",
+        "chinese": "等一下你是认真的吗",
+        "time_range": "00:21:14,275 --> 00:21:16,527"
+      }
+    ],
+    "meaning": "false start of a bout",
+    "furigana": "まった",
+    "romaji": "",
+    "level": ""
+  },
+  "ちょ": {
+    "word": "ちょ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ちょ",
+        "chinese": "你这",
+        "time_range": "00:00:36,286 --> 00:00:36,912"
+      },
+      {
+        "japanese": "ちょなになに？",
+        "chinese": "什么什么",
+        "time_range": "00:05:02,052 --> 00:05:03,428"
+      }
+    ],
+    "meaning": "(written) work, book",
+    "furigana": "ちょ",
+    "romaji": "",
+    "level": ""
+  },
+  "ほら": {
+    "word": "ほら",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ほら行って",
+        "chinese": "好了快走吧",
+        "time_range": "00:00:41,041 --> 00:00:41,917"
+      }
+    ],
+    "meaning": "boasting, bragging, big talk",
+    "furigana": "ほら",
+    "romaji": "",
+    "level": ""
+  },
+  "行っ": {
+    "word": "行っ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ほら行って",
+        "chinese": "好了快走吧",
+        "time_range": "00:00:41,041 --> 00:00:41,917"
+      }
+    ],
+    "meaning": "have a good day, take care, see you",
+    "furigana": "いってらっしゃい",
+    "romaji": "",
+    "level": ""
+  },
+  "思っ": {
+    "word": "思っ",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "こうなると思ってた",
+        "chinese": "我早知道会这样了",
+        "time_range": "00:00:47,047 --> 00:00:48,173"
+      },
+      {
+        "japanese": "バンドのことずっと大事に思ってくれて",
+        "chinese": "她一直非常珍视乐队",
+        "time_range": "00:11:30,691 --> 00:11:33,569"
+      },
+      {
+        "japanese": "マジでどうなるかと思った",
+        "chinese": "我还以为要出问题了呢",
+        "time_range": "00:16:25,737 --> 00:16:27,488"
+      }
+    ],
+    "meaning": "unexpected, unforeseen, inconceivable",
+    "furigana": "おもってもみない",
+    "romaji": "",
+    "level": ""
+  },
+  "出来": {
+    "word": "出来",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "出来たんだよね",
+        "chinese": "真的完成了吧？",
+        "time_range": "00:00:50,425 --> 00:00:51,677"
+      }
+    ],
+    "meaning": "workmanship, craftsmanship, execution, finish",
+    "furigana": "でき",
+    "romaji": "",
+    "level": ""
+  },
+  "野良猫": {
+    "word": "野良猫",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "野良猫",
+        "chinese": "野猫",
+        "time_range": "00:02:48,794 --> 00:02:49,544"
+      }
+    ],
+    "meaning": "stray cat, alley cat",
+    "furigana": "のらねこ",
+    "romaji": "",
+    "level": ""
+  },
+  "なんで": {
+    "word": "なんで",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "なんで答えてくんないの",
+        "chinese": "为什么都不回答我啊",
+        "time_range": "00:02:49,795 --> 00:02:51,672"
+      },
+      {
+        "japanese": "なんでお前が眠いんだよ",
+        "chinese": "为什么是你犯困啊",
+        "time_range": "00:17:10,907 --> 00:17:12,659"
+      },
+      {
+        "japanese": "でなんでア々シなわけ？",
+        "chinese": "那为什么会选上我？",
+        "time_range": "00:20:33,484 --> 00:20:35,612"
+      }
+    ],
+    "meaning": "why?, what for?",
+    "furigana": "なんで",
+    "romaji": "",
+    "level": ""
+  },
+  "くん": {
+    "word": "くん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "なんで答えてくんないの",
+        "chinese": "为什么都不回答我啊",
+        "time_range": "00:02:49,795 --> 00:02:51,672"
+      }
+    ],
+    "meaning": "Mr, master, boy",
+    "furigana": "くん",
+    "romaji": "",
+    "level": ""
+  },
+  "あも": {
+    "word": "あも",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ああもう",
+        "chinese": "真是的",
+        "time_range": "00:02:51,922 --> 00:02:53,173"
+      }
+    ],
+    "meaning": "mochi, small rice cake made from glutinous rice",
+    "furigana": "もち",
+    "romaji": "",
+    "level": ""
+  },
+  "けど": {
+    "word": "けど",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "けど",
+        "chinese": "只是",
+        "time_range": "00:02:55,926 --> 00:02:56,301"
+      },
+      {
+        "japanese": "けど？けど？",
+        "chinese": "只是？只是什么？",
+        "time_range": "00:02:56,551 --> 00:02:57,928"
+      }
+    ],
+    "meaning": "but, however, although",
+    "furigana": "けど",
+    "romaji": "",
+    "level": ""
+  },
+  "分かん": {
+    "word": "分かん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あれで良いかは分かんない",
+        "chinese": "我不知道那样算不算行",
+        "time_range": "00:02:58,303 --> 00:02:59,805"
+      }
+    ],
+    "meaning": "not understanding, not knowing",
+    "furigana": "わかんない",
+    "romaji": "",
+    "level": ""
+  },
+  "はぁ": {
+    "word": "はぁ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "はぁ？",
+        "chinese": "哈?",
+        "time_range": "00:02:59,930 --> 00:03:00,555"
+      }
+    ],
+    "meaning": "yes, indeed, well",
+    "furigana": "はあ",
+    "romaji": "",
+    "level": ""
+  },
+  "こういう": {
+    "word": "こういう",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こういうのは何度も音合わせてそれで分かるっていうか",
+        "chinese": "这种事要多合练几次才判断得出来",
+        "time_range": "00:03:00,931 --> 00:03:04,434"
+      }
+    ],
+    "meaning": "such, this sort of, like this",
+    "furigana": "こういう",
+    "romaji": "",
+    "level": ""
+  },
+  "なかっ": {
+    "word": "なかっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見直す時間とか全然なかったし",
+        "chinese": "但这次完全没时间调整",
+        "time_range": "00:03:05,435 --> 00:03:07,562"
+      }
+    ],
+    "meaning": "to forget something ever existed, to pretend something didn't happen, to put something behind one, to forgive (something)",
+    "furigana": "なかったことにする",
+    "romaji": "",
+    "level": ""
+  },
+  "リハ": {
+    "word": "リハ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "リハにも間に合わなかったし",
+        "chinese": "而且也没赶上彩排",
+        "time_range": "00:03:07,813 --> 00:03:09,439"
+      }
+    ],
+    "meaning": "rehearsal",
+    "furigana": "リハ",
+    "romaji": "",
+    "level": ""
+  },
+  "間に合わ": {
+    "word": "間に合わ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "リハにも間に合わなかったし",
+        "chinese": "而且也没赶上彩排",
+        "time_range": "00:03:07,813 --> 00:03:09,439"
+      }
+    ],
+    "meaning": "to make do with, to manage with, to make shift",
+    "furigana": "まにあわせる",
+    "romaji": "",
+    "level": ""
+  },
+  "りん": {
+    "word": "りん",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "ともりんは？",
+        "chinese": "灯灯呢？",
+        "time_range": "00:03:11,441 --> 00:03:12,442"
+      },
+      {
+        "japanese": "ともりんなんか喋んないの",
+        "chinese": "灯灯向大家说点什么吧",
+        "time_range": "00:10:07,233 --> 00:10:09,109"
+      },
+      {
+        "japanese": "ともりんは？",
+        "chinese": "灯灯呢",
+        "time_range": "00:11:39,074 --> 00:11:39,950"
+      }
+    ],
+    "meaning": "one-hundredth, 0.3 mm (one-hundredth of a sun), 0.1 percent (one-hundredth of a wari), 0.0375 grams (one-hundredth of a monme)",
+    "furigana": "りん",
+    "romaji": "",
+    "level": ""
+  },
+  "分から": {
+    "word": "分から",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "分からない",
+        "chinese": "我不知道",
+        "time_range": "00:03:14,444 --> 00:03:15,195"
+      },
+      {
+        "japanese": "楽奈ちゃんはまだよく分からなくて",
+        "chinese": "我对乐奈还不是很了解",
+        "time_range": "00:11:02,413 --> 00:11:05,541"
+      }
+    ],
+    "meaning": "obstinate person, blockhead",
+    "furigana": "わからずや",
+    "romaji": "",
+    "level": ""
+  },
+  "飲ん": {
+    "word": "飲ん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "これ好きに飲んでいいから",
+        "chinese": "想喝的可以自己拿",
+        "time_range": "00:03:20,701 --> 00:03:22,077"
+      }
+    ],
+    "meaning": "heavy drinker, tippler",
+    "furigana": "のんべえ",
+    "romaji": "",
+    "level": ""
+  },
+  "お願い": {
+    "word": "お願い",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お願いします",
+        "chinese": "请多关照",
+        "time_range": "00:03:25,956 --> 00:03:26,832"
+      }
+    ],
+    "meaning": "request, favour (to ask), wish",
+    "furigana": "おねがい",
+    "romaji": "",
+    "level": ""
+  },
+  "ギリギリ": {
+    "word": "ギリギリ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ギリギリですみません",
+        "chinese": "不好意思这么赶",
+        "time_range": "00:03:27,207 --> 00:03:28,458"
+      }
+    ],
+    "meaning": "just barely, only just, at the very limit, at the last moment",
+    "furigana": "ぎりぎり",
+    "romaji": "",
+    "level": ""
+  },
+  "ううん": {
+    "word": "ううん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ううん大丈夫だよ",
+        "chinese": "没关系的",
+        "time_range": "00:03:28,834 --> 00:03:30,460"
+      }
+    ],
+    "meaning": "um, er, well",
+    "furigana": "ううん",
+    "romaji": "",
+    "level": ""
+  },
+  "マイゴ": {
+    "word": "マイゴ",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "マイゴいますか？",
+        "chinese": "「迷路』在吗",
+        "time_range": "00:03:32,462 --> 00:03:34,339"
+      },
+      {
+        "japanese": "マイゴって…もう略されてる",
+        "chinese": "这就已经被省略成「迷路』了",
+        "time_range": "00:03:47,477 --> 00:03:49,730"
+      },
+      {
+        "japanese": "そう最後マイゴって言ってたけど",
+        "chinese": "对了你在最后讲的「MyGO]",
+        "time_range": "00:16:29,115 --> 00:16:31,367"
+      }
+    ],
+    "meaning": "lost child, lost person, stray child, missing child",
+    "furigana": "まいご",
+    "romaji": "",
+    "level": ""
+  },
+  "澄し": {
+    "word": "澄し",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "香澄し一",
+        "chinese": "香澄嘘",
+        "time_range": "00:03:36,967 --> 00:03:38,468"
+      }
+    ],
+    "meaning": "clear soup",
+    "furigana": "すましじる",
+    "romaji": "",
+    "level": ""
+  },
+  "じゃぁ": {
+    "word": "じゃぁ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "じゃぁ頑張ってね",
+        "chinese": "那你们要加油哦",
+        "time_range": "00:03:43,098 --> 00:03:44,349"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "頑張っ": {
+    "word": "頑張っ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "じゃぁ頑張ってね",
+        "chinese": "那你们要加油哦",
+        "time_range": "00:03:43,098 --> 00:03:44,349"
+      },
+      {
+        "japanese": "頑張ってね",
+        "chinese": "要加油哦",
+        "time_range": "00:05:16,316 --> 00:05:17,067"
+      }
+    ],
+    "meaning": "do your best, go for it, hang in there, keep at it",
+    "furigana": "がんばって",
+    "romaji": "",
+    "level": ""
+  },
+  "頑張り": {
+    "word": "頑張り",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "頑張ります",
+        "chinese": "我们会加油的",
+        "time_range": "00:03:44,599 --> 00:03:45,475"
+      },
+      {
+        "japanese": "頑張ります",
+        "chinese": "我们会加油的",
+        "time_range": "00:04:42,032 --> 00:04:42,532"
+      }
+    ],
+    "meaning": "tenacity, endurance",
+    "furigana": "がんばり",
+    "romaji": "",
+    "level": ""
+  },
+  "略さ": {
+    "word": "略さ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "マイゴって…もう略されてる",
+        "chinese": "这就已经被省略成「迷路』了",
+        "time_range": "00:03:47,477 --> 00:03:49,730"
+      }
+    ],
+    "meaning": "to abbreviate, to abridge, to shorten",
+    "furigana": "りゃくす",
+    "romaji": "",
+    "level": ""
+  },
+  "てる": {
+    "word": "てる",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "マイゴって…もう略されてる",
+        "chinese": "这就已经被省略成「迷路』了",
+        "time_range": "00:03:47,477 --> 00:03:49,730"
+      },
+      {
+        "japanese": "応援してるね",
+        "chinese": "我会帮你们加油的",
+        "time_range": "00:04:42,783 --> 00:04:44,284"
+      },
+      {
+        "japanese": "来てるなら声かけてくださいよ",
+        "chinese": "您要来怎么不和我说一声呢",
+        "time_range": "00:05:58,108 --> 00:06:00,110"
+      }
+    ],
+    "meaning": "to shine",
+    "furigana": "てる",
+    "romaji": "",
+    "level": ""
+  },
+  "言っ": {
+    "word": "言っ",
+    "count": 4,
+    "sentences": [
+      {
+        "japanese": "良いって言ったじゃん",
+        "chinese": "你不也说了可以吗",
+        "time_range": "00:03:52,107 --> 00:03:53,108"
+      },
+      {
+        "japanese": "言ってないし",
+        "chinese": "我没说过",
+        "time_range": "00:03:53,358 --> 00:03:54,109"
+      },
+      {
+        "japanese": "そう最後マイゴって言ってたけど",
+        "chinese": "对了你在最后讲的「MyGO]",
+        "time_range": "00:16:29,115 --> 00:16:31,367"
+      },
+      {
+        "japanese": "始まる前なにそれって言ってたじゃん",
+        "chinese": "演出开始前你不是还说「什么玩意」吗",
+        "time_range": "00:16:47,008 --> 00:16:48,760"
+      }
+    ],
+    "meaning": "in a manner of speaking, as it were, so to speak, if you like, per se",
+    "furigana": "いってみれば",
+    "romaji": "",
+    "level": ""
+  },
+  "ないし": {
+    "word": "ないし",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "言ってないし",
+        "chinese": "我没说过",
+        "time_range": "00:03:53,358 --> 00:03:54,109"
+      }
+    ],
+    "meaning": "from ... to, between ... and",
+    "furigana": "ないし",
+    "romaji": "",
+    "level": ""
+  },
+  "言い": {
+    "word": "言い",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "言いました",
+        "chinese": "你说过",
+        "time_range": "00:03:54,484 --> 00:03:55,360"
+      },
+      {
+        "japanese": "何が言いたいの？",
+        "chinese": "你想说什么？",
+        "time_range": "00:20:24,601 --> 00:20:25,727"
+      }
+    ],
+    "meaning": "to begin to say, to start talking, to broach (a matter), to bring up, to come out with",
+    "furigana": "いいだす",
+    "romaji": "",
+    "level": ""
+  },
+  "たち": {
+    "word": "たち",
+    "count": 6,
+    "sentences": [
+      {
+        "japanese": "私たちのバンドいっつも迷子だからって",
+        "chinese": "你说我们乐队的成员总是在迷路",
+        "time_range": "00:03:55,610 --> 00:03:58,238"
+      },
+      {
+        "japanese": "私たちにぴった….",
+        "chinese": "最适合我们了",
+        "time_range": "00:04:21,762 --> 00:04:22,888"
+      },
+      {
+        "japanese": "私たちは迷子のバンドです",
+        "chinese": "我们是迷路的乐队",
+        "time_range": "00:10:23,123 --> 00:10:25,876"
+      },
+      {
+        "japanese": "私たちみんな迷子で",
+        "chinese": "我们大家都迷失了方向",
+        "time_range": "00:11:45,581 --> 00:11:48,208"
+      },
+      {
+        "japanese": "私たちだなって",
+        "chinese": "我觉得说的就是我们",
+        "time_range": "00:16:43,755 --> 00:16:45,131"
+      },
+      {
+        "japanese": "わたくしたちは最短でメジャーデビュー致します",
+        "chinese": "我们要在最短的时间内主流出道",
+        "time_range": "00:21:30,667 --> 00:21:33,419"
+      }
+    ],
+    "meaning": "pluralizing suffix (esp. for people and animals; formerly honorific)",
+    "furigana": "たち",
+    "romaji": "",
+    "level": ""
+  },
+  "いっつも": {
+    "word": "いっつも",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "私たちのバンドいっつも迷子だからって",
+        "chinese": "你说我们乐队的成员总是在迷路",
+        "time_range": "00:03:55,610 --> 00:03:58,238"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "本当に": {
+    "word": "本当に",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それよりこの衣装本当に大丈夫？",
+        "chinese": "比起这个这套服装真的没问题吗",
+        "time_range": "00:04:00,365 --> 00:04:03,118"
+      }
+    ],
+    "meaning": "really, truly",
+    "furigana": "ほんとうに",
+    "romaji": "",
+    "level": ""
+  },
+  "あたし": {
+    "word": "あたし",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あたしも半分",
+        "chinese": "我的也只有半边",
+        "time_range": "00:04:05,120 --> 00:04:06,121"
+      }
+    ],
+    "meaning": "I, me",
+    "furigana": "あたし",
+    "romaji": "",
+    "level": ""
+  },
+  "切ら": {
+    "word": "切ら",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "私は切られたんだけど",
+        "chinese": "我的是被剪掉的好吗",
+        "time_range": "00:04:06,371 --> 00:04:07,998"
+      }
+    ],
+    "meaning": "to run out of, to be short of, to be out of stock",
+    "furigana": "きらす",
+    "romaji": "",
+    "level": ""
+  },
+  "it": {
+    "word": "it",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "It's MyGO!",
+        "chinese": "It's MyGO!",
+        "time_range": "00:04:08,373 --> 00:04:09,249"
+      }
+    ],
+    "meaning": "英语单词",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "やば": {
+    "word": "やば",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "やば大発見じゃん",
+        "chinese": "天啊重大发现",
+        "time_range": "00:04:14,254 --> 00:04:15,630"
+      }
+    ],
+    "meaning": "archery range",
+    "furigana": "やば",
+    "romaji": "",
+    "level": ""
+  },
+  "大発見": {
+    "word": "大発見",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "やば大発見じゃん",
+        "chinese": "天啊重大发现",
+        "time_range": "00:04:14,254 --> 00:04:15,630"
+      }
+    ],
+    "meaning": "breakthrough, great discovery",
+    "furigana": "だいはっけん",
+    "romaji": "",
+    "level": ""
+  },
+  "なに": {
+    "word": "なに",
+    "count": 6,
+    "sentences": [
+      {
+        "japanese": "なにそれ",
+        "chinese": "什么玩意",
+        "time_range": "00:04:15,881 --> 00:04:16,506"
+      },
+      {
+        "japanese": "ちょなになに？",
+        "chinese": "什么什么",
+        "time_range": "00:05:02,052 --> 00:05:03,428"
+      },
+      {
+        "japanese": "ちょなになに？",
+        "chinese": "什么什么",
+        "time_range": "00:05:02,052 --> 00:05:03,428"
+      },
+      {
+        "japanese": "なにモ々モ々してんの",
+        "chinese": "怎么还慢吞吞的",
+        "time_range": "00:05:25,700 --> 00:05:27,327"
+      },
+      {
+        "japanese": "もうなにがあっても離さない",
+        "chinese": "不管发生什么都不会再放手",
+        "time_range": "00:12:15,487 --> 00:12:18,490"
+      },
+      {
+        "japanese": "始まる前なにそれって言ってたじゃん",
+        "chinese": "演出开始前你不是还说「什么玩意」吗",
+        "time_range": "00:16:47,008 --> 00:16:48,760"
+      }
+    ],
+    "meaning": "what",
+    "furigana": "なに",
+    "romaji": "",
+    "level": ""
+  },
+  "出番": {
+    "word": "出番",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "私の出番って意味？",
+        "chinese": "意思是「轮到我出场了」吗",
+        "time_range": "00:04:16,882 --> 00:04:18,383"
+      }
+    ],
+    "meaning": "one's turn, one's shift",
+    "furigana": "でばん",
+    "romaji": "",
+    "level": ""
+  },
+  "すっごい": {
+    "word": "すっごい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "すっごいいい意味じゃない？",
+        "chinese": "不觉得这个意思很棒吗",
+        "time_range": "00:04:19,634 --> 00:04:20,886"
+      }
+    ],
+    "meaning": "terrible, dreadful",
+    "furigana": "すっごい",
+    "romaji": "",
+    "level": ""
+  },
+  "ぴった": {
+    "word": "ぴった",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "私たちにぴった….",
+        "chinese": "最适合我们了",
+        "time_range": "00:04:21,762 --> 00:04:22,888"
+      }
+    ],
+    "meaning": "tightly, closely",
+    "furigana": "ぴったり",
+    "romaji": "",
+    "level": ""
+  },
+  "楽しかっ": {
+    "word": "楽しかっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "楽しかった",
+        "chinese": "弹得好开心呀",
+        "time_range": "00:04:28,894 --> 00:04:30,270"
+      }
+    ],
+    "meaning": "enjoyable, fun, pleasant, happy, delightful",
+    "furigana": "たのしい",
+    "romaji": "",
+    "level": ""
+  },
+  "お疲れさま": {
+    "word": "お疲れさま",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お疲れさまです",
+        "chinese": "辛苦了",
+        "time_range": "00:04:30,520 --> 00:04:31,146"
+      }
+    ],
+    "meaning": "thank you (for your hard work), good work",
+    "furigana": "おつかれさま",
+    "romaji": "",
+    "level": ""
+  },
+  "ありがと": {
+    "word": "ありがと",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ありがと一",
+        "chinese": "谢谢你们",
+        "time_range": "00:04:31,521 --> 00:04:32,272"
+      },
+      {
+        "japanese": "ありがとほございました",
+        "chinese": "谢谢大家",
+        "time_range": "00:10:02,728 --> 00:10:03,979"
+      }
+    ],
+    "meaning": "thank you, thanks",
+    "furigana": "ありがとう",
+    "romaji": "",
+    "level": ""
+  },
+  "わあ": {
+    "word": "わあ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "わあ大胆",
+        "chinese": "好大胆啊",
+        "time_range": "00:04:32,522 --> 00:04:33,774"
+      },
+      {
+        "japanese": "わあこのチョコ好き",
+        "chinese": "我喜欢这牌子的巧克力",
+        "time_range": "00:17:27,048 --> 00:17:29,300"
+      }
+    ],
+    "meaning": "wow!, oh!, eek!, gee!",
+    "furigana": "わあ",
+    "romaji": "",
+    "level": ""
+  },
+  "悪く": {
+    "word": "悪く",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "悪くないね",
+        "chinese": "还不错嘛",
+        "time_range": "00:04:36,902 --> 00:04:37,903"
+      }
+    ],
+    "meaning": "to get worse, to deteriorate, to go from bad to worse, to become worse",
+    "furigana": "わるくなる",
+    "romaji": "",
+    "level": ""
+  },
+  "頑張れ": {
+    "word": "頑張れ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "頑張れよ",
+        "chinese": "要加油哦",
+        "time_range": "00:04:40,655 --> 00:04:41,656"
+      }
+    ],
+    "meaning": "hang in there, go for it, keep at it, do your best",
+    "furigana": "がんばれ",
+    "romaji": "",
+    "level": ""
+  },
+  "作っ": {
+    "word": "作っ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ね衣装作って良かったでしよ",
+        "chinese": "你看服装没白做吧",
+        "time_range": "00:04:46,036 --> 00:04:48,288"
+      }
+    ],
+    "meaning": "to make, to produce, to manufacture, to build, to construct",
+    "furigana": "つくる",
+    "romaji": "",
+    "level": ""
+  },
+  "良かっ": {
+    "word": "良かっ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "ね衣装作って良かったでしよ",
+        "chinese": "你看服装没白做吧",
+        "time_range": "00:04:46,036 --> 00:04:48,288"
+      },
+      {
+        "japanese": "良かったね",
+        "chinese": "是挺好的",
+        "time_range": "00:04:48,538 --> 00:04:49,414"
+      }
+    ],
+    "meaning": "if you like",
+    "furigana": "よかったら",
+    "romaji": "",
+    "level": ""
+  },
+  "言お": {
+    "word": "言お",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "何言おうとしたの",
+        "chinese": "你想说什么啊？",
+        "time_range": "00:05:03,678 --> 00:05:04,930"
+      }
+    ],
+    "meaning": "to say, to utter, to declare",
+    "furigana": "いう",
+    "romaji": "",
+    "level": ""
+  },
+  "こわい": {
+    "word": "こわい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こわいんだけど",
+        "chinese": "这样很恐怖好吗",
+        "time_range": "00:05:05,305 --> 00:05:06,807"
+      }
+    ],
+    "meaning": "scary, frightening, eerie, dreadful",
+    "furigana": "こわい",
+    "romaji": "",
+    "level": ""
+  },
+  "まっ": {
+    "word": "まっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ちょっとまって",
+        "chinese": "等一下",
+        "time_range": "00:05:19,694 --> 00:05:20,695"
+      }
+    ],
+    "meaning": "straight (ahead), direct, upright, erect",
+    "furigana": "まっすぐ",
+    "romaji": "",
+    "level": ""
+  },
+  "てん": {
+    "word": "てん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "なにモ々モ々してんの",
+        "chinese": "怎么还慢吞吞的",
+        "time_range": "00:05:25,700 --> 00:05:27,327"
+      }
+    ],
+    "meaning": "dot, spot, point, speck, mark",
+    "furigana": "てん",
+    "romaji": "",
+    "level": ""
+  },
+  "踏ん": {
+    "word": "踏ん",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "踏んだ",
+        "chinese": "你居然踩了",
+        "time_range": "00:05:30,831 --> 00:05:31,456"
+      },
+      {
+        "japanese": "私まだ踏んでないのに",
+        "chinese": "我都还没踩过呢",
+        "time_range": "00:05:31,706 --> 00:05:33,458"
+      }
+    ],
+    "meaning": "to brace one's legs, to stand firm, to plant one's feet (firmly on the ground)",
+    "furigana": "ふんばる",
+    "romaji": "",
+    "level": ""
+  },
+  "かっこ": {
+    "word": "かっこ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "でらかっこよ",
+        "chinese": "超帅气的",
+        "time_range": "00:05:37,587 --> 00:05:38,839"
+      }
+    ],
+    "meaning": "brackets, parentheses",
+    "furigana": "かっこ",
+    "romaji": "",
+    "level": ""
+  },
+  "ほんと": {
+    "word": "ほんと",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "Afterglowほんとすごかったね",
+        "chinese": "Afterglow真的好厉害啊",
+        "time_range": "00:05:39,089 --> 00:05:40,966"
+      }
+    ],
+    "meaning": "truth, reality, actuality, fact",
+    "furigana": "ほんとう",
+    "romaji": "",
+    "level": ""
+  },
+  "すごかっ": {
+    "word": "すごかっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "Afterglowほんとすごかったね",
+        "chinese": "Afterglow真的好厉害啊",
+        "time_range": "00:05:39,089 --> 00:05:40,966"
+      }
+    ],
+    "meaning": "terrible, dreadful",
+    "furigana": "すごい",
+    "romaji": "",
+    "level": ""
+  },
+  "間に合っ": {
+    "word": "間に合っ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "間に合った",
+        "chinese": "赶上了",
+        "time_range": "00:05:52,227 --> 00:05:53,603"
+      }
+    ],
+    "meaning": "to already have enough, to already have what one needs",
+    "furigana": "まにあっている",
+    "romaji": "",
+    "level": ""
+  },
+  "よかっ": {
+    "word": "よかっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "よかった",
+        "chinese": "太好了",
+        "time_range": "00:05:53,728 --> 00:05:54,479"
+      }
+    ],
+    "meaning": "if you like",
+    "furigana": "よかったら",
+    "romaji": "",
+    "level": ""
+  },
+  "オーナー": {
+    "word": "オーナー",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "オーナー",
+        "chinese": "店长",
+        "time_range": "00:05:56,481 --> 00:05:57,482"
+      },
+      {
+        "japanese": "もうオーナーじゃないよ",
+        "chinese": "我已经不是店长了",
+        "time_range": "00:06:00,360 --> 00:06:02,237"
+      }
+    ],
+    "meaning": "owner (esp. of a business)",
+    "furigana": "オーナー",
+    "romaji": "",
+    "level": ""
+  },
+  "かけ": {
+    "word": "かけ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "来てるなら声かけてくださいよ",
+        "chinese": "您要来怎么不和我说一声呢",
+        "time_range": "00:05:58,108 --> 00:06:00,110"
+      }
+    ],
+    "meaning": "bet, wager, stake, gamble",
+    "furigana": "かけ",
+    "romaji": "",
+    "level": ""
+  },
+  "なってる": {
+    "word": "なってる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "孫が世話になってるね",
+        "chinese": "我的外孙女受你照顾了",
+        "time_range": "00:06:02,487 --> 00:06:03,864"
+      }
+    ],
+    "meaning": "to become, to get, to grow, to turn, to reach, to attain",
+    "furigana": "なる",
+    "romaji": "",
+    "level": ""
+  },
+  "居場所": {
+    "word": "居場所",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "居場所を見つけたって言うからさ",
+        "chinese": "她说她找到归宿了",
+        "time_range": "00:06:08,744 --> 00:06:10,746"
+      }
+    ],
+    "meaning": "whereabouts, place, location",
+    "furigana": "いばしょ",
+    "romaji": "",
+    "level": ""
+  },
+  "見つけ": {
+    "word": "見つけ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "居場所を見つけたって言うからさ",
+        "chinese": "她说她找到归宿了",
+        "time_range": "00:06:08,744 --> 00:06:10,746"
+      }
+    ],
+    "meaning": "to find, to discover, to come across, to spot, to catch (someone doing)",
+    "furigana": "みつける",
+    "romaji": "",
+    "level": ""
+  },
+  "喋ん": {
+    "word": "喋ん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ともりんなんか喋んないの",
+        "chinese": "灯灯向大家说点什么吧",
+        "time_range": "00:10:07,233 --> 00:10:09,109"
+      }
+    ],
+    "meaning": "billing and cooing, holding an intimate, long-winded conversation in whispers",
+    "furigana": "ちょうちょうなんなん",
+    "romaji": "",
+    "level": ""
+  },
+  "ちゃ": {
+    "word": "ちゃ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "燈ちゃ一ん",
+        "chinese": "小灯",
+        "time_range": "00:10:15,741 --> 00:10:16,367"
+      }
+    ],
+    "meaning": "tea",
+    "furigana": "ちゃ",
+    "romaji": "",
+    "level": ""
+  },
+  "ともり": {
+    "word": "ともり",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ともりん",
+        "chinese": "灯灯",
+        "time_range": "00:10:31,006 --> 00:10:31,507"
+      }
+    ],
+    "meaning": "to be lit (e.g. candle, lamp, light bulb), to be lighted, to be burning",
+    "furigana": "ともる",
+    "romaji": "",
+    "level": ""
+  },
+  "そういう": {
+    "word": "そういう",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "そういうのじやなくって",
+        "chinese": "不是要介绍这个啦",
+        "time_range": "00:10:42,142 --> 00:10:43,644"
+      },
+      {
+        "japanese": "愛音ちゃんそういうことするよね",
+        "chinese": "爱音就喜欢加这种小细节",
+        "time_range": "00:17:01,022 --> 00:17:02,899"
+      },
+      {
+        "japanese": "あ一そういうの好き",
+        "chinese": "我喜欢你的说法",
+        "time_range": "00:20:40,116 --> 00:20:42,368"
+      }
+    ],
+    "meaning": "such, like that, that sort of",
+    "furigana": "そういう",
+    "romaji": "",
+    "level": ""
+  },
+  "なくっ": {
+    "word": "なくっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "そういうのじやなくって",
+        "chinese": "不是要介绍这个啦",
+        "time_range": "00:10:42,142 --> 00:10:43,644"
+      }
+    ],
+    "meaning": "nonexistent, not being (there)",
+    "furigana": "ない",
+    "romaji": "",
+    "level": ""
+  },
+  "えっ": {
+    "word": "えっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "えっとあのちゃんはすごい迷子で",
+        "chinese": "那个小爱她一直在迷路",
+        "time_range": "00:10:45,271 --> 00:10:48,023"
+      }
+    ],
+    "meaning": "huh?, what's up?",
+    "furigana": "えっ",
+    "romaji": "",
+    "level": ""
+  },
+  "みたい": {
+    "word": "みたい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "私もあのちゃんみたいな迷子になりたくて",
+        "chinese": "我也·想和小爱一样迷失方向",
+        "time_range": "00:10:48,274 --> 00:10:52,403"
+      }
+    ],
+    "meaning": "-like, sort of, similar to, resembling",
+    "furigana": "みたい",
+    "romaji": "",
+    "level": ""
+  },
+  "なり": {
+    "word": "なり",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "私もあのちゃんみたいな迷子になりたくて",
+        "chinese": "我也·想和小爱一样迷失方向",
+        "time_range": "00:10:48,274 --> 00:10:52,403"
+      },
+      {
+        "japanese": "もちろんドラムはもっと上達して頂かなくてはなりませんが",
+        "chinese": "当然还是得请你继续磨炼鼓技",
+        "time_range": "00:20:51,878 --> 00:20:55,757"
+      }
+    ],
+    "meaning": "or something, for instance ... (though there are other suitable options)",
+    "furigana": "なり",
+    "romaji": "",
+    "level": ""
+  },
+  "読める": {
+    "word": "読める",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "そんなに迷子じゃないです地図も読めるので",
+        "chinese": "我没那么容易迷路啦地图我也看得懂",
+        "time_range": "00:10:55,781 --> 00:10:58,909"
+      }
+    ],
+    "meaning": "to be able to read, to be legible, to be decipherable",
+    "furigana": "よめる",
+    "romaji": "",
+    "level": ""
+  },
+  "ちや": {
+    "word": "ちや",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "楽奈ちやんもギ々ーです",
+        "chinese": "乐奈也是吉他手",
+        "time_range": "00:11:00,286 --> 00:11:01,912"
+      },
+      {
+        "japanese": "睦ちやんにだけは言われたくない",
+        "chinese": "我唯独不想听你这么说",
+        "time_range": "00:17:55,952 --> 00:17:57,829"
+      }
+    ],
+    "meaning": "to make a fuss over, to pamper, to spoil, to indulge, to flatter (with attention)",
+    "furigana": "ちやほや",
+    "romaji": "",
+    "level": ""
+  },
+  "くれ": {
+    "word": "くれ",
+    "count": 6,
+    "sentences": [
+      {
+        "japanese": "心細い時にそばにいてくれます",
+        "chinese": "我不安时她都会在我身边",
+        "time_range": "00:11:06,792 --> 00:11:09,044"
+      },
+      {
+        "japanese": "あ立希ちゃんもそばにいてくれます",
+        "chinese": "立希也会陪在我身边",
+        "time_range": "00:11:09,795 --> 00:11:12,298"
+      },
+      {
+        "japanese": "すごくバンドのこといつぱい考えてくれて",
+        "chinese": "她真的为乐队考虑了很多",
+        "time_range": "00:11:13,173 --> 00:11:16,677"
+      },
+      {
+        "japanese": "家の前まで送ってくれて",
+        "chinese": "她还是会送我到家门口",
+        "time_range": "00:11:20,306 --> 00:11:21,932"
+      },
+      {
+        "japanese": "バンドのことずっと大事に思ってくれて",
+        "chinese": "她一直非常珍视乐队",
+        "time_range": "00:11:30,691 --> 00:11:33,569"
+      },
+      {
+        "japanese": "離さないでくれてありがとう",
+        "chinese": "谢谢你没有放开我",
+        "time_range": "00:17:19,666 --> 00:17:22,418"
+      }
+    ],
+    "meaning": "sunset, sundown, nightfall, dusk",
+    "furigana": "くれ",
+    "romaji": "",
+    "level": ""
+  },
+  "すごく": {
+    "word": "すごく",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "すごくバンドのこといつぱい考えてくれて",
+        "chinese": "她真的为乐队考虑了很多",
+        "time_range": "00:11:13,173 --> 00:11:16,677"
+      },
+      {
+        "japanese": "すごく仲良しでもなくて…",
+        "chinese": "大家的感情也不算很要好",
+        "time_range": "00:11:53,213 --> 00:11:55,090"
+      }
+    ],
+    "meaning": "awfully, very, immensely",
+    "furigana": "すごく",
+    "romaji": "",
+    "level": ""
+  },
+  "ぱい": {
+    "word": "ぱい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "すごくバンドのこといつぱい考えてくれて",
+        "chinese": "她真的为乐队考虑了很多",
+        "time_range": "00:11:13,173 --> 00:11:16,677"
+      }
+    ],
+    "meaning": "pie, tart",
+    "furigana": "パイ",
+    "romaji": "",
+    "level": ""
+  },
+  "送っ": {
+    "word": "送っ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "家の前まで送ってくれて",
+        "chinese": "她还是会送我到家门口",
+        "time_range": "00:11:20,306 --> 00:11:21,932"
+      }
+    ],
+    "meaning": "to send, to dispatch, to forward, to transmit, to ship, to remit",
+    "furigana": "おくる",
+    "romaji": "",
+    "level": ""
+  },
+  "迷っ": {
+    "word": "迷っ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "目の前のことにいつも迷ってて…",
+        "chinese": "总是对眼前的事物感到迷范！",
+        "time_range": "00:11:48,959 --> 00:11:51,337"
+      }
+    ],
+    "meaning": "to lose one's way, to get lost, to go astray",
+    "furigana": "まよう",
+    "romaji": "",
+    "level": ""
+  },
+  "なく": {
+    "word": "なく",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "すごく仲良しでもなくて…",
+        "chinese": "大家的感情也不算很要好",
+        "time_range": "00:11:53,213 --> 00:11:55,090"
+      }
+    ],
+    "meaning": "to make sound (of an animal), to call, to cry, to whine, to sing, to chirp",
+    "furigana": "なく",
+    "romaji": "",
+    "level": ""
+  },
+  "ぱいして": {
+    "word": "ぱいして",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "喧嘩もいつぱいして苦しくて…",
+        "chinese": "我们吵过很多次架经历过痛苦",
+        "time_range": "00:11:55,966 --> 00:11:58,969"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "苦しく": {
+    "word": "苦しく",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "喧嘩もいつぱいして苦しくて…",
+        "chinese": "我们吵过很多次架经历过痛苦",
+        "time_range": "00:11:55,966 --> 00:11:58,969"
+      }
+    ],
+    "meaning": "painful, difficult, tough, hard",
+    "furigana": "くるしい",
+    "romaji": "",
+    "level": ""
+  },
+  "傷つけ": {
+    "word": "傷つけ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "傷つけたりちゃんと言えなかったり…",
+        "chinese": "有时伤害对方有时没能好好诉说",
+        "time_range": "00:11:59,845 --> 00:12:02,973"
+      }
+    ],
+    "meaning": "to wound, to injure",
+    "furigana": "きずつける",
+    "romaji": "",
+    "level": ""
+  },
+  "言え": {
+    "word": "言え",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "傷つけたりちゃんと言えなかったり…",
+        "chinese": "有时伤害对方有时没能好好诉说",
+        "time_range": "00:11:59,845 --> 00:12:02,973"
+      }
+    ],
+    "meaning": "to be possible to say, to be able to say",
+    "furigana": "いえる",
+    "romaji": "",
+    "level": ""
+  },
+  "いる": {
+    "word": "いる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "今ここにいる…",
+        "chinese": "我们现在就在这里",
+        "time_range": "00:12:05,977 --> 00:12:07,228"
+      }
+    ],
+    "meaning": "to be (of animate objects), to exist",
+    "furigana": "いる",
+    "romaji": "",
+    "level": ""
+  },
+  "離さ": {
+    "word": "離さ",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "もうなにがあっても離さない",
+        "chinese": "不管发生什么都不会再放手",
+        "time_range": "00:12:15,487 --> 00:12:18,490"
+      },
+      {
+        "japanese": "一生離さないから",
+        "chinese": "一辈子都不会放手",
+        "time_range": "00:12:19,616 --> 00:12:20,992"
+      },
+      {
+        "japanese": "離さないでくれてありがとう",
+        "chinese": "谢谢你没有放开我",
+        "time_range": "00:17:19,666 --> 00:17:22,418"
+      }
+    ],
+    "meaning": "to separate, to part, to divide, to keep apart",
+    "furigana": "はなす",
+    "romaji": "",
+    "level": ""
+  },
+  "ざいました": {
+    "word": "ざいました",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "今日はありがとうビざいました",
+        "chinese": "今天真的非常感谢大家",
+        "time_range": "00:16:01,462 --> 00:16:03,339"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "進め": {
+    "word": "進め",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "迷子でも進め",
+        "chinese": "在迷茫中前进吧！",
+        "time_range": "00:16:18,730 --> 00:16:21,482"
+      }
+    ],
+    "meaning": "to advance, to move forward, to put (a clock, watch) forward",
+    "furigana": "すすめる",
+    "romaji": "",
+    "level": ""
+  },
+  "終わっ": {
+    "word": "終わっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "終わった",
+        "chinese": "结束了",
+        "time_range": "00:16:23,985 --> 00:16:25,486"
+      }
+    ],
+    "meaning": "to be completed, to be finished",
+    "furigana": "おわっている",
+    "romaji": "",
+    "level": ""
+  },
+  "マジ": {
+    "word": "マジ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "マジでどうなるかと思った",
+        "chinese": "我还以为要出问题了呢",
+        "time_range": "00:16:25,737 --> 00:16:27,488"
+      },
+      {
+        "japanese": "待ってよマジで言ってる？",
+        "chinese": "等一下你是认真的吗",
+        "time_range": "00:21:14,275 --> 00:21:16,527"
+      }
+    ],
+    "meaning": "serious, not joking, straight",
+    "furigana": "まじ",
+    "romaji": "",
+    "level": ""
+  },
+  "もしかして": {
+    "word": "もしかして",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "あれってもしかして",
+        "chinese": "那个该不会",
+        "time_range": "00:16:31,618 --> 00:16:32,869"
+      },
+      {
+        "japanese": "もしかしてさ",
+        "chinese": "该不会是…",
+        "time_range": "00:16:33,119 --> 00:16:34,120"
+      }
+    ],
+    "meaning": "perhaps, possibly, maybe, by any chance, if I'm not mistaken",
+    "furigana": "もしかして",
+    "romaji": "",
+    "level": ""
+  },
+  "聞い": {
+    "word": "聞い",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あのちゃんの聞いて",
+        "chinese": "我听见小爱说的话",
+        "time_range": "00:16:40,126 --> 00:16:41,377"
+      }
+    ],
+    "meaning": "to be astonished to hear, to be incredulous about, to express disbelief",
+    "furigana": "きいてあきれる",
+    "romaji": "",
+    "level": ""
+  },
+  "ほう": {
+    "word": "ほう",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "このほうが進んでる感あるよ",
+        "chinese": "这样更有前进的感觉哦",
+        "time_range": "00:16:56,768 --> 00:16:58,269"
+      }
+    ],
+    "meaning": "direction, way, side, area (in a particular direction)",
+    "furigana": "ほう",
+    "romaji": "",
+    "level": ""
+  },
+  "進ん": {
+    "word": "進ん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "このほうが進んでる感あるよ",
+        "chinese": "这样更有前进的感觉哦",
+        "time_range": "00:16:56,768 --> 00:16:58,269"
+      }
+    ],
+    "meaning": "voluntarily, willingly, of one's own free will",
+    "furigana": "すすんで",
+    "romaji": "",
+    "level": ""
+  },
+  "でる": {
+    "word": "でる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "このほうが進んでる感あるよ",
+        "chinese": "这样更有前进的感觉哦",
+        "time_range": "00:16:56,768 --> 00:16:58,269"
+      }
+    ],
+    "meaning": "to leave, to exit, to go out, to come out, to get out",
+    "furigana": "でる",
+    "romaji": "",
+    "level": ""
+  },
+  "お前": {
+    "word": "お前",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "なんでお前が眠いんだよ",
+        "chinese": "为什么是你犯困啊",
+        "time_range": "00:17:10,907 --> 00:17:12,659"
+      }
+    ],
+    "meaning": "you",
+    "furigana": "おまえ",
+    "romaji": "",
+    "level": ""
+  },
+  "チョコ": {
+    "word": "チョコ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "わあこのチョコ好き",
+        "chinese": "我喜欢这牌子的巧克力",
+        "time_range": "00:17:27,048 --> 00:17:29,300"
+      }
+    ],
+    "meaning": "chocolate",
+    "furigana": "チョコ",
+    "romaji": "",
+    "level": ""
+  },
+  "キュウリ": {
+    "word": "キュウリ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "えキュウリ？",
+        "chinese": "黄瓜？",
+        "time_range": "00:17:29,801 --> 00:17:31,177"
+      }
+    ],
+    "meaning": "cucumber (Cucumis sativus)",
+    "furigana": "きゅうり",
+    "romaji": "",
+    "level": ""
+  },
+  "かつ": {
+    "word": "かつ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "よかつたね",
+        "chinese": "挺好的对吧？",
+        "time_range": "00:17:53,074 --> 00:17:53,825"
+      }
+    ],
+    "meaning": "to win, to gain victory",
+    "furigana": "かつ",
+    "romaji": "",
+    "level": ""
+  },
+  "言わ": {
+    "word": "言わ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "睦ちやんにだけは言われたくない",
+        "chinese": "我唯独不想听你这么说",
+        "time_range": "00:17:55,952 --> 00:17:57,829"
+      }
+    ],
+    "meaning": "so to speak, so to call it, as it were",
+    "furigana": "いわば",
+    "romaji": "",
+    "level": ""
+  },
+  "いら": {
+    "word": "いら",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "これいらないから",
+        "chinese": "还你不需要",
+        "time_range": "00:17:58,955 --> 00:18:00,081"
+      }
+    ],
+    "meaning": "scarbreast tuskfin (Choerodon azurio)",
+    "furigana": "いら",
+    "romaji": "",
+    "level": ""
+  },
+  "決め": {
+    "word": "決め",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "決めたんですか？",
+        "chinese": "你决定了吗",
+        "time_range": "00:18:33,990 --> 00:18:34,866"
+      }
+    ],
+    "meaning": "agreement, rule",
+    "furigana": "きめ",
+    "romaji": "",
+    "level": ""
+  },
+  "つくり": {
+    "word": "つくり",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ゆつくり考えると良いです",
+        "chinese": "慢慢考虑就好",
+        "time_range": "00:18:39,746 --> 00:18:41,372"
+      }
+    ],
+    "meaning": "making, producing, manufacturing, building, construction, make, structure",
+    "furigana": "つくり",
+    "romaji": "",
+    "level": ""
+  },
+  "こん": {
+    "word": "こん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こんにちにゃむにゃむ",
+        "chinese": "大家好喵姆喵姆",
+        "time_range": "00:18:47,629 --> 00:18:49,255"
+      }
+    ],
+    "meaning": "navy blue, deep blue",
+    "furigana": "こん",
+    "romaji": "",
+    "level": ""
+  },
+  "ゃむにゃむ": {
+    "word": "ゃむにゃむ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こんにちにゃむにゃむ",
+        "chinese": "大家好喵姆喵姆",
+        "time_range": "00:18:47,629 --> 00:18:49,255"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "なんと": {
+    "word": "なんと",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "今日はなんと",
+        "chinese": "想不到今天呢",
+        "time_range": "00:18:49,506 --> 00:18:51,132"
+      }
+    ],
+    "meaning": "what, how",
+    "furigana": "なんと",
+    "romaji": "",
+    "level": ""
+  },
+  "ライブハウス": {
+    "word": "ライブハウス",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ライブハウスCiRCLEさんに来ちゃいました",
+        "chinese": "我们来到了LiveHouse CiRCLE",
+        "time_range": "00:18:53,134 --> 00:18:55,762"
+      }
+    ],
+    "meaning": "shop, bar, etc. where live jazz, pop, rock, etc. is performed, live music club",
+    "furigana": "ライブハウス",
+    "romaji": "",
+    "level": ""
+  },
+  "circle": {
+    "word": "circle",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ライブハウスCiRCLEさんに来ちゃいました",
+        "chinese": "我们来到了LiveHouse CiRCLE",
+        "time_range": "00:18:53,134 --> 00:18:55,762"
+      }
+    ],
+    "meaning": "英语单词",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "ちゃい": {
+    "word": "ちゃい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ライブハウスCiRCLEさんに来ちゃいました",
+        "chinese": "我们来到了LiveHouse CiRCLE",
+        "time_range": "00:18:53,134 --> 00:18:55,762"
+      }
+    ],
+    "meaning": "chai (black tea with milk, sugar and spices), masala chai",
+    "furigana": "チャイ",
+    "romaji": "",
+    "level": ""
+  },
+  "パスパレ": {
+    "word": "パスパレ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あのパスパレやロゼリアも御用達のスタジオなんだって",
+        "chinese": "听说这里是PasPale和Roselia的常用排练室哦",
+        "time_range": "00:18:56,012 --> 00:18:59,390"
+      }
+    ],
+    "meaning": "passing (an examination, inspection, etc.)",
+    "furigana": "パス",
+    "romaji": "",
+    "level": ""
+  },
+  "ロゼリア": {
+    "word": "ロゼリア",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "あのパスパレやロゼリアも御用達のスタジオなんだって",
+        "chinese": "听说这里是PasPale和Roselia的常用排练室哦",
+        "time_range": "00:18:56,012 --> 00:18:59,390"
+      },
+      {
+        "japanese": "ロゼリアのあこちゃん？",
+        "chinese": "Roselia的亚子?",
+        "time_range": "00:19:04,896 --> 00:19:06,147"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "御用達": {
+    "word": "御用達",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あのパスパレやロゼリアも御用達のスタジオなんだって",
+        "chinese": "听说这里是PasPale和Roselia的常用排练室哦",
+        "time_range": "00:18:56,012 --> 00:18:59,390"
+      }
+    ],
+    "meaning": "purveyor (to the Imperial Household, etc.)",
+    "furigana": "ごようたし",
+    "romaji": "",
+    "level": ""
+  },
+  "会える": {
+    "word": "会える",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "会えるかな",
+        "chinese": "能不能遇见她们呢",
+        "time_range": "00:18:59,766 --> 00:19:00,892"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "そまっ": {
+    "word": "そまっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "えうそまって",
+        "chinese": "不会吧等之下",
+        "time_range": "00:19:02,644 --> 00:19:04,145"
+      }
+    ],
+    "meaning": "are you serious?, is that for real?",
+    "furigana": "そマ",
+    "romaji": "",
+    "level": ""
+  },
+  "やつ": {
+    "word": "やつ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "大魔姫やつてもらえませんか",
+        "chinese": "可以请你表演一下大魔姬吗",
+        "time_range": "00:19:08,024 --> 00:19:09,651"
+      }
+    ],
+    "meaning": "fellow, guy, chap",
+    "furigana": "やつ",
+    "romaji": "",
+    "level": ""
+  },
+  "もらえ": {
+    "word": "もらえ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "大魔姫やつてもらえませんか",
+        "chinese": "可以请你表演一下大魔姬吗",
+        "time_range": "00:19:08,024 --> 00:19:09,651"
+      }
+    ],
+    "meaning": "to be able to receive, to be able to take, to be able to accept",
+    "furigana": "もらえる",
+    "romaji": "",
+    "level": ""
+  },
+  "降臨": {
+    "word": "降臨",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "降臨だよ",
+        "chinese": "是降临",
+        "time_range": "00:19:33,675 --> 00:19:34,425"
+      },
+      {
+        "japanese": "降臨",
+        "chinese": "降临",
+        "time_range": "00:19:34,676 --> 00:19:35,426"
+      }
+    ],
+    "meaning": "descent (to earth, esp. of a god), advent, epiphany",
+    "furigana": "こうりん",
+    "romaji": "",
+    "level": ""
+  },
+  "ゃむ": {
+    "word": "ゃむ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "え一にゃむ感激",
+        "chinese": "喵姆好感动哦",
+        "time_range": "00:19:35,802 --> 00:19:38,054"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "ラツキー": {
+    "word": "ラツキー",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ラツキー",
+        "chinese": "真走运",
+        "time_range": "00:19:38,304 --> 00:19:39,055"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "ゃむさん": {
+    "word": "ゃむさん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "にゃむさん?",
+        "chinese": "喵姆小姐？",
+        "time_range": "00:19:41,933 --> 00:19:42,809"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "待た": {
+    "word": "待た",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "お待たせして申し訳ございません",
+        "chinese": "抱让你久等了",
+        "time_range": "00:19:44,060 --> 00:19:45,937"
+      }
+    ],
+    "meaning": "to keep (a person) waiting",
+    "furigana": "またせる",
+    "romaji": "",
+    "level": ""
+  },
+  "豊川": {
+    "word": "豊川",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ご連絡した豊川祥子と申します",
+        "chinese": "我是先前联系你的丰川祥子",
+        "time_range": "00:19:46,312 --> 00:19:48,565"
+      }
+    ],
+    "meaning": "Toyokawa Station (Osaka)",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "祥子": {
+    "word": "祥子",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ご連絡した豊川祥子と申します",
+        "chinese": "我是先前联系你的丰川祥子",
+        "time_range": "00:19:46,312 --> 00:19:48,565"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "申し": {
+    "word": "申し",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ご連絡した豊川祥子と申します",
+        "chinese": "我是先前联系你的丰川祥子",
+        "time_range": "00:19:46,312 --> 00:19:48,565"
+      }
+    ],
+    "meaning": "excuse me! (when calling out to someone)",
+    "furigana": "もうし",
+    "romaji": "",
+    "level": ""
+  },
+  "やむ": {
+    "word": "やむ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "にやむで一す",
+        "chinese": "我是喵姆",
+        "time_range": "00:19:49,566 --> 00:19:51,067"
+      },
+      {
+        "japanese": "では改めて祐天寺にやむさん",
+        "chinese": "那么容我再问一次祐天寺若麦小姐",
+        "time_range": "00:21:45,682 --> 00:21:48,309"
+      }
+    ],
+    "meaning": "to cease, to stop, to be over",
+    "furigana": "やむ",
+    "romaji": "",
+    "level": ""
+  },
+  "アール": {
+    "word": "アール",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "アールグレイを",
+        "chinese": "伯爵红茶",
+        "time_range": "00:19:53,069 --> 00:19:54,195"
+      }
+    ],
+    "meaning": "R, r",
+    "furigana": "アール",
+    "romaji": "",
+    "level": ""
+  },
+  "グレイ": {
+    "word": "グレイ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "アールグレイを",
+        "chinese": "伯爵红茶",
+        "time_range": "00:19:53,069 --> 00:19:54,195"
+      }
+    ],
+    "meaning": "grey, gray",
+    "furigana": "グレー",
+    "romaji": "",
+    "level": ""
+  },
+  "本日": {
+    "word": "本日",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "本日はご足労いただき感謝いたします",
+        "chinese": "今天非常感谢你特地前来",
+        "time_range": "00:19:54,445 --> 00:19:57,073"
+      }
+    ],
+    "meaning": "today, this day",
+    "furigana": "ほんじつ",
+    "romaji": "",
+    "level": ""
+  },
+  "足労": {
+    "word": "足労",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "本日はご足労いただき感謝いたします",
+        "chinese": "今天非常感谢你特地前来",
+        "time_range": "00:19:54,445 --> 00:19:57,073"
+      }
+    ],
+    "meaning": "trouble of going somewhere",
+    "furigana": "そくろう",
+    "romaji": "",
+    "level": ""
+  },
+  "いただき": {
+    "word": "いただき",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "本日はご足労いただき感謝いたします",
+        "chinese": "今天非常感谢你特地前来",
+        "time_range": "00:19:54,445 --> 00:19:57,073"
+      }
+    ],
+    "meaning": "crown (of head), summit (of mountain), spire",
+    "furigana": "いただき",
+    "romaji": "",
+    "level": ""
+  },
+  "いたし": {
+    "word": "いたし",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "本日はご足労いただき感謝いたします",
+        "chinese": "今天非常感谢你特地前来",
+        "time_range": "00:19:54,445 --> 00:19:57,073"
+      }
+    ],
+    "meaning": "way, method, means, resource, course",
+    "furigana": "いたしかた",
+    "romaji": "",
+    "level": ""
+  },
+  "べつに": {
+    "word": "べつに",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "べつに",
+        "chinese": "也没什么",
+        "time_range": "00:19:57,574 --> 00:19:58,700"
+      }
+    ],
+    "meaning": "(not) particularly, (not) especially, (not) specially",
+    "furigana": "べつに",
+    "romaji": "",
+    "level": ""
+  },
+  "ごめん": {
+    "word": "ごめん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こっちこそごめんね",
+        "chinese": "我才该道个歉呢",
+        "time_range": "00:20:03,955 --> 00:20:05,331"
+      }
+    ],
+    "meaning": "I'm sorry, my apologies, excuse me, pardon me",
+    "furigana": "ごめん",
+    "romaji": "",
+    "level": ""
+  },
+  "ちゃっ": {
+    "word": "ちゃっ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "こんな場所指定して無理させちゃった？",
+        "chinese": "指定这样的地方是不是太勉强你了呢",
+        "time_range": "00:20:05,582 --> 00:20:07,458"
+      }
+    ],
+    "meaning": "starting (construction) work",
+    "furigana": "ちゃっこう",
+    "romaji": "",
+    "level": ""
+  },
+  "ゃむを": {
+    "word": "ゃむを",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それでにゃむをバンドに入れたいんだっけ？",
+        "chinese": "所以你说想让我加入乐队？",
+        "time_range": "00:20:12,714 --> 00:20:15,216"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "入れ": {
+    "word": "入れ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それでにゃむをバンドに入れたいんだっけ？",
+        "chinese": "所以你说想让我加入乐队？",
+        "time_range": "00:20:12,714 --> 00:20:15,216"
+      }
+    ],
+    "meaning": "container, receptacle, case, bag, pouch, box, holder",
+    "furigana": "いれ",
+    "romaji": "",
+    "level": ""
+  },
+  "動画": {
+    "word": "動画",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ええ動画を見させて頂いて",
+        "chinese": "是的我观看过你的视频",
+        "time_range": "00:20:15,842 --> 00:20:17,969"
+      }
+    ],
+    "meaning": "video (esp. digital), video clip, clip",
+    "furigana": "どうが",
+    "romaji": "",
+    "level": ""
+  },
+  "させ": {
+    "word": "させ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ええ動画を見させて頂いて",
+        "chinese": "是的我观看过你的视频",
+        "time_range": "00:20:15,842 --> 00:20:17,969"
+      }
+    ],
+    "meaning": "turning to the left, left turn",
+    "furigana": "させつ",
+    "romaji": "",
+    "level": ""
+  },
+  "頂い": {
+    "word": "頂い",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ええ動画を見させて頂いて",
+        "chinese": "是的我观看过你的视频",
+        "time_range": "00:20:15,842 --> 00:20:17,969"
+      }
+    ],
+    "meaning": "receiving, getting, accepting, being given",
+    "furigana": "ちょうだい",
+    "romaji": "",
+    "level": ""
+  },
+  "さすが": {
+    "word": "さすが",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "さすが人気は上々",
+        "chinese": "真不愧是人气宠儿",
+        "time_range": "00:20:18,344 --> 00:20:19,971"
+      }
+    ],
+    "meaning": "as one would expect, just as you'd expect (from), just like (someone)",
+    "furigana": "さすが",
+    "romaji": "",
+    "level": ""
+  },
+  "上々": {
+    "word": "上々",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "さすが人気は上々",
+        "chinese": "真不愧是人气宠儿",
+        "time_range": "00:20:18,344 --> 00:20:19,971"
+      }
+    ],
+    "meaning": "the very best, excellent, superb",
+    "furigana": "じょうじょう",
+    "romaji": "",
+    "level": ""
+  },
+  "続け": {
+    "word": "続け",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "いつまでも今のスタイルを続けてはいけませんわよね？",
+        "chinese": "一直走现在的路线也不是办法吧？",
+        "time_range": "00:20:21,222 --> 00:20:24,100"
+      }
+    ],
+    "meaning": "to continue, to keep up, to keep on",
+    "furigana": "つづける",
+    "romaji": "",
+    "level": ""
+  },
+  "いけ": {
+    "word": "いけ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "いつまでも今のスタイルを続けてはいけませんわよね？",
+        "chinese": "一直走现在的路线也不是办法吧？",
+        "time_range": "00:20:21,222 --> 00:20:24,100"
+      }
+    ],
+    "meaning": "pond",
+    "furigana": "いけ",
+    "romaji": "",
+    "level": ""
+  },
+  "来ら": {
+    "word": "来ら",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ここに来られたということは",
+        "chinese": "既然你会来到这里",
+        "time_range": "00:20:26,227 --> 00:20:27,979"
+      }
+    ],
+    "meaning": "round pillars each side of the wall behind a shumidan dais",
+    "furigana": "らいごうばしら",
+    "romaji": "",
+    "level": ""
+  },
+  "ところ": {
+    "word": "ところ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あなたご自身思うところがあるんじゃありませんの？",
+        "chinese": "我想你心里应该多少也有些想法吧",
+        "time_range": "00:20:28,229 --> 00:20:31,107"
+      }
+    ],
+    "meaning": "place, spot, scene, site",
+    "furigana": "ところ",
+    "romaji": "",
+    "level": ""
+  },
+  "わけ": {
+    "word": "わけ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "でなんでア々シなわけ？",
+        "chinese": "那为什么会选上我？",
+        "time_range": "00:20:33,484 --> 00:20:35,612"
+      }
+    ],
+    "meaning": "reason, cause, grounds",
+    "furigana": "わけ",
+    "romaji": "",
+    "level": ""
+  },
+  "利き": {
+    "word": "利き",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "あなた両利きですわね？",
+        "chinese": "你的双手都是惯用手吧",
+        "time_range": "00:20:42,619 --> 00:20:43,995"
+      }
+    ],
+    "meaning": "effectiveness, efficacy, efficaciousness",
+    "furigana": "きき",
+    "romaji": "",
+    "level": ""
+  },
+  "なき": {
+    "word": "なき",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "特殊なき方で",
+        "chinese": "打鼓方式很特殊",
+        "time_range": "00:20:45,121 --> 00:20:46,247"
+      }
+    ],
+    "meaning": "weeping, lamenting",
+    "furigana": "なき",
+    "romaji": "",
+    "level": ""
+  },
+  "見栄え": {
+    "word": "見栄え",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見栄えも派手で華がありますお",
+        "chinese": "看起来惊艳又华丽",
+        "time_range": "00:20:46,497 --> 00:20:48,499"
+      }
+    ],
+    "meaning": "show, display, pretensions, appearances, ostentation, vanity",
+    "furigana": "みえ",
+    "romaji": "",
+    "level": ""
+  },
+  "あり": {
+    "word": "あり",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "見栄えも派手で華がありますお",
+        "chinese": "看起来惊艳又华丽",
+        "time_range": "00:20:46,497 --> 00:20:48,499"
+      }
+    ],
+    "meaning": "ant",
+    "furigana": "あり",
+    "romaji": "",
+    "level": ""
+  },
+  "たく": {
+    "word": "たく",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "それで是非わたくレのバンドにと",
+        "chinese": "所以希望你务必加入我的乐队",
+        "time_range": "00:20:48,875 --> 00:20:51,127"
+      }
+    ],
+    "meaning": "house, home",
+    "furigana": "たく",
+    "romaji": "",
+    "level": ""
+  },
+  "頂か": {
+    "word": "頂か",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "もちろんドラムはもっと上達して頂かなくてはなりませんが",
+        "chinese": "当然还是得请你继续磨炼鼓技",
+        "time_range": "00:20:51,878 --> 00:20:55,757"
+      }
+    ],
+    "meaning": "crown (of head), summit (of mountain), spire",
+    "furigana": "いただき",
+    "romaji": "",
+    "level": ""
+  },
+  "アタシ": {
+    "word": "アタシ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "アタシにメリットあんの？",
+        "chinese": "这对我有什么好处吗",
+        "time_range": "00:20:57,383 --> 00:20:59,135"
+      },
+      {
+        "japanese": "でそこにアタシ",
+        "chinese": "然后再加上我",
+        "time_range": "00:21:20,907 --> 00:21:23,034"
+      }
+    ],
+    "meaning": "I, me",
+    "furigana": "あたし",
+    "romaji": "",
+    "level": ""
+  },
+  "メリット": {
+    "word": "メリット",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "アタシにメリットあんの？",
+        "chinese": "这对我有什么好处吗",
+        "time_range": "00:20:57,383 --> 00:20:59,135"
+      }
+    ],
+    "meaning": "advantage, benefit, merit, good point, plus",
+    "furigana": "メリット",
+    "romaji": "",
+    "level": ""
+  },
+  "あん": {
+    "word": "あん",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "アタシにメリットあんの？",
+        "chinese": "这对我有什么好处吗",
+        "time_range": "00:20:57,383 --> 00:20:59,135"
+      }
+    ],
+    "meaning": "idea, plan, proposal, suggestion, (government) bill",
+    "furigana": "あん",
+    "romaji": "",
+    "level": ""
+  },
+  "若葉": {
+    "word": "若葉",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "若葉睦じゃん",
+        "chinese": "这不是若叶睦吗",
+        "time_range": "00:21:03,264 --> 00:21:04,390"
+      }
+    ],
+    "meaning": "new leaves, young leaves, fresh verdure",
+    "furigana": "わかば",
+    "romaji": "",
+    "level": ""
+  },
+  "みなみ": {
+    "word": "みなみ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "女優の森みなみの娘でしょ？",
+        "chinese": "她是女演员森美奈美的女儿吧",
+        "time_range": "00:21:04,766 --> 00:21:06,643"
+      }
+    ],
+    "meaning": "south",
+    "furigana": "みなみ",
+    "romaji": "",
+    "level": ""
+  },
+  "メンバ": {
+    "word": "メンバ",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "メンバ一の一人ですわ",
+        "chinese": "她是乐队成员之一",
+        "time_range": "00:21:06,893 --> 00:21:08,144"
+      }
+    ],
+    "meaning": "member, participant, attendee, lineup (sport)",
+    "furigana": "メンバー",
+    "romaji": "",
+    "level": ""
+  },
+  "ボーカル": {
+    "word": "ボーカル",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ボーカルにはSumimiの初華",
+        "chinese": "主唱是Sumimi的初华",
+        "time_range": "00:21:09,395 --> 00:21:11,397"
+      }
+    ],
+    "meaning": "vocal (performance), vocals, singing",
+    "furigana": "ボーカル",
+    "romaji": "",
+    "level": ""
+  },
+  "sumimi": {
+    "word": "sumimi",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "ボーカルにはSumimiの初華",
+        "chinese": "主唱是Sumimi的初华",
+        "time_range": "00:21:09,395 --> 00:21:11,397"
+      }
+    ],
+    "meaning": "英语单词",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  },
+  "すでに": {
+    "word": "すでに",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "事務所ともすでに話がついていますわ",
+        "chinese": "我已经和经纪公司谈妥了",
+        "time_range": "00:21:11,648 --> 00:21:14,025"
+      }
+    ],
+    "meaning": "already",
+    "furigana": "すでに",
+    "romaji": "",
+    "level": ""
+  },
+  "つい": {
+    "word": "つい",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "事務所ともすでに話がついていますわ",
+        "chinese": "我已经和经纪公司谈妥了",
+        "time_range": "00:21:11,648 --> 00:21:14,025"
+      }
+    ],
+    "meaning": "pair, couple, set",
+    "furigana": "つい",
+    "romaji": "",
+    "level": ""
+  },
+  "言ってる": {
+    "word": "言ってる",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "待ってよマジで言ってる？",
+        "chinese": "等一下你是认真的吗",
+        "time_range": "00:21:14,275 --> 00:21:16,527"
+      }
+    ],
+    "meaning": "to say, to utter, to declare",
+    "furigana": "いう",
+    "romaji": "",
+    "level": ""
+  },
+  "加え": {
+    "word": "加え",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "加えてベースには",
+        "chinese": "而我找到的贝斯手",
+        "time_range": "00:21:16,903 --> 00:21:18,029"
+      }
+    ],
+    "meaning": "to add, to add up, to sum up, to append, to annex",
+    "furigana": "くわえる",
+    "romaji": "",
+    "level": ""
+  },
+  "遜色": {
+    "word": "遜色",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "プロと遜色ない腕前の人間を",
+        "chinese": "水准也丝毫不输职业级",
+        "time_range": "00:21:18,404 --> 00:21:20,406"
+      }
+    ],
+    "meaning": "inferiority",
+    "furigana": "そんしょく",
+    "romaji": "",
+    "level": ""
+  },
+  "盤石": {
+    "word": "盤石",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "バンドとして盤石の布陣ですわ",
+        "chinese": "以乐队来说这个阵容可谓稳如磐石",
+        "time_range": "00:21:23,284 --> 00:21:26,037"
+      }
+    ],
+    "meaning": "huge rock",
+    "furigana": "ばんじゃく",
+    "romaji": "",
+    "level": ""
+  },
+  "布陣": {
+    "word": "布陣",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "バンドとして盤石の布陣ですわ",
+        "chinese": "以乐队来说这个阵容可谓稳如磐石",
+        "time_range": "00:21:23,284 --> 00:21:26,037"
+      }
+    ],
+    "meaning": "battle formation",
+    "furigana": "ふじん",
+    "romaji": "",
+    "level": ""
+  },
+  "わたくし": {
+    "word": "わたくし",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "わたくしたちは最短でメジャーデビュー致します",
+        "chinese": "我们要在最短的时间内主流出道",
+        "time_range": "00:21:30,667 --> 00:21:33,419"
+      },
+      {
+        "japanese": "残りの人生わたくしにくださいませんか",
+        "chinese": "你愿意将剩余的人生交给我吗",
+        "time_range": "00:21:50,311 --> 00:21:54,816"
+      }
+    ],
+    "meaning": "I, me",
+    "furigana": "わたし",
+    "romaji": "",
+    "level": ""
+  },
+  "最短": {
+    "word": "最短",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "わたくしたちは最短でメジャーデビュー致します",
+        "chinese": "我们要在最短的时间内主流出道",
+        "time_range": "00:21:30,667 --> 00:21:33,419"
+      }
+    ],
+    "meaning": "shortest",
+    "furigana": "さいたん",
+    "romaji": "",
+    "level": ""
+  },
+  "メジャー": {
+    "word": "メジャー",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "わたくしたちは最短でメジャーデビュー致します",
+        "chinese": "我们要在最短的时间内主流出道",
+        "time_range": "00:21:30,667 --> 00:21:33,419"
+      }
+    ],
+    "meaning": "major, large, important, famous, mainstream",
+    "furigana": "メジャー",
+    "romaji": "",
+    "level": ""
+  },
+  "デビュー": {
+    "word": "デビュー",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "わたくしたちは最短でメジャーデビュー致します",
+        "chinese": "我们要在最短的时间内主流出道",
+        "time_range": "00:21:30,667 --> 00:21:33,419"
+      }
+    ],
+    "meaning": "debut, doing something for the first time",
+    "furigana": "デビュー",
+    "romaji": "",
+    "level": ""
+  },
+  "致し": {
+    "word": "致し",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "わたくしたちは最短でメジャーデビュー致します",
+        "chinese": "我们要在最短的时间内主流出道",
+        "time_range": "00:21:30,667 --> 00:21:33,419"
+      }
+    ],
+    "meaning": "way, method, means, resource, course",
+    "furigana": "いたしかた",
+    "romaji": "",
+    "level": ""
+  },
+  "前向き": {
+    "word": "前向き",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "前向きにご検討頂けますでしょうか？",
+        "chinese": "能否请你积极考虑我的邀请呢？",
+        "time_range": "00:21:35,672 --> 00:21:38,049"
+      }
+    ],
+    "meaning": "front-facing",
+    "furigana": "まえむき",
+    "romaji": "",
+    "level": ""
+  },
+  "頂け": {
+    "word": "頂け",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "前向きにご検討頂けますでしょうか？",
+        "chinese": "能否请你积极考虑我的邀请呢？",
+        "time_range": "00:21:35,672 --> 00:21:38,049"
+      }
+    ],
+    "meaning": "to be able to receive, to be able to take, to be able to accept",
+    "furigana": "いただける",
+    "romaji": "",
+    "level": ""
+  },
+  "祐天寺": {
+    "word": "祐天寺",
+    "count": 3,
+    "sentences": [
+      {
+        "japanese": "祐天寺",
+        "chinese": "祐天寺",
+        "time_range": "00:21:41,302 --> 00:21:42,178"
+      },
+      {
+        "japanese": "祐天寺にゃむっていうの",
+        "chinese": "我叫祐天寺若麦",
+        "time_range": "00:21:43,554 --> 00:21:44,931"
+      },
+      {
+        "japanese": "では改めて祐天寺にやむさん",
+        "chinese": "那么容我再问一次祐天寺若麦小姐",
+        "time_range": "00:21:45,682 --> 00:21:48,309"
+      }
+    ],
+    "meaning": "Yuutenji",
+    "furigana": "ゆうてんじ",
+    "romaji": "",
+    "level": ""
+  },
+  "ゃむっていうの": {
+    "word": "ゃむっていうの",
+    "count": 1,
+    "sentences": [
+      {
+        "japanese": "祐天寺にゃむっていうの",
+        "chinese": "我叫祐天寺若麦",
+        "time_range": "00:21:43,554 --> 00:21:44,931"
+      }
+    ],
+    "meaning": "",
+    "furigana": "",
+    "romaji": "",
+    "level": ""
+  }
+}

@@ -39,10 +39,10 @@
         "time_range": "00:15:16,290 --> 00:15:17,291"
       }
     ],
-    "meaning": "live performance, concert",
-    "furigana": "ライブ",
-    "romaji": "raibu",
-    "level": "N2"
+    "meaning": "专有名词",
+    "furigana": "",
+    "romaji": "",
+    "level": "N0"
   },
   "ジャズ": {
     "word": "ジャズ",
@@ -60,7 +60,7 @@
       }
     ],
     "meaning": "jazz",
-    "furigana": "ジャズ",
+    "furigana": "",
     "romaji": "jazu",
     "level": "N1"
   },
@@ -109,7 +109,7 @@
     "count": 3,
     "sentences": [
       {
-        "japanese": "CryCHicを始めて...",
+        "japanese": "CRYCHICを始めて...",
         "chinese": "组成CRYCHIC后",
         "time_range": "00:07:53,348 --> 00:07:55,225"
       },
@@ -119,7 +119,7 @@
         "time_range": "00:15:17,542 --> 00:15:19,919"
       },
       {
-        "japanese": "CRYCHIcを始めたのは 祥ちゃんだよ？",
+        "japanese": "CRYCHICを始めたのは 祥ちゃんだよ？",
         "chinese": "当初创建CRYCHIC的人是小祥啊",
         "time_range": "00:20:05,955 --> 00:20:08,833"
       }
@@ -142,6 +142,26 @@
     "meaning": "as ever; as usual; the same",
     "furigana": "あいかわらず",
     "romaji": "aikawarazu",
+    "level": "N1"
+  },
+  "メッセージ": {
+    "word": "メッセージ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "さきちゃんのメッセージ見て",
+        "chinese": "每次看到你发给我的信息",
+        "time_range": "00:09:30,945 --> 00:09:32,447"
+      },
+      {
+        "japanese": "めちゃくちゃメッセージ溜まってるじゃない",
+        "chinese": "怎么揽了这么多未读信息啊？",
+        "time_range": "00:14:09,474 --> 00:14:11,726"
+      }
+    ],
+    "meaning": "message",
+    "furigana": "",
+    "romaji": "messēji",
     "level": "N1"
   },
   "憧れ": {
@@ -187,21 +207,6 @@
     "meaning": "results; fruits",
     "furigana": "せいか",
     "romaji": "seika",
-    "level": "N1"
-  },
-  "メッセージ": {
-    "word": "メッセージ",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "めちゃくちゃメッセージ溜まってるじゃない",
-        "chinese": "怎么揽了这么多未读信息啊？",
-        "time_range": "00:14:09,474 --> 00:14:11,726"
-      }
-    ],
-    "meaning": "message",
-    "furigana": "メッセージ",
-    "romaji": "messēji",
     "level": "N1"
   },
   "いい加減": {
@@ -254,6 +259,26 @@
     "romaji": "fukkatsu",
     "level": "N1"
   },
+  "めちゃくちゃ": {
+    "word": "めちゃくちゃ",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "めちゃくちゃカッコイイんだもん",
+        "chinese": "你唱歌时真的好帅气",
+        "time_range": "00:02:11,882 --> 00:02:13,508"
+      },
+      {
+        "japanese": "めちゃくちゃメッセージ溜まってるじゃない",
+        "chinese": "怎么揽了这么多未读信息啊？",
+        "time_range": "00:14:09,474 --> 00:14:11,726"
+      }
+    ],
+    "meaning": "absurd, unreasonable, excessive, messed up, spoiled, wreaked",
+    "furigana": "",
+    "romaji": "mechakucha",
+    "level": "N2"
+  },
   "ステージ": {
     "word": "ステージ",
     "count": 1,
@@ -265,7 +290,7 @@
       }
     ],
     "meaning": "(1) stage, (2) performance",
-    "furigana": "ステージ",
+    "furigana": "",
     "romaji": "sutēji",
     "level": "N2"
   },
@@ -310,7 +335,7 @@
       }
     ],
     "meaning": "band",
-    "furigana": "バンド",
+    "furigana": "",
     "romaji": "bando",
     "level": "N2"
   },
@@ -325,7 +350,7 @@
       }
     ],
     "meaning": "(uk) abruptly, suddenly, all of a sudden, without warning",
-    "furigana": "いきなり",
+    "furigana": "",
     "romaji": "ikinari",
     "level": "N2"
   },
@@ -342,21 +367,6 @@
     "meaning": "dear, desired, missed",
     "furigana": "なつかしい",
     "romaji": "natsukashii",
-    "level": "N2"
-  },
-  "めちゃくちゃ": {
-    "word": "めちゃくちゃ",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "めちゃくちゃメッセージ溜まってるじゃない",
-        "chinese": "怎么揽了这么多未读信息啊？",
-        "time_range": "00:14:09,474 --> 00:14:11,726"
-      }
-    ],
-    "meaning": "absurd, unreasonable, excessive, messed up, spoiled, wreaked",
-    "furigana": "めちゃくちゃ",
-    "romaji": "mechakucha",
     "level": "N2"
   },
   "通知": {
@@ -385,7 +395,7 @@
       }
     ],
     "meaning": "shameful, indecent",
-    "furigana": "みっともない",
+    "furigana": "",
     "romaji": "mittomonai",
     "level": "N2"
   },
@@ -460,7 +470,7 @@
       }
     ],
     "meaning": "anyhow, at any rate, anyway, somehow or other, generally speaking, in any case",
-    "furigana": "とにかく",
+    "furigana": "",
     "romaji": "tonikaku",
     "level": "N3"
   },
@@ -475,7 +485,7 @@
       }
     ],
     "meaning": "good",
-    "furigana": "いい",
+    "furigana": "",
     "romaji": "ii",
     "level": "N3"
   },
@@ -505,8 +515,8 @@
       }
     ],
     "meaning": "sorry, excuse me",
-    "furigana": "すみません",
-    "romaji": "sumimasen",
+    "furigana": "（感）",
+    "romaji": "()",
     "level": "N3"
   },
   "連れ": {
@@ -550,7 +560,7 @@
       }
     ],
     "meaning": "I beg your pardon, excuse me",
-    "furigana": "ごめんなさい",
+    "furigana": "",
     "romaji": "gomennasai",
     "level": "N3"
   },
@@ -585,7 +595,7 @@
       }
     ],
     "meaning": "(conj, exp, int) Thank you",
-    "furigana": "ありがとう",
+    "furigana": "",
     "romaji": "arigatō",
     "level": "N3"
   },
@@ -615,7 +625,7 @@
       }
     ],
     "meaning": "professional",
-    "furigana": "プロ",
+    "furigana": "",
     "romaji": "puro",
     "level": "N3"
   },
@@ -630,7 +640,7 @@
       }
     ],
     "meaning": "what, what kind of",
-    "furigana": "どんな",
+    "furigana": "",
     "romaji": "donna",
     "level": "N3"
   },
@@ -660,7 +670,7 @@
       }
     ],
     "meaning": "by no means",
-    "furigana": "まさか",
+    "furigana": "",
     "romaji": "masaka",
     "level": "N3"
   },
@@ -699,13 +709,13 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "の前はびっくりしちゃった",
+        "japanese": "の前はびっくりしちゃつ",
         "chinese": "上次我真的吓了一踏",
         "time_range": "00:13:05,660 --> 00:13:07,537"
       }
     ],
     "meaning": "be surprised, be amazed, be frightened, astonishment",
-    "furigana": "びっくり",
+    "furigana": "",
     "romaji": "bikkuri",
     "level": "N3"
   },
@@ -735,7 +745,7 @@
       }
     ],
     "meaning": "without change, as it is (i.e. now)",
-    "furigana": "そのまま",
+    "furigana": "",
     "romaji": "sonomama",
     "level": "N3"
   },
@@ -750,7 +760,7 @@
       }
     ],
     "meaning": "perfectly, properly, exactly",
-    "furigana": "ちゃんと",
+    "furigana": "",
     "romaji": "chanto",
     "level": "N3"
   },
@@ -780,7 +790,7 @@
       }
     ],
     "meaning": "but, because, even, also, too",
-    "furigana": "だって",
+    "furigana": "",
     "romaji": "datte",
     "level": "N3"
   },
@@ -804,13 +814,13 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "どうしても会って謝りたくて",
+        "japanese": "どうしても会つて謝りたくて",
         "chinese": "我无论如何都想当面向你道",
         "time_range": "00:17:36,180 --> 00:17:38,557"
       }
     ],
     "meaning": "by all means, at any cost, no matter what",
-    "furigana": "どうしても",
+    "furigana": "",
     "romaji": "dōshitemo",
     "level": "N3"
   },
@@ -889,7 +899,7 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "ＣRYＣHIＣは壊れてしまいましたわ",
+        "japanese": "CRYCHICは壊れてしまいましたわ",
         "chinese": "CRYCHIC已经毁了",
         "time_range": "00:19:16,530 --> 00:19:18,657"
       }
@@ -919,7 +929,7 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "私は.…ＣRCHICのためにずっと頑張ってきた",
+        "japanese": "私はCRYCHICのためにずっと頑張ってきた",
         "chinese": "我一直在为了CRYCHIC而努力",
         "time_range": "00:20:13,587 --> 00:20:17,716"
       }
@@ -1214,7 +1224,7 @@
         "time_range": "00:09:08,673 --> 00:09:09,799"
       },
       {
-        "japanese": "さきちゃんのメツセージ見て",
+        "japanese": "さきちゃんのメッセージ見て",
         "chinese": "每次看到你发给我的信息",
         "time_range": "00:09:30,945 --> 00:09:32,447"
       },
@@ -1349,7 +1359,7 @@
         "time_range": "00:19:39,678 --> 00:19:42,681"
       },
       {
-        "japanese": "CRYCHIcを始めたのは 祥ちゃんだよ？",
+        "japanese": "CRYCHICを始めたのは 祥ちゃんだよ？",
         "chinese": "当初创建CRYCHIC的人是小祥啊",
         "time_range": "00:20:05,955 --> 00:20:08,833"
       },
@@ -1454,7 +1464,7 @@
     "count": 2,
     "sentences": [
       {
-        "japanese": "々音楽室でピアノ弾いてて。",
+        "japanese": "偶々音楽室でピアノ弾いてて。",
         "chinese": "她偶尔会在音乐教室弹钢琴",
         "time_range": "00:03:20,701 --> 00:03:22,828"
       },
@@ -2084,7 +2094,7 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "々音楽室でピアノ弾いてて。",
+        "japanese": "偶々音楽室でピアノ弾いてて。",
         "chinese": "她偶尔会在音乐教室弹钢琴",
         "time_range": "00:03:20,701 --> 00:03:22,828"
       }
@@ -2107,21 +2117,6 @@
     "meaning": "skillful",
     "furigana": "じょうず",
     "romaji": "jōzu",
-    "level": "N5"
-  },
-  "名前": {
-    "word": "名前",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "下の名前祥子っていうんだ",
-        "chinese": "原来她的名字念作Sakiko啊",
-        "time_range": "00:03:40,971 --> 00:03:43,473"
-      }
-    ],
-    "meaning": "name",
-    "furigana": "なまえ",
-    "romaji": "namae",
     "level": "N5"
   },
   "では": {
@@ -3159,8 +3154,8 @@
     "count": 2,
     "sentences": [
       {
-        "japanese": "なんで春日影やったの？",
-        "chinese": "为什么要演奏《春日影》？",
+        "japanese": "なんで春日影やったの",
+        "chinese": "为什么要演奏《春日影》",
         "time_range": "00:00:02,753 --> 00:00:04,630"
       },
       {
@@ -3179,8 +3174,8 @@
     "count": 4,
     "sentences": [
       {
-        "japanese": "なんで春日影やったの？",
-        "chinese": "为什么要演奏《春日影》？",
+        "japanese": "なんで春日影やったの",
+        "chinese": "为什么要演奏《春日影》",
         "time_range": "00:00:02,753 --> 00:00:04,630"
       },
       {
@@ -3209,8 +3204,8 @@
     "count": 4,
     "sentences": [
       {
-        "japanese": "なんで春日影やったの？",
-        "chinese": "为什么要演奏《春日影》？",
+        "japanese": "なんで春日影やったの",
+        "chinese": "为什么要演奏《春日影》",
         "time_range": "00:00:02,753 --> 00:00:04,630"
       },
       {
@@ -3231,21 +3226,6 @@
     ],
     "meaning": "eight",
     "furigana": "やっつ",
-    "romaji": "",
-    "level": ""
-  },
-  "はぁ": {
-    "word": "はぁ",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "はぁ？",
-        "chinese": "哈？",
-        "time_range": "00:00:04,880 --> 00:00:05,255"
-      }
-    ],
-    "meaning": "yes, indeed, well",
-    "furigana": "はあ",
     "romaji": "",
     "level": ""
   },
@@ -3490,7 +3470,7 @@
     "sentences": [
       {
         "japanese": "知らない人みたいだったよ",
-        "chinese": "台上的你好像变了个次",
+        "chinese": "台上的你好像变了个人",
         "time_range": "00:02:10,255 --> 00:02:11,506"
       },
       {
@@ -3510,7 +3490,7 @@
     "sentences": [
       {
         "japanese": "知らない人みたいだったよ",
-        "chinese": "台上的你好像变了个次",
+        "chinese": "台上的你好像变了个人",
         "time_range": "00:02:10,255 --> 00:02:11,506"
       }
     ],
@@ -3519,27 +3499,12 @@
     "romaji": "",
     "level": ""
   },
-  "くち": {
-    "word": "くち",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "めちゃくちやカッコイイんだもん",
-        "chinese": "你唱歌时真的好帅气",
-        "time_range": "00:02:11,882 --> 00:02:13,508"
-      }
-    ],
-    "meaning": "mouth",
-    "furigana": "くち",
-    "romaji": "",
-    "level": ""
-  },
   "カッコイイ": {
     "word": "カッコイイ",
     "count": 1,
     "sentences": [
       {
-        "japanese": "めちゃくちやカッコイイんだもん",
+        "japanese": "めちゃくちゃカッコイイんだもん",
         "chinese": "你唱歌时真的好帅气",
         "time_range": "00:02:11,882 --> 00:02:13,508"
       }
@@ -3554,7 +3519,7 @@
     "count": 2,
     "sentences": [
       {
-        "japanese": "めちゃくちやカッコイイんだもん",
+        "japanese": "めちゃくちゃカッコイイんだもん",
         "chinese": "你唱歌时真的好帅气",
         "time_range": "00:02:11,882 --> 00:02:13,508"
       },
@@ -3761,7 +3726,7 @@
   },
   "祥子": {
     "word": "祥子",
-    "count": 6,
+    "count": 5,
     "sentences": [
       {
         "japanese": "祥子ちゃんなんで来てたんだろうね",
@@ -3787,11 +3752,6 @@
         "japanese": "祥子ちゃん？",
         "chinese": "祥子",
         "time_range": "00:03:35,841 --> 00:03:36,591"
-      },
-      {
-        "japanese": "下の名前祥子っていうんだ",
-        "chinese": "原来她的名字念作Sakiko啊",
-        "time_range": "00:03:40,971 --> 00:03:43,473"
       }
     ],
     "meaning": "",
@@ -3864,7 +3824,7 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "々音楽室でピアノ弾いてて。",
+        "japanese": "偶々音楽室でピアノ弾いてて。",
         "chinese": "她偶尔会在音乐教室弹钢琴",
         "time_range": "00:03:20,701 --> 00:03:22,828"
       }
@@ -4529,37 +4489,12 @@
     "romaji": "",
     "level": ""
   },
-  "つて": {
-    "word": "つて",
-    "count": 3,
-    "sentences": [
-      {
-        "japanese": "つてムシ？",
-        "chinese": "虫子？",
-        "time_range": "00:07:33,203 --> 00:07:34,079"
-      },
-      {
-        "japanese": "バンドやりたいつて",
-        "chinese": "她说想练习",
-        "time_range": "00:14:45,510 --> 00:14:46,761"
-      },
-      {
-        "japanese": "どうしても会つて謝りたくて",
-        "chinese": "我无论如何都想当面向你道",
-        "time_range": "00:17:36,180 --> 00:17:38,557"
-      }
-    ],
-    "meaning": "means of making contact, intermediary, go-between",
-    "furigana": "つて",
-    "romaji": "",
-    "level": ""
-  },
   "ムシ": {
     "word": "ムシ",
     "count": 3,
     "sentences": [
       {
-        "japanese": "つてムシ？",
+        "japanese": "ってムシ？",
         "chinese": "虫子？",
         "time_range": "00:07:33,203 --> 00:07:34,079"
       },
@@ -4666,10 +4601,10 @@
   },
   "crychic": {
     "word": "crychic",
-    "count": 3,
+    "count": 5,
     "sentences": [
       {
-        "japanese": "CryCHicを始めて...",
+        "japanese": "CRYCHICを始めて...",
         "chinese": "组成CRYCHIC后",
         "time_range": "00:07:53,348 --> 00:07:55,225"
       },
@@ -4679,9 +4614,19 @@
         "time_range": "00:18:30,234 --> 00:18:32,737"
       },
       {
-        "japanese": "CRYCHIcを始めたのは 祥ちゃんだよ？",
+        "japanese": "CRYCHICは壊れてしまいましたわ",
+        "chinese": "CRYCHIC已经毁了",
+        "time_range": "00:19:16,530 --> 00:19:18,657"
+      },
+      {
+        "japanese": "CRYCHICを始めたのは 祥ちゃんだよ？",
         "chinese": "当初创建CRYCHIC的人是小祥啊",
         "time_range": "00:20:05,955 --> 00:20:08,833"
+      },
+      {
+        "japanese": "私はCRYCHICのためにずっと頑張ってきた",
+        "chinese": "我一直在为了CRYCHIC而努力",
+        "time_range": "00:20:13,587 --> 00:20:17,716"
       }
     ],
     "meaning": "英语单词",
@@ -4694,7 +4639,7 @@
     "count": 2,
     "sentences": [
       {
-        "japanese": "CryCHicを始めて...",
+        "japanese": "CRYCHICを始めて...",
         "chinese": "组成CRYCHIC后",
         "time_range": "00:07:53,348 --> 00:07:55,225"
       },
@@ -4709,12 +4654,32 @@
     "romaji": "",
     "level": ""
   },
+  "すごく": {
+    "word": "すごく",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "すごく温かくて…",
+        "chinese": "我感觉充满了温暖",
+        "time_range": "00:07:56,976 --> 00:08:00,355"
+      },
+      {
+        "japanese": "朝練すごく頑張ってたよ",
+        "chinese": "你早上练习时很努力哦",
+        "time_range": "00:12:55,900 --> 00:12:58,277"
+      }
+    ],
+    "meaning": "awfully, very, immensely",
+    "furigana": "すごく",
+    "romaji": "",
+    "level": ""
+  },
   "温かく": {
     "word": "温かく",
     "count": 1,
     "sentences": [
       {
-        "japanese": "すビく温かくて…",
+        "japanese": "すごく温かくて…",
         "chinese": "我感觉充满了温暖",
         "time_range": "00:07:56,976 --> 00:08:00,355"
       }
@@ -4729,7 +4694,7 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "なのに0",
+        "japanese": "なのに",
         "chinese": "可是",
         "time_range": "00:08:07,612 --> 00:08:08,363"
       }
@@ -4764,7 +4729,7 @@
         "time_range": "00:09:08,673 --> 00:09:09,799"
       },
       {
-        "japanese": "さきちゃんのメツセージ見て",
+        "japanese": "さきちゃんのメッセージ見て",
         "chinese": "每次看到你发给我的信息",
         "time_range": "00:09:30,945 --> 00:09:32,447"
       },
@@ -4966,21 +4931,6 @@
     ],
     "meaning": "ant",
     "furigana": "あり",
-    "romaji": "",
-    "level": ""
-  },
-  "メツセージ": {
-    "word": "メツセージ",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "さきちゃんのメツセージ見て",
-        "chinese": "每次看到你发给我的信息",
-        "time_range": "00:09:30,945 --> 00:09:32,447"
-      }
-    ],
-    "meaning": "",
-    "furigana": "",
     "romaji": "",
     "level": ""
   },
@@ -5614,7 +5564,7 @@
         "time_range": "00:12:55,900 --> 00:12:58,277"
       },
       {
-        "japanese": "私は.…ＣRCHICのためにずっと頑張ってきた",
+        "japanese": "私はCRYCHICのためにずっと頑張ってきた",
         "chinese": "我一直在为了CRYCHIC而努力",
         "time_range": "00:20:13,587 --> 00:20:17,716"
       }
@@ -5651,21 +5601,6 @@
     ],
     "meaning": "morning training (e.g. before school)",
     "furigana": "あされん",
-    "romaji": "",
-    "level": ""
-  },
-  "すごく": {
-    "word": "すごく",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "朝練すごく頑張ってたよ",
-        "chinese": "你早上练习时很努力哦",
-        "time_range": "00:12:55,900 --> 00:12:58,277"
-      }
-    ],
-    "meaning": "awfully, very, immensely",
-    "furigana": "すごく",
     "romaji": "",
     "level": ""
   },
@@ -5919,21 +5854,6 @@
     "romaji": "",
     "level": ""
   },
-  "キドク": {
-    "word": "キドク",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "キドク？",
-        "chinese": "已读？",
-        "time_range": "00:14:19,484 --> 00:14:20,359"
-      }
-    ],
-    "meaning": "already read",
-    "furigana": "きどく",
-    "romaji": "",
-    "level": ""
-  },
   "つく": {
     "word": "つく",
     "count": 1,
@@ -5986,6 +5906,26 @@
     ],
     "meaning": "spear, lance",
     "furigana": "やり",
+    "romaji": "",
+    "level": ""
+  },
+  "つて": {
+    "word": "つて",
+    "count": 2,
+    "sentences": [
+      {
+        "japanese": "バンドやりたいつて",
+        "chinese": "她说想练习",
+        "time_range": "00:14:45,510 --> 00:14:46,761"
+      },
+      {
+        "japanese": "どうしても会つて謝りたくて",
+        "chinese": "我无论如何都想当面向你道",
+        "time_range": "00:17:36,180 --> 00:17:38,557"
+      }
+    ],
+    "meaning": "means of making contact, intermediary, go-between",
+    "furigana": "つて",
     "romaji": "",
     "level": ""
   },
@@ -6394,27 +6334,12 @@
     "romaji": "",
     "level": ""
   },
-  "ＣRYＣHIＣ": {
-    "word": "ＣRYＣHIＣ",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "ＣRYＣHIＣは壊れてしまいましたわ",
-        "chinese": "CRYCHIC已经毁了",
-        "time_range": "00:19:16,530 --> 00:19:18,657"
-      }
-    ],
-    "meaning": "",
-    "furigana": "",
-    "romaji": "",
-    "level": ""
-  },
   "壊れ": {
     "word": "壊れ",
     "count": 1,
     "sentences": [
       {
-        "japanese": "ＣRYＣHIＣは壊れてしまいましたわ",
+        "japanese": "CRYCHICは壊れてしまいましたわ",
         "chinese": "CRYCHIC已经毁了",
         "time_range": "00:19:16,530 --> 00:19:18,657"
       }
@@ -6564,42 +6489,12 @@
     "romaji": "",
     "level": ""
   },
-  ".…": {
-    "word": ".…",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "私は.…ＣRCHICのためにずっと頑張ってきた",
-        "chinese": "我一直在为了CRYCHIC而努力",
-        "time_range": "00:20:13,587 --> 00:20:17,716"
-      }
-    ],
-    "meaning": "",
-    "furigana": "",
-    "romaji": "",
-    "level": ""
-  },
-  "ＣRCHIC": {
-    "word": "ＣRCHIC",
-    "count": 1,
-    "sentences": [
-      {
-        "japanese": "私は.…ＣRCHICのためにずっと頑張ってきた",
-        "chinese": "我一直在为了CRYCHIC而努力",
-        "time_range": "00:20:13,587 --> 00:20:17,716"
-      }
-    ],
-    "meaning": "",
-    "furigana": "",
-    "romaji": "",
-    "level": ""
-  },
   "ため": {
     "word": "ため",
     "count": 1,
     "sentences": [
       {
-        "japanese": "私は.…ＣRCHICのためにずっと頑張ってきた",
+        "japanese": "私はCRYCHICのためにずっと頑張ってきた",
         "chinese": "我一直在为了CRYCHIC而努力",
         "time_range": "00:20:13,587 --> 00:20:17,716"
       }
