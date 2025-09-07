@@ -1,8 +1,5 @@
-// 动态动画数据配置
 import { AnimeSeries } from '@/types/vocab';
 
-// 静态配置，但设计为易于扩展
-// 当添加新的集数时，只需要在这里添加对应的配置即可
 const animeSeriesConfig: AnimeSeries[] = [
   {
     series: "BanG-Dream",
@@ -14,18 +11,60 @@ const animeSeriesConfig: AnimeSeries[] = [
             season: "S1",
             episodes: [
               {
+                episode: "Ep1",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep1/ep1.json"
+              }, {
+                episode: "Ep2",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep2/ep2.json"
+              }, {
+                episode: "Ep3",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep3/ep3.json"
+              }, {
+                episode: "Ep4",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep4/ep4.json"
+              }, {
+                episode: "Ep5",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep5/ep5.json"
+              }, {
+                episode: "Ep6",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep6/ep6.json"
+              }, {
+                episode: "Ep7",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep7/ep7.json"
+              }, {
                 episode: "Ep8",
-                vocabCount: 0, // 将在运行时计算
+                vocabCount: 0,
                 filePath: "/data/BanG-Dream/MyGO/S1/Ep8/ep8.json"
-              }
-              // 添加新集数时，在这里添加新的条目
-              // {
-              //   episode: "Ep9",
-              //   vocabCount: 0,
-              //   filePath: "/data/BanG-Dream/MyGO/S1/Ep9/ep9.json"
-              // }
+              }, {
+                episode: "Ep9",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep9/ep9.json"
+              }, {
+                episode: "Ep10",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep10/ep10.json"
+              }, {
+                episode: "Ep11",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep11/ep11.json"
+              }, {
+                episode: "Ep12",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep12/ep12.json"
+              }, {
+                episode: "Ep13",
+                vocabCount: 0,
+                filePath: "/data/BanG-Dream/MyGO/S1/Ep13/ep13.json"
+              },
             ],
-            totalVocabCount: 0 // 将在运行时计算
+            totalVocabCount: 0
           }
           // 添加新季度时，在这里添加新的条目
         ],

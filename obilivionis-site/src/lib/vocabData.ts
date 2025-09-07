@@ -1,7 +1,19 @@
 import { VocabData, VocabListItem, SearchFilters, AnimeSeries, VocabStats, VocabWord } from '@/types/vocab';
 import { getAnimeSeriesConfig, getSourceFromPath } from '@/data/animeData';
 // 导入静态JSON数据
+import ep1Data from '../../data/BanG-Dream/MyGO/S1/Ep1/ep1.json';
+import ep2Data from '../../data/BanG-Dream/MyGO/S1/Ep2/ep2.json';
+import ep3Data from '../../data/BanG-Dream/MyGO/S1/Ep3/ep3.json';
+import ep4Data from '../../data/BanG-Dream/MyGO/S1/Ep4/ep4.json';
+import ep5Data from '../../data/BanG-Dream/MyGO/S1/Ep5/ep5.json';
+import ep6Data from '../../data/BanG-Dream/MyGO/S1/Ep6/ep6.json';
+import ep7Data from '../../data/BanG-Dream/MyGO/S1/Ep7/ep7.json';
 import ep8Data from '../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json';
+import ep9Data from '../../data/BanG-Dream/MyGO/S1/Ep9/ep9.json';
+import ep10Data from '../../data/BanG-Dream/MyGO/S1/Ep10/ep10.json';
+import ep11Data from '../../data/BanG-Dream/MyGO/S1/Ep11/ep11.json';
+import ep12Data from '../../data/BanG-Dream/MyGO/S1/Ep12/ep12.json';
+import ep13Data from '../../data/BanG-Dream/MyGO/S1/Ep13/ep13.json';
 
 // 缓存数据
 let cachedVocabData: VocabData | null = null;
@@ -10,12 +22,37 @@ let cachedAnimeSeries: AnimeSeries[] | null = null;
 // 同步加载JSON文件（用于已知的静态文件）
 function loadJsonFile(filePath: string): Record<string, unknown> {
   try {
-    // 对于已知的文件路径，直接返回导入的数据
-    if (filePath === '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json') {
-      // 直接返回静态导入的数据
-      return ep8Data as Record<string, unknown>;
+    // 根据文件路径返回对应的静态导入数据
+    switch (filePath) {
+      case '/data/BanG-Dream/MyGO/S1/Ep1/ep1.json':
+        return ep1Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep2/ep2.json':
+        return ep2Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep3/ep3.json':
+        return ep3Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep4/ep4.json':
+        return ep4Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep5/ep5.json':
+        return ep5Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep6/ep6.json':
+        return ep6Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep7/ep7.json':
+        return ep7Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json':
+        return ep8Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep9/ep9.json':
+        return ep9Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep10/ep10.json':
+        return ep10Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep11/ep11.json':
+        return ep11Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep12/ep12.json':
+        return ep12Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep13/ep13.json':
+        return ep13Data as Record<string, unknown>;
+      default:
+        return {};
     }
-    return {};
   } catch (error) {
     console.error(`Error loading JSON file ${filePath}:`, error);
     return {};
