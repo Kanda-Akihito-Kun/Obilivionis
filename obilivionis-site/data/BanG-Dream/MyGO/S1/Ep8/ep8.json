@@ -39,10 +39,10 @@
         "time_range": "00:15:16,290 --> 00:15:17,291"
       }
     ],
-    "meaning": "专有名词",
-    "furigana": "",
-    "romaji": "",
-    "level": "N0"
+    "meaning": "live performance, concert",
+    "furigana": "ライブ",
+    "romaji": "raibu",
+    "level": "N2"
   },
   "ジャズ": {
     "word": "ジャズ",
@@ -60,7 +60,7 @@
       }
     ],
     "meaning": "jazz",
-    "furigana": "",
+    "furigana": "ジャズ",
     "romaji": "jazu",
     "level": "N1"
   },
@@ -200,7 +200,7 @@
       }
     ],
     "meaning": "message",
-    "furigana": "",
+    "furigana": "メッセージ",
     "romaji": "messēji",
     "level": "N1"
   },
@@ -265,7 +265,7 @@
       }
     ],
     "meaning": "(1) stage, (2) performance",
-    "furigana": "",
+    "furigana": "ステージ",
     "romaji": "sutēji",
     "level": "N2"
   },
@@ -310,7 +310,7 @@
       }
     ],
     "meaning": "band",
-    "furigana": "",
+    "furigana": "バンド",
     "romaji": "bando",
     "level": "N2"
   },
@@ -325,7 +325,7 @@
       }
     ],
     "meaning": "(uk) abruptly, suddenly, all of a sudden, without warning",
-    "furigana": "",
+    "furigana": "いきなり",
     "romaji": "ikinari",
     "level": "N2"
   },
@@ -355,7 +355,7 @@
       }
     ],
     "meaning": "absurd, unreasonable, excessive, messed up, spoiled, wreaked",
-    "furigana": "",
+    "furigana": "めちゃくちゃ",
     "romaji": "mechakucha",
     "level": "N2"
   },
@@ -385,7 +385,7 @@
       }
     ],
     "meaning": "shameful, indecent",
-    "furigana": "",
+    "furigana": "みっともない",
     "romaji": "mittomonai",
     "level": "N2"
   },
@@ -460,7 +460,7 @@
       }
     ],
     "meaning": "anyhow, at any rate, anyway, somehow or other, generally speaking, in any case",
-    "furigana": "",
+    "furigana": "とにかく",
     "romaji": "tonikaku",
     "level": "N3"
   },
@@ -475,7 +475,7 @@
       }
     ],
     "meaning": "good",
-    "furigana": "",
+    "furigana": "いい",
     "romaji": "ii",
     "level": "N3"
   },
@@ -505,8 +505,8 @@
       }
     ],
     "meaning": "sorry, excuse me",
-    "furigana": "（感）",
-    "romaji": "()",
+    "furigana": "すみません",
+    "romaji": "sumimasen",
     "level": "N3"
   },
   "連れ": {
@@ -550,7 +550,7 @@
       }
     ],
     "meaning": "I beg your pardon, excuse me",
-    "furigana": "",
+    "furigana": "ごめんなさい",
     "romaji": "gomennasai",
     "level": "N3"
   },
@@ -585,7 +585,7 @@
       }
     ],
     "meaning": "(conj, exp, int) Thank you",
-    "furigana": "",
+    "furigana": "ありがとう",
     "romaji": "arigatō",
     "level": "N3"
   },
@@ -615,7 +615,7 @@
       }
     ],
     "meaning": "professional",
-    "furigana": "",
+    "furigana": "プロ",
     "romaji": "puro",
     "level": "N3"
   },
@@ -630,7 +630,7 @@
       }
     ],
     "meaning": "what, what kind of",
-    "furigana": "",
+    "furigana": "どんな",
     "romaji": "donna",
     "level": "N3"
   },
@@ -660,7 +660,7 @@
       }
     ],
     "meaning": "by no means",
-    "furigana": "",
+    "furigana": "まさか",
     "romaji": "masaka",
     "level": "N3"
   },
@@ -699,13 +699,13 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "の前はびっくりしちゃつ",
+        "japanese": "の前はびっくりしちゃった",
         "chinese": "上次我真的吓了一踏",
         "time_range": "00:13:05,660 --> 00:13:07,537"
       }
     ],
     "meaning": "be surprised, be amazed, be frightened, astonishment",
-    "furigana": "",
+    "furigana": "びっくり",
     "romaji": "bikkuri",
     "level": "N3"
   },
@@ -735,7 +735,7 @@
       }
     ],
     "meaning": "without change, as it is (i.e. now)",
-    "furigana": "",
+    "furigana": "そのまま",
     "romaji": "sonomama",
     "level": "N3"
   },
@@ -750,7 +750,7 @@
       }
     ],
     "meaning": "perfectly, properly, exactly",
-    "furigana": "",
+    "furigana": "ちゃんと",
     "romaji": "chanto",
     "level": "N3"
   },
@@ -780,7 +780,7 @@
       }
     ],
     "meaning": "but, because, even, also, too",
-    "furigana": "",
+    "furigana": "だって",
     "romaji": "datte",
     "level": "N3"
   },
@@ -804,13 +804,13 @@
     "count": 1,
     "sentences": [
       {
-        "japanese": "どうしても会つて謝りたくて",
+        "japanese": "どうしても会って謝りたくて",
         "chinese": "我无论如何都想当面向你道",
         "time_range": "00:17:36,180 --> 00:17:38,557"
       }
     ],
     "meaning": "by all means, at any cost, no matter what",
-    "furigana": "",
+    "furigana": "どうしても",
     "romaji": "dōshitemo",
     "level": "N3"
   },
