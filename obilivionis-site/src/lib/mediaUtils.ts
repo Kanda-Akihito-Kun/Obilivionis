@@ -30,8 +30,8 @@ export function getMediaUrls(timeRange: string, source: {
   // 格式化时间戳为文件名
   const timestamp = formatTimestampForFilename(startTime);
   
-  // 构建媒体文件路径，通过API路由访问
-  const basePath = `/api/media/${source.series}/${source.anime}/${source.season}/${source.episode}/media`;
+  // 构建媒体文件路径，直接访问data目录
+  const basePath = `/data/${source.series}/${source.anime}/${source.season}/${source.episode}/media`;
   
   return {
     imageUrl: `${basePath}/${timestamp}.jpg`,
