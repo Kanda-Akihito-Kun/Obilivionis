@@ -143,14 +143,14 @@ if __name__ == "__main__":
     # 检查命令行参数
     if len(sys.argv) < 3:
         print("使用方法: python media.py <视频文件路径> <JSON文件路径> [线程数]")
-        print("示例: python media.py ../video/p8.mp4 ../obilivionis-site/data/BanG-Dream/MyGO/S1/Ep8/ep8.json 2")
+        print("示例: python media.py ../video/p8.mp4 ../obilivionis-site/public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json 2")
         exit(1)
     
     # 从命令行参数获取路径
     video_path = sys.argv[1]
     json_path = sys.argv[2]
     max_workers = int(sys.argv[3]) if len(sys.argv) > 3 else 2
-    output_base_dir = "../obilivionis-site/data"
+    output_base_dir = "../obilivionis-site/public/data"
     
     # 检查文件是否存在
     if not os.path.exists(video_path):

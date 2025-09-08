@@ -1,5 +1,5 @@
 import { VocabData, VocabListItem, SearchFilters, AnimeSeries, VocabStats, VocabWord } from '@/types/vocab';
-import { getAnimeSeriesConfig, getSourceFromPath } from '@/data/animeData';
+import { getAnimeSeriesConfig, getSourceFromPath } from '../../public/data/animeData';
 
 // 缓存数据
 let cachedVocabData: VocabData | null = null;
@@ -11,55 +11,55 @@ async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> 
     // 根据文件路径动态导入对应的数据
     switch (filePath) {
       case '/data/BanG-Dream/MyGO/S1/Ep1/ep1.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep1/ep1.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep1/ep1.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep2/ep2.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep2/ep2.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep2/ep2.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep3/ep3.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep3/ep3.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep3/ep3.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep4/ep4.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep4/ep4.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep4/ep4.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep5/ep5.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep5/ep5.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep5/ep5.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep6/ep6.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep6/ep6.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep6/ep6.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep7/ep7.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep7/ep7.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep7/ep7.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep9/ep9.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep9/ep9.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep9/ep9.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep10/ep10.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep10/ep10.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep10/ep10.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep11/ep11.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep11/ep11.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep11/ep11.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep12/ep12.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep12/ep12.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep12/ep12.json');
         return jsonModule.default as Record<string, unknown>;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep13/ep13.json': {
-        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep13/ep13.json');
+        const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep13/ep13.json');
         return jsonModule.default as Record<string, unknown>;
       }
       default:

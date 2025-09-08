@@ -584,7 +584,7 @@ async function main() {
     if (process.argv.length < 3) {
         console.log('使用方法: node serifu.js <输入SRT文件> [并发数]');
         console.log('示例: node serifu.js ep8.srt 5');
-        console.log('输出文件将自动生成到 ../obilivionis-site/data/ 目录');
+        console.log('输出文件将自动生成到 ../obilivionis-site/public/data/ 目录');
         process.exit(1);
     }
 
@@ -593,7 +593,7 @@ async function main() {
 
     // 自动生成输出路径
     const baseName = path.basename(srtFile, path.extname(srtFile));
-    const outputDir = '../obilivionis-site/data/BanG-Dream/MyGO/S1/Ep8';
+    const outputDir = '../obilivionis-site/public/data/BanG-Dream/MyGO/S1/Ep8';
     const outputFile = path.join(outputDir, `${baseName}.json`);
 
     // 检查网络连接
