@@ -5,14 +5,14 @@ import MediaPlayer from "@/components/MediaPlayer";
 import { getMediaUrls } from "@/lib/mediaUtils";
 
 interface VocabDetailPageProps {
-  params: {
+  params: Promise<{
     word: string;
-  };
+  }>;
 }
-
-export default function VocabDetailPage({ params }: VocabDetailPageProps) {
-  const decodedWord = decodeURIComponent(params.word);
-  const vocabDetail = getVocabDetail(decodedWord);
+export default async function VocabDetailPage({ params }: VocabDetailPageProps) {
+  const resolvedParams = await params;
+  const decodedWord = decodeURIComponent(resolvedParams.word);
+  const vocabDetail = await getVocabDetail(decodedWord);
 
   if (!vocabDetail) {
     notFound();
@@ -175,7 +175,7 @@ export default function VocabDetailPage({ params }: VocabDetailPageProps) {
 
 // 生成静态路径（为前100个高频词汇生成静态页面）
 export async function generateStaticParams() {
-  const vocabList = getVocabList();
+  const vocabList = await getVocabList();
   
   // 为前100个高频词汇生成静态页面，其他使用ISR
   return vocabList
@@ -185,7 +185,7 @@ export async function generateStaticParams() {
       return !/[\/<>:"|?*]/.test(vocab.word);
     })
     .map((vocab) => ({
-      word: vocab.word,
+      word: encodeURIComponent(vocab.word),
     }));
 }
 

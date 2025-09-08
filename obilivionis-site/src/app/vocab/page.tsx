@@ -1,23 +1,70 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Link from "next/link";
 import { getVocabList, getAvailableJlptLevels, getAvailableSeries, getAvailableAnimes, getAvailableSeasons } from "@/lib/vocabData";
-import { SearchFilters } from "@/types/vocab";
+import { SearchFilters, VocabListItem } from "@/types/vocab";
 
 export default function VocabPage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [filters, setFilters] = useState<SearchFilters>({});
   const [sortBy, setSortBy] = useState<"frequency" | "alphabetical">("frequency");
+  const [loading, setLoading] = useState(true);
   
-  const allVocab = getVocabList();
-  const availableJlptLevels = getAvailableJlptLevels();
+  const [allVocab, setAllVocab] = useState<VocabListItem[]>([]);
+  const [availableJlptLevels, setAvailableJlptLevels] = useState<string[]>([]);
+  const [availableSeries, setAvailableSeries] = useState<string[]>([]);
+  const [availableAnimes, setAvailableAnimes] = useState<string[]>([]);
+  const [availableSeasons, setAvailableSeasons] = useState<string[]>([]);
 
-  const availableSeries = getAvailableSeries();
-  const availableAnimes = getAvailableAnimes(filters.series);
-  const availableSeasons = getAvailableSeasons(filters.series, filters.anime);
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [vocabList, jlptLevels, series] = await Promise.all([
+          getVocabList(),
+          getAvailableJlptLevels(),
+          getAvailableSeries()
+        ]);
+        setAllVocab(vocabList);
+        setAvailableJlptLevels(jlptLevels);
+        setAvailableSeries(series);
+      } catch (error) {
+        console.error('Error loading vocab data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, []);
+
+  useEffect(() => {
+    const loadAnimes = async () => {
+      if (filters.series) {
+        const animes = await getAvailableAnimes(filters.series);
+        setAvailableAnimes(animes);
+      } else {
+        setAvailableAnimes([]);
+      }
+    };
+    loadAnimes();
+  }, [filters.series]);
+
+  useEffect(() => {
+    const loadSeasons = async () => {
+      if (filters.series && filters.anime) {
+        const seasons = await getAvailableSeasons(filters.series, filters.anime);
+        setAvailableSeasons(seasons);
+      } else {
+        setAvailableSeasons([]);
+      }
+    };
+    loadSeasons();
+  }, [filters.series, filters.anime]);
 
   const filteredAndSortedVocab = useMemo(() => {
+    if (loading || allVocab.length === 0) {
+      return [];
+    }
     const filtered = allVocab.filter(item => {
       // 搜索过滤
       const matchesSearch = !searchQuery || 
@@ -52,12 +99,23 @@ export default function VocabPage() {
     }
 
     return filtered;
-  }, [allVocab, searchQuery, filters, sortBy]);
+  }, [allVocab, searchQuery, filters, sortBy, loading]);
 
   const clearFilters = () => {
     setSearchQuery("");
     setFilters({});
   };
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600 dark:text-gray-300">加载词汇数据中...</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">

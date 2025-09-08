@@ -3,18 +3,19 @@ import Link from "next/link";
 import { getAnimeSeries } from "@/lib/vocabData";
 
 interface SeasonDetailPageProps {
-  params: {
+  params: Promise<{
     series: string;
     anime: string;
     season: string;
-  };
+  }>;
 }
 
-export default function SeasonDetailPage({ params }: SeasonDetailPageProps) {
-  const decodedSeries = decodeURIComponent(params.series);
-  const decodedAnime = decodeURIComponent(params.anime);
-  const decodedSeason = decodeURIComponent(params.season);
-  const allSeries = getAnimeSeries();
+export default async function SeasonDetailPage({ params }: SeasonDetailPageProps) {
+  const resolvedParams = await params;
+  const decodedSeries = decodeURIComponent(resolvedParams.series);
+  const decodedAnime = decodeURIComponent(resolvedParams.anime);
+  const decodedSeason = decodeURIComponent(resolvedParams.season);
+  const allSeries = await getAnimeSeries();
   const seriesData = allSeries.find(s => s.series === decodedSeries);
   const animeData = seriesData?.animes.find(a => a.anime === decodedAnime);
   const seasonData = animeData?.seasons.find(s => s.season === decodedSeason);
@@ -135,7 +136,7 @@ export default function SeasonDetailPage({ params }: SeasonDetailPageProps) {
 
 // 生成静态路径
 export async function generateStaticParams() {
-  const allSeries = getAnimeSeries();
+  const allSeries = await getAnimeSeries();
   const paths: { series: string; anime: string; season: string }[] = [];
   
   allSeries.forEach(series => {

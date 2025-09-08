@@ -3,14 +3,15 @@ import Link from "next/link";
 import { getAnimeSeries } from "@/lib/vocabData";
 
 interface SeriesDetailPageProps {
-  params: {
+  params: Promise<{
     series: string;
-  };
+  }>;
 }
 
-export default function SeriesDetailPage({ params }: SeriesDetailPageProps) {
-  const decodedSeries = decodeURIComponent(params.series);
-  const allSeries = getAnimeSeries();
+export default async function SeriesDetailPage({ params }: SeriesDetailPageProps) {
+  const resolvedParams = await params;
+  const decodedSeries = decodeURIComponent(resolvedParams.series);
+  const allSeries = await getAnimeSeries();
   const seriesData = allSeries.find(s => s.series === decodedSeries);
 
   if (!seriesData) {
@@ -159,7 +160,7 @@ export default function SeriesDetailPage({ params }: SeriesDetailPageProps) {
 
 // 生成静态路径
 export async function generateStaticParams() {
-  const series = getAnimeSeries();
+  const series = await getAnimeSeries();
   
   return series.map((s) => ({
     series: encodeURIComponent(s.series),

@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { getVocabList, getVocabStats, getAnimeSeries } from "@/lib/vocabData";
 
-export default function Home() {
-  const vocabList = getVocabList();
-  const stats = getVocabStats();
-  const animeSeries = getAnimeSeries();
+export default async function Home() {
+  const vocabList = await getVocabList();
+  const stats = await getVocabStats();
+  const animeSeries = await getAnimeSeries();
   const topWords = vocabList.slice(0, 10);
 
   return (

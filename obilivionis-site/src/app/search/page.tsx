@@ -11,11 +11,77 @@ export default function SearchPage() {
   const [results, setResults] = useState<VocabListItem[]>([]);
   const [isSearching, setIsSearching] = useState(false);
   const [hasSearched, setHasSearched] = useState(false);
+  const [loading, setLoading] = useState(true);
   
-  const availableJlptLevels = getAvailableJlptLevels();
-  const availableSeries = getAvailableSeries();
-  const availableAnimes = getAvailableAnimes(filters.series);
-  const availableSeasons = getAvailableSeasons(filters.series, filters.anime);
+  const [availableJlptLevels, setAvailableJlptLevels] = useState<string[]>([]);
+  const [availableSeries, setAvailableSeries] = useState<string[]>([]);
+  const [availableAnimes, setAvailableAnimes] = useState<string[]>([]);
+  const [availableSeasons, setAvailableSeasons] = useState<string[]>([]);
+
+  useEffect(() => {
+    const loadData = async () => {
+      try {
+        const [jlptLevels, series] = await Promise.all([
+          getAvailableJlptLevels(),
+          getAvailableSeries()
+        ]);
+        setAvailableJlptLevels(jlptLevels);
+        setAvailableSeries(series);
+      } catch (error) {
+        console.error('Error loading search data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadData();
+  }, []);
+
+  useEffect(() => {
+    const loadAnimes = async () => {
+      if (filters.series) {
+        const animes = await getAvailableAnimes(filters.series);
+        setAvailableAnimes(animes);
+      } else {
+        setAvailableAnimes([]);
+      }
+    };
+    loadAnimes();
+  }, [filters.series]);
+
+  useEffect(() => {
+    const loadSeasons = async () => {
+      if (filters.series && filters.anime) {
+        const seasons = await getAvailableSeasons(filters.series, filters.anime);
+        setAvailableSeasons(seasons);
+      } else {
+        setAvailableSeasons([]);
+      }
+    };
+    loadSeasons();
+  }, [filters.series, filters.anime]);
+
+  // 实时搜索（可选）
+  useEffect(() => {
+    if (query.trim() && hasSearched) {
+      const timeoutId = setTimeout(async () => {
+        const searchResults = await searchVocab(query, filters);
+        setResults(searchResults);
+      }, 500);
+      
+      return () => clearTimeout(timeoutId);
+    }
+  }, [query, filters, hasSearched]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-blue-600 mx-auto mb-4"></div>
+          <p className="text-gray-600 dark:text-gray-300">加载搜索数据中...</p>
+        </div>
+      </div>
+    );
+  }
 
   const handleSearch = async () => {
     if (!query.trim()) return;
@@ -24,8 +90,8 @@ export default function SearchPage() {
     setHasSearched(true);
     
     // 模拟搜索延迟
-    setTimeout(() => {
-      const searchResults = searchVocab(query, filters);
+    setTimeout(async () => {
+      const searchResults = await searchVocab(query, filters);
       setResults(searchResults);
       setIsSearching(false);
     }, 300);
@@ -43,18 +109,6 @@ export default function SearchPage() {
     setResults([]);
     setHasSearched(false);
   };
-
-  // 实时搜索（可选）
-  useEffect(() => {
-    if (query.trim() && hasSearched) {
-      const timeoutId = setTimeout(() => {
-        const searchResults = searchVocab(query, filters);
-        setResults(searchResults);
-      }, 500);
-      
-      return () => clearTimeout(timeoutId);
-    }
-  }, [query, filters, hasSearched]);
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">

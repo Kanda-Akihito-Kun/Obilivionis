@@ -3,21 +3,22 @@ import Link from "next/link";
 import { getAnimeSeries, getVocabList } from "@/lib/vocabData";
 
 interface EpisodeDetailPageProps {
-  params: {
+  params: Promise<{
     series: string;
     anime: string;
     season: string;
     episode: string;
-  };
+  }>;
 }
 
-export default function EpisodeDetailPage({ params }: EpisodeDetailPageProps) {
-  const decodedSeries = decodeURIComponent(params.series);
-  const decodedAnime = decodeURIComponent(params.anime);
-  const decodedSeason = decodeURIComponent(params.season);
-  const decodedEpisode = decodeURIComponent(params.episode);
+export default async function EpisodeDetailPage({ params }: EpisodeDetailPageProps) {
+  const resolvedParams = await params;
+  const decodedSeries = decodeURIComponent(resolvedParams.series);
+  const decodedAnime = decodeURIComponent(resolvedParams.anime);
+  const decodedSeason = decodeURIComponent(resolvedParams.season);
+  const decodedEpisode = decodeURIComponent(resolvedParams.episode);
   
-  const allSeries = getAnimeSeries();
+  const allSeries = await getAnimeSeries();
   const seriesData = allSeries.find(s => s.series === decodedSeries);
   const animeData = seriesData?.animes.find(a => a.anime === decodedAnime);
   const seasonData = animeData?.seasons.find(s => s.season === decodedSeason);
@@ -28,7 +29,7 @@ export default function EpisodeDetailPage({ params }: EpisodeDetailPageProps) {
   }
 
   // 获取该集的词汇数据
-  const allVocab = getVocabList();
+  const allVocab = await getVocabList();
   const episodeVocab = allVocab.filter(vocab => 
     vocab.source.series === decodedSeries &&
     vocab.source.anime === decodedAnime &&
@@ -219,7 +220,7 @@ export default function EpisodeDetailPage({ params }: EpisodeDetailPageProps) {
 
 // 生成静态路径
 export async function generateStaticParams() {
-  const allSeries = getAnimeSeries();
+  const allSeries = await getAnimeSeries();
   const paths: { series: string; anime: string; season: string; episode: string }[] = [];
   
   allSeries.forEach(series => {

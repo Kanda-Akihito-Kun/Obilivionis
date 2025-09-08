@@ -1,55 +1,67 @@
 import { VocabData, VocabListItem, SearchFilters, AnimeSeries, VocabStats, VocabWord } from '@/types/vocab';
 import { getAnimeSeriesConfig, getSourceFromPath } from '@/data/animeData';
-// 导入静态JSON数据
-import ep1Data from '../../data/BanG-Dream/MyGO/S1/Ep1/ep1.json';
-import ep2Data from '../../data/BanG-Dream/MyGO/S1/Ep2/ep2.json';
-import ep3Data from '../../data/BanG-Dream/MyGO/S1/Ep3/ep3.json';
-import ep4Data from '../../data/BanG-Dream/MyGO/S1/Ep4/ep4.json';
-import ep5Data from '../../data/BanG-Dream/MyGO/S1/Ep5/ep5.json';
-import ep6Data from '../../data/BanG-Dream/MyGO/S1/Ep6/ep6.json';
-import ep7Data from '../../data/BanG-Dream/MyGO/S1/Ep7/ep7.json';
-import ep8Data from '../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json';
-import ep9Data from '../../data/BanG-Dream/MyGO/S1/Ep9/ep9.json';
-import ep10Data from '../../data/BanG-Dream/MyGO/S1/Ep10/ep10.json';
-import ep11Data from '../../data/BanG-Dream/MyGO/S1/Ep11/ep11.json';
-import ep12Data from '../../data/BanG-Dream/MyGO/S1/Ep12/ep12.json';
-import ep13Data from '../../data/BanG-Dream/MyGO/S1/Ep13/ep13.json';
 
 // 缓存数据
 let cachedVocabData: VocabData | null = null;
 let cachedAnimeSeries: AnimeSeries[] | null = null;
 
-// 同步加载JSON文件（用于已知的静态文件）
-function loadJsonFile(filePath: string): Record<string, unknown> {
+// 动态加载JSON文件（按需导入）
+async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> {
   try {
-    // 根据文件路径返回对应的静态导入数据
+    // 根据文件路径动态导入对应的数据
     switch (filePath) {
-      case '/data/BanG-Dream/MyGO/S1/Ep1/ep1.json':
-        return ep1Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep2/ep2.json':
-        return ep2Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep3/ep3.json':
-        return ep3Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep4/ep4.json':
-        return ep4Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep5/ep5.json':
-        return ep5Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep6/ep6.json':
-        return ep6Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep7/ep7.json':
-        return ep7Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json':
-        return ep8Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep9/ep9.json':
-        return ep9Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep10/ep10.json':
-        return ep10Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep11/ep11.json':
-        return ep11Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep12/ep12.json':
-        return ep12Data as Record<string, unknown>;
-      case '/data/BanG-Dream/MyGO/S1/Ep13/ep13.json':
-        return ep13Data as Record<string, unknown>;
+      case '/data/BanG-Dream/MyGO/S1/Ep1/ep1.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep1/ep1.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep2/ep2.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep2/ep2.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep3/ep3.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep3/ep3.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep4/ep4.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep4/ep4.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep5/ep5.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep5/ep5.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep6/ep6.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep6/ep6.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep7/ep7.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep7/ep7.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep8/ep8.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep9/ep9.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep9/ep9.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep10/ep10.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep10/ep10.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep11/ep11.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep11/ep11.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep12/ep12.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep12/ep12.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
+      case '/data/BanG-Dream/MyGO/S1/Ep13/ep13.json': {
+        const jsonModule = await import('../../data/BanG-Dream/MyGO/S1/Ep13/ep13.json');
+        return jsonModule.default as Record<string, unknown>;
+      }
       default:
         return {};
     }
@@ -60,7 +72,7 @@ function loadJsonFile(filePath: string): Record<string, unknown> {
 }
 
 // 获取动画系列数据
-function getAnimeSeriesData(): AnimeSeries[] {
+async function getAnimeSeriesData(): Promise<AnimeSeries[]> {
   if (cachedAnimeSeries) {
     return cachedAnimeSeries;
   }
@@ -68,40 +80,40 @@ function getAnimeSeriesData(): AnimeSeries[] {
   // 获取动态配置并计算实际词汇数量
   const series = JSON.parse(JSON.stringify(getAnimeSeriesConfig())) as AnimeSeries[];
   
-  series.forEach(seriesData => {
+  for (const seriesData of series) {
     let seriesTotalVocab = 0;
     
-    seriesData.animes.forEach(anime => {
+    for (const anime of seriesData.animes) {
       let animeTotalVocab = 0;
       
-      anime.seasons.forEach(season => {
+      for (const season of anime.seasons) {
         let seasonTotalVocab = 0;
         
-        season.episodes.forEach(episode => {
-          const data = loadJsonFile(episode.filePath);
+        for (const episode of season.episodes) {
+          const data = await loadJsonFile(episode.filePath);
           if (data && Object.keys(data).length > 0) {
             episode.vocabCount = Object.keys(data).length;
             seasonTotalVocab += episode.vocabCount;
           }
-        });
+        }
         
         season.totalVocabCount = seasonTotalVocab;
         animeTotalVocab += seasonTotalVocab;
-      });
+      }
       
       anime.totalVocabCount = animeTotalVocab;
       seriesTotalVocab += animeTotalVocab;
-    });
+    }
     
     seriesData.totalVocabCount = seriesTotalVocab;
-  });
+  }
 
   cachedAnimeSeries = series;
   return series;
 }
 
 // 加载所有词汇数据
-export function getVocabData(): VocabData {
+export async function getVocabData(): Promise<VocabData> {
   if (cachedVocabData) {
     return cachedVocabData;
   }
@@ -110,14 +122,14 @@ export function getVocabData(): VocabData {
   const seriesConfig = getAnimeSeriesConfig();
   
   // 处理所有数据文件
-  seriesConfig.forEach(series => {
-    series.animes.forEach(anime => {
-      anime.seasons.forEach(season => {
-        season.episodes.forEach(episode => {
-          const jsonData = loadJsonFile(episode.filePath);
+  for (const series of seriesConfig) {
+    for (const anime of series.animes) {
+      for (const season of anime.seasons) {
+        for (const episode of season.episodes) {
+          const jsonData = await loadJsonFile(episode.filePath);
           const sourceInfo = getSourceFromPath(episode.filePath);
           
-          if (!sourceInfo || !jsonData || Object.keys(jsonData).length === 0) return;
+          if (!sourceInfo || !jsonData || Object.keys(jsonData).length === 0) continue;
           
           // 为每个词汇添加来源信息
           Object.entries(jsonData).forEach(([word, vocabInfo]) => {
@@ -147,24 +159,24 @@ export function getVocabData(): VocabData {
               allVocabData[word] = vocabWithSource;
             }
           });
-        });
-      });
-    });
-  });
+        }
+      }
+    }
+  }
 
   cachedVocabData = allVocabData;
   return allVocabData;
 }
 
 // 获取动画系列结构
-export function getAnimeSeries(): AnimeSeries[] {
-  return getAnimeSeriesData();
+export async function getAnimeSeries(): Promise<AnimeSeries[]> {
+  return await getAnimeSeriesData();
 }
 
 // 获取统计信息
-export function getVocabStats(): VocabStats {
-  const vocabData = getVocabData();
-  const series = getAnimeSeries();
+export async function getVocabStats(): Promise<VocabStats> {
+  const vocabData = await getVocabData();
+  const series = await getAnimeSeries();
   
   let totalSeasons = 0;
   let totalEpisodes = 0;
@@ -188,8 +200,8 @@ export function getVocabStats(): VocabStats {
 }
 
 // 获取词汇列表（用于列表页面）
-export function getVocabList(): VocabListItem[] {
-  const data = getVocabData();
+export async function getVocabList(): Promise<VocabListItem[]> {
+  const data = await getVocabData();
   return Object.entries(data).map(([word, vocabInfo]) => ({
     word,
     meaning: vocabInfo.meaning,
@@ -202,8 +214,8 @@ export function getVocabList(): VocabListItem[] {
 }
 
 // 根据关键词搜索词汇
-export function searchVocab(query: string, filters?: SearchFilters): VocabListItem[] {
-  const vocabList = getVocabList();
+export async function searchVocab(query: string, filters?: SearchFilters): Promise<VocabListItem[]> {
+  const vocabList = await getVocabList();
   
   let filteredList = vocabList.filter(item => 
     item.word.includes(query) || 
@@ -234,14 +246,14 @@ export function searchVocab(query: string, filters?: SearchFilters): VocabListIt
 }
 
 // 获取单个词汇详情
-export function getVocabDetail(word: string) {
-  const data = getVocabData();
+export async function getVocabDetail(word: string) {
+  const data = await getVocabData();
   return data[word] || null;
 }
 
 // 获取所有可用的JLPT等级
-export function getAvailableJlptLevels(): string[] {
-  const data = getVocabData();
+export async function getAvailableJlptLevels(): Promise<string[]> {
+  const data = await getVocabData();
   const levels = new Set<string>();
   Object.values(data).forEach(vocab => {
     if (vocab.level) {
@@ -252,14 +264,14 @@ export function getAvailableJlptLevels(): string[] {
 }
 
 // 获取所有可用的动画系列
-export function getAvailableSeries(): string[] {
-  const series = getAnimeSeries();
+export async function getAvailableSeries(): Promise<string[]> {
+  const series = await getAnimeSeries();
   return series.map(s => s.series);
 }
 
 // 获取指定系列的动画列表
-export function getAvailableAnimes(seriesName?: string): string[] {
-  const series = getAnimeSeries();
+export async function getAvailableAnimes(seriesName?: string): Promise<string[]> {
+  const series = await getAnimeSeries();
   if (seriesName) {
     const targetSeries = series.find(s => s.series === seriesName);
     return targetSeries ? targetSeries.animes.map(a => a.anime) : [];
@@ -268,8 +280,8 @@ export function getAvailableAnimes(seriesName?: string): string[] {
 }
 
 // 获取指定动画的季度列表
-export function getAvailableSeasons(seriesName?: string, animeName?: string): string[] {
-  const series = getAnimeSeries();
+export async function getAvailableSeasons(seriesName?: string, animeName?: string): Promise<string[]> {
+  const series = await getAnimeSeries();
   
   if (seriesName && animeName) {
     const targetSeries = series.find(s => s.series === seriesName);
