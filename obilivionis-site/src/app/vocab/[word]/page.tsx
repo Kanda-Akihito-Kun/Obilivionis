@@ -124,8 +124,8 @@ export default async function VocabDetailPage({ params }: VocabDetailPageProps) 
           
           <div className="space-y-8">
             {vocabDetail.sentences.map((sentence, index) => {
-              // 获取媒体文件URL
-              const { imageUrl, audioUrl } = getMediaUrls(sentence.time_range, vocabDetail.source);
+              // 获取媒体文件URL（包含 webp 和 jpg 回退）
+              const { imageUrl, imageUrlFallback, audioUrl } = getMediaUrls(sentence.time_range, vocabDetail.source);
               
               return (
                 <div key={index} className="space-y-4">
@@ -157,6 +157,7 @@ export default async function VocabDetailPage({ params }: VocabDetailPageProps) 
                   {/* 媒体播放器 */}
                   <MediaPlayer
                     imageUrl={imageUrl || undefined}
+                    imageUrlFallback={imageUrlFallback || undefined}
                     audioUrl={audioUrl || undefined}
                     sentence={sentence}
                     className="ml-6"

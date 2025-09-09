@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 interface MediaPlayerProps {
   imageUrl?: string;
+  imageUrlFallback?: string; // 新增：图片回退URL（jpg）
   audioUrl?: string;
   sentence: {
     japanese: string;
@@ -14,7 +15,7 @@ interface MediaPlayerProps {
   className?: string;
 }
 
-export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = '' }: MediaPlayerProps) {
+export default function MediaPlayer({ imageUrl, imageUrlFallback, audioUrl, sentence, className = '' }: MediaPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
@@ -22,7 +23,14 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
   const [imageError, setImageError] = useState(false);
   const [audioError, setAudioError] = useState(false);
   const [audioLoading, setAudioLoading] = useState(true);
+  const [currentImageSrc, setCurrentImageSrc] = useState<string | undefined>(imageUrl);
   const audioRef = useRef<HTMLAudioElement>(null);
+
+  useEffect(() => {
+    setCurrentImageSrc(imageUrl);
+    setImageError(false);
+    setImageLoaded(false);
+  }, [imageUrl]);
 
   // 音频播放控制
   const togglePlay = async () => {
@@ -108,6 +116,17 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
     setCurrentTime(newTime);
   };
 
+  // 图片加载错误时尝试回退到 jpg
+  const handleImageError = () => {
+    if (!imageError && imageUrlFallback) {
+      setImageError(true);
+      setCurrentImageSrc(imageUrlFallback);
+      setImageLoaded(false);
+    } else {
+      setImageError(true);
+    }
+  };
+
   return (
     <div className={`bg-gray-50 dark:bg-gray-800 rounded-lg p-4 ${className}`}>
       {/* 例句文本 */}
@@ -127,17 +146,17 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
         {/* 图片显示区域 */}
         <div className="relative">
           <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden relative">
-            {imageUrl && !imageError ? (
+            {currentImageSrc && !imageError ? (
               <>
                 <Image
-                  src={imageUrl}
+                  src={currentImageSrc}
                   alt={`场景截图 - ${sentence.japanese}`}
                   fill
                   className={`object-cover transition-opacity duration-300 ${
                     imageLoaded ? 'opacity-100' : 'opacity-0'
                   }`}
                   onLoad={() => setImageLoaded(true)}
-                  onError={() => setImageError(true)}
+                  onError={handleImageError}
                 />
                 {!imageLoaded && (
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -223,33 +242,13 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
           ) : (
             <div className="flex items-center justify-center h-32 text-gray-500 dark:text-gray-400">
               <div className="text-center">
-                <div className="text-2xl mb-2">🔊</div>
+                <div className="text-2xl mb-2">🔇</div>
                 <div className="text-sm">暂无音频</div>
               </div>
             </div>
           )}
         </div>
       </div>
-
-      <style jsx>{`
-        .slider::-webkit-slider-thumb {
-          appearance: none;
-          height: 16px;
-          width: 16px;
-          border-radius: 50%;
-          background: #3b82f6;
-          cursor: pointer;
-        }
-        
-        .slider::-moz-range-thumb {
-          height: 16px;
-          width: 16px;
-          border-radius: 50%;
-          background: #3b82f6;
-          cursor: pointer;
-          border: none;
-        }
-      `}</style>
     </div>
   );
 }

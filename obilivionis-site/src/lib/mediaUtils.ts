@@ -24,7 +24,7 @@ export function getMediaUrls(timeRange: string, source: {
   // 提取开始时间
   const startTime = timeRange.split(' --> ')[0]?.trim();
   if (!startTime) {
-    return { imageUrl: null, audioUrl: null };
+    return { imageUrl: null as string | null, imageUrlFallback: null as string | null, audioUrl: null as string | null };
   }
 
   // 格式化时间戳为文件名
@@ -33,8 +33,11 @@ export function getMediaUrls(timeRange: string, source: {
   // 构建媒体文件路径，直接访问data目录
   const basePath = `/data/${source.series}/${source.anime}/${source.season}/${source.episode}/media`;
   
+  const webp = `${basePath}/${timestamp}.webp`;
+  const jpg = `${basePath}/${timestamp}.jpg`;
   return {
-    imageUrl: `${basePath}/${timestamp}.jpg`,
+    imageUrl: webp,            // 优先 webp
+    imageUrlFallback: jpg,     // 回退 jpg（兼容历史数据）
     audioUrl: `${basePath}/${timestamp}.mp3`
   };
 }
@@ -55,13 +58,18 @@ export async function checkMediaExists(url: string): Promise<boolean> {
 
 /**
  * 预加载媒体文件
- * @param imageUrl 图片URL
+ * @param imageUrl 图片URL（可传 webp）
  * @param audioUrl 音频URL
+ * @param imageFallback 图片回退URL（可传 jpg）
  */
-export function preloadMedia(imageUrl?: string, audioUrl?: string) {
+export function preloadMedia(imageUrl?: string, audioUrl?: string, imageFallback?: string) {
   if (imageUrl) {
     const img = new Image();
     img.src = imageUrl;
+  }
+  if (imageFallback) {
+    const img2 = new Image();
+    img2.src = imageFallback;
   }
   
   if (audioUrl) {
@@ -81,12 +89,12 @@ export function getBatchMediaUrls(
   sentences: Array<{ time_range: string; japanese: string; chinese: string }>,
   source: { series: string; anime: string; season: string; episode: string }
 ) {
-  const mediaMap = new Map<string, { imageUrl: string; audioUrl: string }>();
+  const mediaMap = new Map<string, { imageUrl: string; imageUrlFallback: string; audioUrl: string }>();
   
   sentences.forEach(sentence => {
-    const { imageUrl, audioUrl } = getMediaUrls(sentence.time_range, source);
+    const { imageUrl, imageUrlFallback, audioUrl } = getMediaUrls(sentence.time_range, source);
     if (imageUrl && audioUrl) {
-      mediaMap.set(sentence.time_range, { imageUrl, audioUrl });
+      mediaMap.set(sentence.time_range, { imageUrl, imageUrlFallback: imageUrlFallback!, audioUrl });
     }
   });
   
