@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 使用LLM进行日语分词、翻译、分级、归纳的SRT处理脚本（批处理优化版）
+ * 使用白嫖的 LLM API 进行日语分词、翻译、分级、归纳的SRT处理脚本（批处理优化版）
  * 通过批量处理和上下文增强来提高效率和准确率
  */
 
@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 
 class SRTProcessorLLMBatch {
     constructor() {
-        // 硅基流动的 deepseek-ai/DeepSeek-V2.5 基本上是最便宜的能用的模型
+        // 硅基流动的 deepseek-ai/DeepSeek-V3 基本上是最便宜的能用的模型了
         this.apiKey = process.env.SILICONFLOW_API_KEY || process.env.SILICONFLOW_TOKEN || '';
         this.model = process.env.SILICONFLOW_MODEL || 'deepseek-ai/DeepSeek-V3';
         this.llmUrl = 'https://api.siliconflow.cn/v1/chat/completions';
@@ -34,7 +34,7 @@ class SRTProcessorLLMBatch {
             '春日影', 'MyGO', 'バンドリ', 'CRYCHIC',
         ];
         
-        // 批处理大小（考虑模型上下文限制和JSON解析稳定性，设置为较小值）
+        // 批处理大小
         this.batchSize = 5;
     }
     
@@ -86,7 +86,7 @@ class SRTProcessorLLMBatch {
                 const payload = {
                     model: this.model,
                     messages: [
-                        { role: 'system', content: '你是一个喜欢看番的老二次元，同时你是一名专业的日语分词与词汇分析助手。' },
+                        { role: 'system', content: '你是一个二次元婆罗门，同时你是一名专业的日语分词与词汇分析助手。' },
                         { role: 'user', content: prompt }
                     ],
                     temperature: 0.1,
@@ -186,7 +186,7 @@ class SRTProcessorLLMBatch {
         console.log(`批量处理 ${exampleTexts.length} 个文本片段`);
         
         // 构建增强的prompt，包含例句和中文翻译
-        const prompt = `请对以下日语文本进行详细的词汇分析。每个文本都提供了对应的中文翻译作为参考上下文。
+        const prompt = `请对以下日语文本进行详细的词汇分析。每个文本都提供了对应的台词原句和中文翻译作为参考。
 
 文本列表：
 ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文：${item.chinese}`).join('\n\n')}
@@ -217,10 +217,9 @@ ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文�
 0. 输出格式必须严格遵照给出的JSON格式，只输出JSON对象，不要其他解释文字；
 1. 只输出有意义的实词（名词、动词、形容词、副词等），跳过助词（は、が、を、に等）、助动词（だ、です、ます等）；
 2. 对于专有名词（如人名、地名、品牌名等）以及英语单词，level设为"N0"；
-3. 合并动词变位形式到原形（比如 終わらせて　-> 終わる）；
+3. 合并动词和形容词的变位形式到原形（比如 終わらせて　-> 終わる）；
 4. 优先识别这些专有词：${this.priorityWords.join(', ')}；
 6. 如果遇到含义不明确或无法分辨的词汇/专有名词，请结合提供的中文翻译进行理解，并优先从日本动画作品领域进行匹配（如角色名、乐队/团体名、歌曲名、舞台名等），并采用业界常用中文译名；
-7. 利用中文翻译来帮助理解日文的语境和含义，提高分词准确性；
 `;
         
         const response = await this.callLLM(prompt);
@@ -353,18 +352,13 @@ ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文�
                     // 添加例句（从当前批次中查找包含该词汇的句子）
                     for (const entry of batch) {
                         if (entry.japanese.includes(word) || entry.japanese.includes(token.furigana)) {
-                            // 检查是否已经存在相同的例句
-                            const existingSentence = this.vocabulary[word].sentences.find(
-                                s => s.japanese === entry.japanese
-                            );
-                            
-                            if (!existingSentence) {
-                                this.vocabulary[word].sentences.push({
+                            // 只要是出现的句子就必须作为例句加入
+                            this.vocabulary[word].sentences.push({
                                     japanese: entry.japanese,
                                     chinese: entry.chinese,
                                     time_range: entry.time_range
-                                });
-                            }
+                                }
+                            );
                         }
                     }
                 }
@@ -480,7 +474,7 @@ async function main() {
         }
         
         const srtFilePath = path.resolve(args[0]);
-        const outputPath = args[1] ? path.resolve(args[1]) : path.join(__dirname, 'output', `${path.basename(srtFilePath, '.srt')}-batch.json`);
+        const outputPath = args[1] ? path.resolve(args[1]) : path.join(__dirname, 'output', `${path.basename(srtFilePath, '.srt')}.json`);
         
         // 检查输入文件是否存在
         if (!await fs.pathExists(srtFilePath)) {
