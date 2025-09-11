@@ -1,0 +1,29 @@
+{
+  "name": "serifu-llm-processor",
+  "version": "1.0.0",
+  "description": "Japanese text processing with LLM (Large Language Model)",
+  "main": "serifu-llm.js",
+  "type": "module",
+  "scripts": {
+    "start": "node serifu-llm.js",
+    "install-deps": "npm install",
+    "test-connection": "node -e \"import('./serifu-llm.js').then(m => new m.default().callLLM('こんにちは').then(r => console.log('连接测试:', r ? '成功' : '失败')))\""
+  },
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "japanese",
+    "nlp",
+    "llm",
+    "tokenization",
+    "jlpt",
+    "srt",
+    "subtitle"
+  ],
+  "author": "Obilivionis Project",
+  "license": "MIT"
+}
