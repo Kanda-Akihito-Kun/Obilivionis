@@ -9,62 +9,84 @@ let cachedAnimeSeries: AnimeSeries[] | null = null;
 async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> {
   try {
     // 根据文件路径动态导入对应的数据
+    let jsonData: any;
     switch (filePath) {
       case '/data/BanG-Dream/MyGO/S1/Ep1/ep1.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep1/ep1.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep2/ep2.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep2/ep2.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep3/ep3.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep3/ep3.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep4/ep4.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep4/ep4.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep5/ep5.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep5/ep5.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep6/ep6.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep6/ep6.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep7/ep7.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep7/ep7.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep8/ep8.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep9/ep9.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep9/ep9.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep10/ep10.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep10/ep10.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep11/ep11.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep11/ep11.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep12/ep12.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep12/ep12.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       case '/data/BanG-Dream/MyGO/S1/Ep13/ep13.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep13/ep13.json');
-        return jsonModule.default as Record<string, unknown>;
+        jsonData = jsonModule.default;
+        break;
       }
       default:
         return {};
     }
+    
+    // 检查是否有新的JSON格式（包含vocabulary字段）
+    if (jsonData && typeof jsonData === 'object' && 'vocabulary' in jsonData) {
+      return jsonData.vocabulary as Record<string, unknown>;
+    }
+    
+    // 向后兼容：如果没有vocabulary字段，直接返回原数据
+    return jsonData as Record<string, unknown>;
   } catch (error) {
     console.error(`Error loading JSON file ${filePath}:`, error);
     return {};

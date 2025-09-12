@@ -253,11 +253,16 @@ ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文�
             if (result.results && Array.isArray(result.results)) {
                 console.log(`批量LLM分析成功，处理了 ${result.results.length} 个文本`);
                 
-                // 将结果展平为单个词汇数组
+                // 将结果展平为单个词汇数组，保留句子索引
                 const allTokens = [];
                 for (const textResult of result.results) {
                     if (textResult.words && Array.isArray(textResult.words)) {
-                        allTokens.push(...textResult.words);
+                        // 为每个词汇添加句子索引
+                        const wordsWithIndex = textResult.words.map(word => ({
+                            ...word,
+                            sentenceIndex: textResult.text_index
+                        }));
+                        allTokens.push(...wordsWithIndex);
                     }
                 }
                 
@@ -292,7 +297,12 @@ ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文�
                         const allWords = [];
                         result.results.forEach(textResult => {
                             if (textResult.words && Array.isArray(textResult.words)) {
-                                allWords.push(...textResult.words);
+                                // 为每个词汇添加句子索引
+                                const wordsWithIndex = textResult.words.map(word => ({
+                                    ...word,
+                                    sentenceIndex: textResult.text_index
+                                }));
+                                allWords.push(...wordsWithIndex);
                             }
                         });
                         return allWords;
@@ -328,10 +338,17 @@ ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文�
             
             const tokens = await this.tokenizeAndAnalyzeBatch(batch);
             
-            // 将词汇添加到索引中
+            // 将词汇添加到索引中，并正确关联到对应的句子
             for (const token of tokens) {
-                if (token.word && token.word.trim()) {
+                if (token.word && token.word.trim() && token.sentenceIndex !== undefined) {
                     const word = token.word.trim();
+                    const sentenceIndex = token.sentenceIndex - 1; // LLM返回的是1-based索引
+                    const correspondingEntry = batch[sentenceIndex];
+                    
+                    if (!correspondingEntry) {
+                        console.warn(`警告: 词汇 ${word} 的句子索引 ${token.sentenceIndex} 超出范围`);
+                        continue;
+                    }
                     
                     if (!this.vocabulary[word]) {
                         this.vocabulary[word] = {
@@ -349,17 +366,13 @@ ${exampleTexts.map(item => `${item.index}. 日文：${item.japanese}\n   中文�
                     
                     this.vocabulary[word].count++;
                     
-                    // 添加例句（从当前批次中查找包含该词汇的句子）
-                    for (const entry of batch) {
-                        if (entry.japanese.includes(word) || entry.japanese.includes(token.furigana)) {
-                            // 只要是出现的句子就必须作为例句加入
-                            this.vocabulary[word].sentences.push({
-                                    japanese: entry.japanese,
-                                    chinese: entry.chinese,
-                                    time_range: entry.time_range
-                                }
-                            );
-                        }
+                    // 添加例句（只关联到词汇实际出现的句子）
+                    if (!this.vocabulary[word].sentences.some(s => s.time_range === correspondingEntry.time_range)) {
+                        this.vocabulary[word].sentences.push({
+                            japanese: correspondingEntry.japanese,
+                            chinese: correspondingEntry.chinese,
+                            time_range: correspondingEntry.time_range
+                        });
                     }
                 }
             }

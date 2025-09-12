@@ -47,28 +47,32 @@ def extract_frame_and_audio(video_path, start_time, end_time, output_dir, timest
     # 取中间帧偏移（相对于本片段起点）
     frame_offset = max(0.0, duration / 2.0)
 
-    # 统一使用一次 ffmpeg：先按片段起点快进（-ss 在 -i 前），再限制解码时长（-t）
-    # - 抽帧：select 取 >= 中点的第一帧
-    # - 音频：降低比特率/采样率/单声道以提速
-    # - 减少日志输出，避免大量 stdout I/O
+    # 分别处理视频和音频，确保参数正确
+    
+    # 1. 处理视频帧
     vf_arg = f"select='gte(t,{frame_offset})'"
-    cmd = [
+    video_cmd = [
         'ffmpeg',
         '-hide_banner', '-loglevel', 'error', '-nostdin',
         '-ss', str(start_seconds),
         '-i', video_path,
         '-t', str(duration),
-        '-threads', '1',
-        # 视频（抽一帧为 webp）
-        '-map', '0:v:0',
         '-vf', vf_arg,
         '-frames:v', '1',
         '-c:v', 'libwebp',
         '-q:v', '60',
         '-compression_level', '4',
+        '-y',
         frame_output,
-        # 音频（同一进程内输出）
-        '-map', '0:a:0',
+    ]
+    
+    # 2. 处理音频
+    audio_cmd = [
+        'ffmpeg',
+        '-hide_banner', '-loglevel', 'error', '-nostdin',
+        '-ss', str(start_seconds),
+        '-i', video_path,
+        '-t', str(duration),
         '-c:a', 'libmp3lame',
         '-b:a', '64k',
         '-ar', '16000',
@@ -77,16 +81,32 @@ def extract_frame_and_audio(video_path, start_time, end_time, output_dir, timest
         audio_output,
     ]
     
+    # 调试输出（可选）
+    # print(f"调试: start_seconds={start_seconds}, duration={duration}")
+    
     try:
-        result = subprocess.run(
-            cmd,
+        # 处理视频帧
+        subprocess.run(
+            video_cmd,
             check=True,
-            stdout=subprocess.DEVNULL,  # 丢弃正常输出，减少 I/O
-            stderr=subprocess.PIPE,     # 仅保留错误信息
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
             text=True,
             encoding='utf-8',
             errors='ignore'
         )
+        
+        # 处理音频
+        subprocess.run(
+            audio_cmd,
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding='utf-8',
+            errors='ignore'
+        )
+        
         print(f"✓ 完成: {frame_output} + {audio_output}")
         return True
         
@@ -106,7 +126,10 @@ def process_episode(video_path, json_path, output_base_dir, max_workers=2):
     
     # 读取词汇JSON文件
     with open(json_path, 'r', encoding='utf-8') as f:
-        vocab_data = json.load(f)
+        data = json.load(f)
+    
+    # 获取词汇数据
+    vocab_data = data.get('vocabulary', {})
     
     # 创建输出目录（基于JSON文件路径）
     json_relative_path = os.path.relpath(json_path, output_base_dir)
@@ -163,7 +186,7 @@ if __name__ == "__main__":
     # 检查命令行参数
     if len(sys.argv) < 3:
         print("使用方法: python media.py <视频文件路径> <JSON文件路径> [线程数]")
-        print("示例: python media.py ../video/p8.mp4 ../obilivionis-site/public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json 4")
+        print("示例: python media.py ../video/ep8.mp4 ../obilivionis-site/public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json 4")
         exit(1)
     
     # 从命令行参数获取路径
