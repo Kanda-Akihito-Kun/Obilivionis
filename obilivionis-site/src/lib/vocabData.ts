@@ -5,6 +5,12 @@ import { getAnimeSeriesConfig, getSourceFromPath } from '../../public/data/anime
 let cachedVocabData: VocabData | null = null;
 let cachedAnimeSeries: AnimeSeries[] | null = null;
 
+// 清除缓存的函数（用于开发调试）
+export function clearCache() {
+  cachedVocabData = null;
+  cachedAnimeSeries = null;
+}
+
 // 动态加载JSON文件（按需导入）
 async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> {
   try {
@@ -134,6 +140,38 @@ async function getAnimeSeriesData(): Promise<AnimeSeries[]> {
   return series;
 }
 
+// 加载单个集数的词汇数据
+export async function getEpisodeVocabData(filePath: string): Promise<VocabData> {
+  const episodeVocabData: VocabData = {};
+  const jsonData = await loadJsonFile(filePath);
+  const sourceInfo = getSourceFromPath(filePath);
+  
+  if (!sourceInfo || !jsonData || Object.keys(jsonData).length === 0) {
+    return episodeVocabData;
+  }
+  
+  // 为每个词汇添加来源信息
+  Object.entries(jsonData).forEach(([word, vocabInfo]) => {
+    const vocabData = vocabInfo as any;
+    
+    // 为每个句子添加来源信息
+    const sentencesWithSource = vocabData.sentences?.map((sentence: any) => ({
+      ...sentence,
+      source: sourceInfo
+    })) || [];
+    
+    const vocabWithSource: VocabWord = {
+      ...vocabData,
+      sentences: sentencesWithSource,
+      source: sourceInfo
+    } as VocabWord;
+    
+    episodeVocabData[word] = vocabWithSource;
+  });
+  
+  return episodeVocabData;
+}
+
 // 加载所有词汇数据
 export async function getVocabData(): Promise<VocabData> {
   if (cachedVocabData) {
@@ -155,15 +193,40 @@ export async function getVocabData(): Promise<VocabData> {
           
           // 为每个词汇添加来源信息
           Object.entries(jsonData).forEach(([word, vocabInfo]) => {
+            const vocabData = vocabInfo as any;
+            
+            // 为每个句子添加来源信息
+            const sentencesWithSource = vocabData.sentences?.map((sentence: any) => ({
+              ...sentence,
+              source: sourceInfo
+            })) || [];
+            
             const vocabWithSource: VocabWord = {
-              ...(vocabInfo as Record<string, unknown>),
+              ...vocabData,
+              sentences: sentencesWithSource,
               source: sourceInfo
             } as VocabWord;
             
             // 如果词汇已存在，合并数据
             if (allVocabData[word]) {
               allVocabData[word].count += vocabWithSource.count;
-              allVocabData[word].sentences.push(...vocabWithSource.sentences);
+              
+              // 合并句子时去重，基于句子内容和来源信息
+              const existingSentences = allVocabData[word].sentences;
+              const newSentences = vocabWithSource.sentences.filter(newSentence => {
+                return !existingSentences.some(existingSentence => 
+                  existingSentence.japanese === newSentence.japanese &&
+                  existingSentence.chinese === newSentence.chinese &&
+                  existingSentence.time_range === newSentence.time_range &&
+                  existingSentence.source.series === newSentence.source.series &&
+                  existingSentence.source.anime === newSentence.source.anime &&
+                  existingSentence.source.season === newSentence.source.season &&
+                  existingSentence.source.episode === newSentence.source.episode
+                );
+              });
+              
+              allVocabData[word].sentences.push(...newSentences);
+              
               // 保持第一次出现的词汇信息（meaning, furigana, romaji等）
               if (!allVocabData[word].meaning && vocabWithSource.meaning) {
                 allVocabData[word].meaning = vocabWithSource.meaning;
@@ -273,6 +336,23 @@ export async function getVocabDetail(word: string) {
   return data[word] || null;
 }
 
+// 获取特定集数的词汇详情
+export async function getEpisodeVocabDetail(
+  word: string,
+  series: string,
+  anime: string,
+  season: string,
+  episode: string
+) {
+  // 构建文件路径
+  const filePath = `/data/${series}/${anime}/${season}/${episode}/${episode.toLowerCase()}.json`;
+  
+  // 只加载当前集数的数据
+  const episodeData = await getEpisodeVocabData(filePath);
+  
+  return episodeData[word] || null;
+}
+
 // 获取所有可用的JLPT等级
 export async function getAvailableJlptLevels(): Promise<string[]> {
   const data = await getVocabData();
@@ -316,4 +396,39 @@ export async function getAvailableSeasons(seriesName?: string, animeName?: strin
   return series.flatMap(s => 
     s.animes.flatMap(a => a.seasons.map(season => season.season))
   );
+}
+
+// 获取特定集数的词汇列表
+export async function getEpisodeVocabList(
+  series: string,
+  anime: string,
+  season: string,
+  episode: string
+): Promise<VocabListItem[]> {
+  // 构建文件路径
+  const filePath = `/data/${series}/${anime}/${season}/${episode}/${episode.toLowerCase()}.json`;
+  
+  // 只加载当前集数的数据
+  const episodeData = await getEpisodeVocabData(filePath);
+  const episodeVocab: VocabListItem[] = [];
+  
+  // 直接处理当前集数的词汇数据
+  Object.entries(episodeData).forEach(([word, vocabInfo]) => {
+    episodeVocab.push({
+      word,
+      meaning: vocabInfo.meaning,
+      furigana: vocabInfo.furigana,
+      romaji: vocabInfo.romaji,
+      level: vocabInfo.level,
+      count: vocabInfo.count, // 使用原始出现次数
+      source: {
+        series,
+        anime,
+        season,
+        episode
+      }
+    });
+  });
+  
+  return episodeVocab.sort((a, b) => b.count - a.count); // 按出现次数降序排列
 }

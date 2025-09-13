@@ -1,18 +1,34 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getVocabDetail, getVocabList } from "@/lib/vocabData";
-import MediaPlayer from "@/components/MediaPlayer";
+import { getVocabDetail, getEpisodeVocabDetail, getVocabList, clearCache } from "@/lib/vocabData";
 import { getMediaUrls } from "@/lib/mediaUtils";
+import MediaPlayer from "@/components/MediaPlayer";
 
 interface VocabDetailPageProps {
   params: Promise<{
     word: string;
   }>;
+  searchParams: Promise<{
+    series?: string;
+    anime?: string;
+    season?: string;
+    episode?: string;
+  }>;
 }
-export default async function VocabDetailPage({ params }: VocabDetailPageProps) {
-  const resolvedParams = await params;
-  const decodedWord = decodeURIComponent(resolvedParams.word);
-  const vocabDetail = await getVocabDetail(decodedWord);
+export default async function VocabDetailPage({ params, searchParams }: VocabDetailPageProps) {
+  const { word } = await params;
+  const { series, anime, season, episode } = await searchParams;
+  const decodedWord = decodeURIComponent(word);
+  
+  // 清除缓存确保数据最新（开发环境）
+  if (process.env.NODE_ENV === 'development') {
+    clearCache();
+  }
+  
+  // 如果有集数信息，只获取该集数的词汇详情；否则获取所有集数的词汇详情
+  const vocabDetail = series && anime && season && episode 
+    ? await getEpisodeVocabDetail(decodedWord, series, anime, season, episode)
+    : await getVocabDetail(decodedWord);
 
   if (!vocabDetail) {
     notFound();
@@ -24,10 +40,13 @@ export default async function VocabDetailPage({ params }: VocabDetailPageProps) 
         {/* 返回按钮 */}
         <div className="mb-6">
           <Link
-            href="/vocab"
+            href={series && anime && season && episode 
+              ? `/series/${encodeURIComponent(series)}/${encodeURIComponent(anime)}/${encodeURIComponent(season)}/${encodeURIComponent(episode)}`
+              : "/vocab"
+            }
             className="inline-flex items-center text-blue-600 hover:text-blue-700 font-semibold"
           >
-            ← 返回词汇库
+            ← {series && anime && season && episode ? `返回 ${episode}` : "返回词汇库"}
           </Link>
         </div>
 
@@ -125,15 +144,21 @@ export default async function VocabDetailPage({ params }: VocabDetailPageProps) 
           <div className="space-y-8">
             {vocabDetail.sentences.map((sentence, index) => {
               // 获取媒体文件URL（包含 webp 和 jpg 回退）
-              const { imageUrl, imageUrlFallback, audioUrl } = getMediaUrls(sentence.time_range, vocabDetail.source);
+              // 使用句子自己的来源信息，而不是词汇的统一来源信息
+              const { imageUrl, imageUrlFallback, audioUrl } = getMediaUrls(sentence.time_range, sentence.source);
               
               return (
                 <div key={index} className="space-y-4">
                   {/* 传统的例句显示 */}
                   <div className="border-l-4 border-blue-500 pl-6 py-4 bg-gray-50 dark:bg-gray-700/50 rounded-r-lg">
-                    {/* 时间轴信息 */}
-                    <div className="text-xs text-gray-500 dark:text-gray-400 mb-2 font-mono">
-                      {sentence.time_range}
+                    {/* 时间轴信息和来源信息 */}
+                    <div className="flex justify-between items-center mb-2">
+                      <div className="text-xs text-gray-500 dark:text-gray-400 font-mono">
+                        {sentence.time_range}
+                      </div>
+                      <div className="text-xs text-gray-500 dark:text-gray-400 bg-gray-100 dark:bg-gray-600 px-2 py-1 rounded">
+                        {sentence.source.series} - {sentence.source.anime} {sentence.source.season} {sentence.source.episode}
+                      </div>
                     </div>
                     
                     {/* 日语原文 */}
