@@ -35,48 +35,79 @@ def extract_frame_and_audio(video_path, start_time, end_time, output_dir, timest
     # 生成文件名
     timestamp_safe = format_timestamp_for_filename(start_time)
     
-    # 截取视频帧（取中间时刻的帧）
-    frame_time = start_seconds + duration / 2
-    frame_output = os.path.join(output_dir, f"{timestamp_safe}.jpg")
+    # 输出路径（图片改为 .webp）
+    frame_output = os.path.join(output_dir, f"{timestamp_safe}.webp")
+    audio_output = os.path.join(output_dir, f"{timestamp_safe}.mp3")
+
+    # 如果两个输出都已存在，直接跳过
+    if os.path.exists(frame_output) and os.path.exists(audio_output):
+        print(f"✓ 跳过(已存在): {timestamp_safe}.webp / {timestamp_safe}.mp3")
+        return True
+
+    # 取中间帧偏移（相对于本片段起点）
+    frame_offset = max(0.0, duration / 2.0)
+
+    # 分别处理视频和音频，确保参数正确
     
-    frame_cmd = [
+    # 1. 处理视频帧
+    vf_arg = f"select='gte(t,{frame_offset})'"
+    video_cmd = [
         'ffmpeg',
+        '-hide_banner', '-loglevel', 'error', '-nostdin',
+        '-ss', str(start_seconds),
         '-i', video_path,
-        '-ss', str(frame_time),
-        '-vframes', '1',
-        '-q:v', '3',  # 稍微降低质量以提高速度
-        '-preset', 'ultrafast',  # 最快预设
-        '-y',  # 覆盖已存在的文件
-        frame_output
+        '-t', str(duration),
+        '-vf', vf_arg,
+        '-frames:v', '1',
+        '-c:v', 'libwebp',
+        '-q:v', '60',
+        '-compression_level', '4',
+        '-y',
+        frame_output,
     ]
     
-    # 修改后的音频截取命令
-    audio_output = os.path.join(output_dir, f"{timestamp_safe}.mp3")
-    
+    # 2. 处理音频
     audio_cmd = [
         'ffmpeg',
-        '-i', video_path,
+        '-hide_banner', '-loglevel', 'error', '-nostdin',
         '-ss', str(start_seconds),
+        '-i', video_path,
         '-t', str(duration),
-        '-vn',  # 禁用视频
-        '-acodec', 'libmp3lame',  # 使用正确的mp3编码器
-        '-b:a', '96k',  # 降低音频比特率以提高速度
-        '-ar', '22050',  # 降低采样率
-        '-ac', '1',  # 单声道
-        '-avoid_negative_ts', 'make_zero',  # 避免负时间戳
-        '-y',  # 覆盖已存在的文件
-        audio_output
+        '-c:a', 'libmp3lame',
+        '-b:a', '64k',
+        '-ar', '16000',
+        '-ac', '1',
+        '-y',
+        audio_output,
     ]
     
+    # 调试输出（可选）
+    # print(f"调试: start_seconds={start_seconds}, duration={duration}")
+    
     try:
-        # 执行截取帧命令
-        result = subprocess.run(frame_cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='ignore')
-        print(f"✓ 截取帧: {frame_output}")
+        # 处理视频帧
+        subprocess.run(
+            video_cmd,
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding='utf-8',
+            errors='ignore'
+        )
         
-        # 执行截取音频命令
-        result = subprocess.run(audio_cmd, check=True, capture_output=True, text=True, encoding='utf-8', errors='ignore')
-        print(f"✓ 截取音频: {audio_output}")
+        # 处理音频
+        subprocess.run(
+            audio_cmd,
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding='utf-8',
+            errors='ignore'
+        )
         
+        print(f"✓ 完成: {frame_output} + {audio_output}")
         return True
         
     except subprocess.CalledProcessError as e:
@@ -95,7 +126,10 @@ def process_episode(video_path, json_path, output_base_dir, max_workers=2):
     
     # 读取词汇JSON文件
     with open(json_path, 'r', encoding='utf-8') as f:
-        vocab_data = json.load(f)
+        data = json.load(f)
+    
+    # 获取词汇数据
+    vocab_data = data.get('vocabulary', {})
     
     # 创建输出目录（基于JSON文件路径）
     json_relative_path = os.path.relpath(json_path, output_base_dir)
@@ -117,9 +151,18 @@ def process_episode(video_path, json_path, output_base_dir, max_workers=2):
     
     print(f"找到 {len(timestamps)} 个唯一时间戳")
     
-    # 准备并发任务参数
-    tasks = [(video_path, start_time, end_time, media_output_dir) 
-             for start_time, end_time in timestamps]
+    # 准备并发任务参数（提前跳过已存在的输出）
+    tasks = []
+    skipped = 0
+    for start_time, end_time in timestamps:
+        ts_safe = format_timestamp_for_filename(start_time)
+        frame_path = os.path.join(media_output_dir, f"{ts_safe}.webp")
+        audio_path = os.path.join(media_output_dir, f"{ts_safe}.mp3")
+        if os.path.exists(frame_path) and os.path.exists(audio_path):
+            skipped += 1
+            continue
+        tasks.append((video_path, start_time, end_time, media_output_dir))
+    print(f"将处理 {len(tasks)} 个片段（跳过已存在 {skipped} 个）")
     
     # 并发处理
     success_count = 0
@@ -131,25 +174,26 @@ def process_episode(video_path, json_path, output_base_dir, max_workers=2):
             try:
                 if future.result():
                     success_count += 1
-                    print(f"✓ 完成: {task[1]} ({success_count}/{len(timestamps)})")
+                    print(f"✓ 完成: {task[1]} ({success_count}/{len(tasks)})")
                 else:
                     print(f"✗ 失败: {task[1]}")
             except Exception as e:
                 print(f"✗ 异常: {task[1]} - {e}")
     
-    print(f"完成! 成功处理 {success_count}/{len(timestamps)} 个片段")
+    print(f"完成! 成功处理 {success_count}/{len(tasks)} 个片段")
 
 if __name__ == "__main__":
     # 检查命令行参数
     if len(sys.argv) < 3:
         print("使用方法: python media.py <视频文件路径> <JSON文件路径> [线程数]")
-        print("示例: python media.py ../video/p8.mp4 ../obilivionis-site/public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json 2")
+        print("示例: python media.py ../video/ep8.mp4 ../obilivionis-site/public/data/BanG-Dream/MyGO/S1/Ep8/ep8.json 4")
         exit(1)
     
     # 从命令行参数获取路径
     video_path = sys.argv[1]
     json_path = sys.argv[2]
-    max_workers = int(sys.argv[3]) if len(sys.argv) > 3 else 2
+    # 默认线程数为 4（可通过参数覆盖）
+    max_workers = int(sys.argv[3]) if len(sys.argv) > 3 else 4
     output_base_dir = "../obilivionis-site/public/data"
     
     # 检查文件是否存在

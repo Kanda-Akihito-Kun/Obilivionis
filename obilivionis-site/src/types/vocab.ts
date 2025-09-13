@@ -3,6 +3,13 @@ export interface Sentence {
   japanese: string;
   chinese: string;
   time_range: string;
+  // 添加来源信息，用于正确生成媒体文件路径
+  source: {
+    series: string;
+    anime: string;
+    season: string;
+    episode: string;
+  };
 }
 
 export interface VocabWord {
