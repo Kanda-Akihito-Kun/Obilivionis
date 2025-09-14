@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAnimeSeries, getVocabList } from "@/lib/vocabData";
+import { getAnimeSeries, getEpisodeVocabList } from "@/lib/vocabData";
 
 interface EpisodeDetailPageProps {
   params: Promise<{
@@ -27,14 +27,13 @@ export default async function EpisodeDetailPage({ params }: EpisodeDetailPagePro
   if (!seriesData || !animeData || !seasonData || !episodeData) {
     notFound();
   }
-
+  
   // 获取该集的词汇数据
-  const allVocab = await getVocabList();
-  const episodeVocab = allVocab.filter(vocab => 
-    vocab.source.series === decodedSeries &&
-    vocab.source.anime === decodedAnime &&
-    vocab.source.season === decodedSeason &&
-    vocab.source.episode === decodedEpisode
+  const episodeVocab = await getEpisodeVocabList(
+    decodedSeries,
+    decodedAnime,
+    decodedSeason,
+    decodedEpisode
   );
 
   return (
@@ -114,7 +113,7 @@ export default async function EpisodeDetailPage({ params }: EpisodeDetailPagePro
                 {episodeVocab.map((vocab) => (
                   <Link
                     key={vocab.word}
-                    href={`/vocab/${encodeURIComponent(vocab.word)}`}
+                    href={`/vocab/${encodeURIComponent(vocab.word)}?series=${encodeURIComponent(seriesData.series)}&anime=${encodeURIComponent(animeData.anime)}&season=${encodeURIComponent(seasonData.season)}&episode=${encodeURIComponent(episodeData.episode)}`}
                     className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 hover:bg-gray-100 dark:hover:bg-gray-600 transition-colors border border-gray-200 dark:border-gray-600"
                   >
                     <div className="font-bold text-lg text-gray-900 dark:text-white mb-2">

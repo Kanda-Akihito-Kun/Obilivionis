@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 interface MediaPlayerProps {
   imageUrl?: string;
+  imageUrlFallback?: string; // 新增：图片回退URL（jpg）
   audioUrl?: string;
   sentence: {
     japanese: string;
@@ -14,15 +15,51 @@ interface MediaPlayerProps {
   className?: string;
 }
 
-export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = '' }: MediaPlayerProps) {
+export default function MediaPlayer({ imageUrl, imageUrlFallback, audioUrl, sentence, className = '' }: MediaPlayerProps) {
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
   const [duration, setDuration] = useState(0);
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageError, setImageError] = useState(false);
   const [audioError, setAudioError] = useState(false);
-  const [audioLoading, setAudioLoading] = useState(true);
+  const [audioLoading, setAudioLoading] = useState(false);
+  const [currentImageSrc, setCurrentImageSrc] = useState<string | undefined>(imageUrl);
   const audioRef = useRef<HTMLAudioElement>(null);
+
+
+
+  useEffect(() => {
+    setCurrentImageSrc(imageUrl);
+    setImageError(false);
+    setImageLoaded(false);
+  }, [imageUrl]);
+
+  // 当audioUrl变化时重置音频状态
+  useEffect(() => {
+    console.log('=== audioUrl变化 ===');
+    console.log('新audioUrl:', audioUrl);
+    console.log('audio元素存在:', !!audioRef.current);
+    
+    if (audioUrl && audioRef.current) {
+      console.log('重置音频状态，新URL:', audioUrl);
+      
+      setDuration(0);
+      setCurrentTime(0);
+      setIsPlaying(false);
+      setAudioError(false);
+      setAudioLoading(true);
+      
+      audioRef.current.src = audioUrl;
+      console.log('设置audio.src为:', audioRef.current.src);
+      audioRef.current.load();
+      console.log('调用audio.load()');
+    } else {
+      console.log('audioUrl或audio不存在，跳过加载');
+      if (!audioUrl) {
+        setAudioLoading(false);
+      }
+    }
+  }, [audioUrl]);
 
   // 音频播放控制
   const togglePlay = async () => {
@@ -46,13 +83,36 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
 
   // 音频事件处理
   useEffect(() => {
+    if (!audioRef.current || !audioUrl) {
+      console.log('useEffect: audioRef或audioUrl不存在');
+      return;
+    }
+
     const audio = audioRef.current;
-    if (!audio) return;
+    console.log('=== 设置音频事件监听器 ===');
+    console.log('当前audioUrl:', audioUrl);
+    console.log('audio元素:', audio);
 
     const handleLoadedMetadata = () => {
-      setDuration(audio.duration);
+      const audioDuration = audio.duration;
+      console.log('=== 音频元数据加载 ===');
+      console.log('音频URL:', audioUrl);
+      console.log('音频时长:', audioDuration);
+      console.log('音频readyState:', audio.readyState);
+      console.log('音频networkState:', audio.networkState);
+      console.log('音频src:', audio.src);
+      
+      if (isNaN(audioDuration) || audioDuration <= 0) {
+        console.warn('音频时长无效:', audioDuration);
+        setAudioError(true);
+        setAudioLoading(false);
+        return;
+      }
+      
+      setDuration(audioDuration);
       setAudioLoading(false);
       setAudioError(false);
+      console.log('音频时长设置成功:', audioDuration);
     };
 
     const handleTimeUpdate = () => {
@@ -65,15 +125,14 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
     };
 
     const handleError = (e: Event) => {
-      console.error('音频加载错误:', e);
-      console.error('音频URL:', audioUrl);
-      console.error('错误详情:', (e.target as HTMLAudioElement)?.error);
+      console.error('音频加载错误:', audioUrl, e);
       setAudioError(true);
       setAudioLoading(false);
       setIsPlaying(false);
     };
 
     const handleLoadStart = () => {
+      console.log('音频开始加载');
       setAudioLoading(true);
       setAudioError(false);
     };
@@ -108,6 +167,17 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
     setCurrentTime(newTime);
   };
 
+  // 图片加载错误时尝试回退到 jpg
+  const handleImageError = () => {
+    if (!imageError && imageUrlFallback) {
+      setImageError(true);
+      setCurrentImageSrc(imageUrlFallback);
+      setImageLoaded(false);
+    } else {
+      setImageError(true);
+    }
+  };
+
   return (
     <div className={`bg-gray-50 dark:bg-gray-800 rounded-lg p-4 ${className}`}>
       {/* 例句文本 */}
@@ -127,17 +197,17 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
         {/* 图片显示区域 */}
         <div className="relative">
           <div className="aspect-video bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden relative">
-            {imageUrl && !imageError ? (
+            {currentImageSrc && !imageError ? (
               <>
                 <Image
-                  src={imageUrl}
+                  src={currentImageSrc}
                   alt={`场景截图 - ${sentence.japanese}`}
                   fill
                   className={`object-cover transition-opacity duration-300 ${
                     imageLoaded ? 'opacity-100' : 'opacity-0'
                   }`}
                   onLoad={() => setImageLoaded(true)}
-                  onError={() => setImageError(true)}
+                  onError={handleImageError}
                 />
                 {!imageLoaded && (
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -223,33 +293,13 @@ export default function MediaPlayer({ imageUrl, audioUrl, sentence, className = 
           ) : (
             <div className="flex items-center justify-center h-32 text-gray-500 dark:text-gray-400">
               <div className="text-center">
-                <div className="text-2xl mb-2">🔊</div>
+                <div className="text-2xl mb-2">🔇</div>
                 <div className="text-sm">暂无音频</div>
               </div>
             </div>
           )}
         </div>
       </div>
-
-      <style jsx>{`
-        .slider::-webkit-slider-thumb {
-          appearance: none;
-          height: 16px;
-          width: 16px;
-          border-radius: 50%;
-          background: #3b82f6;
-          cursor: pointer;
-        }
-        
-        .slider::-moz-range-thumb {
-          height: 16px;
-          width: 16px;
-          border-radius: 50%;
-          background: #3b82f6;
-          cursor: pointer;
-          border: none;
-        }
-      `}</style>
     </div>
   );
 }
