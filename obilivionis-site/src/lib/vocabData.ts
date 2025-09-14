@@ -15,7 +15,7 @@ export function clearCache() {
 async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> {
   try {
     // 根据文件路径动态导入对应的数据
-    let jsonData: any;
+    let jsonData: Record<string, unknown>;
     switch (filePath) {
       case '/data/BanG-Dream/MyGO/S1/Ep1/ep1.json': {
         const jsonModule = await import('../../public/data/BanG-Dream/MyGO/S1/Ep1/ep1.json');
@@ -152,10 +152,10 @@ export async function getEpisodeVocabData(filePath: string): Promise<VocabData> 
   
   // 为每个词汇添加来源信息
   Object.entries(jsonData).forEach(([word, vocabInfo]) => {
-    const vocabData = vocabInfo as any;
+    const vocabData = vocabInfo as Record<string, unknown>;
     
     // 为每个句子添加来源信息
-    const sentencesWithSource = vocabData.sentences?.map((sentence: any) => ({
+    const sentencesWithSource = (vocabData.sentences as Array<Record<string, unknown>>)?.map((sentence: Record<string, unknown>) => ({
       ...sentence,
       source: sourceInfo
     })) || [];
@@ -193,10 +193,10 @@ export async function getVocabData(): Promise<VocabData> {
           
           // 为每个词汇添加来源信息
           Object.entries(jsonData).forEach(([word, vocabInfo]) => {
-            const vocabData = vocabInfo as any;
+            const vocabData = vocabInfo as Record<string, unknown>;
             
             // 为每个句子添加来源信息
-            const sentencesWithSource = vocabData.sentences?.map((sentence: any) => ({
+            const sentencesWithSource = (vocabData.sentences as Array<Record<string, unknown>>)?.map((sentence: Record<string, unknown>) => ({
               ...sentence,
               source: sourceInfo
             })) || [];

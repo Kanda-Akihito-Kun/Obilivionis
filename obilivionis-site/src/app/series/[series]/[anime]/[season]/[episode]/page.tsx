@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAnimeSeries, getEpisodeVocabList, clearCache } from "@/lib/vocabData";
+import { getAnimeSeries, getEpisodeVocabList } from "@/lib/vocabData";
 
 interface EpisodeDetailPageProps {
   params: Promise<{
