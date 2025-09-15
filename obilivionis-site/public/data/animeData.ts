@@ -66,15 +66,29 @@ const animeSeriesConfig: AnimeSeries[] = [
             ],
             totalVocabCount: 0
           }
-          // 添加新季度时，在这里添加新的条目
         ],
-        totalVocabCount: 0 // 将在运行时计算
-      }
-      // 添加新动画时，在这里添加新的条目
+        totalVocabCount: 0
+      },{
+            anime: "Ave Mujica",
+            seasons: [
+                {
+                    season: "S1",
+                    episodes: [
+                        {
+                            episode: "Ep1",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep1/ep1.json"
+                        },
+                    ],
+                    totalVocabCount: 0
+                }
+                // 添加新季度时，在这里添加新的条目
+            ],
+            totalVocabCount: 0 // 将在运行时计算
+        }
     ],
-    totalVocabCount: 0 // 将在运行时计算
+    totalVocabCount: 0
   }
-  // 添加新系列时，在这里添加新的条目
 ];
 
 export function getAnimeSeriesConfig(): AnimeSeries[] {
