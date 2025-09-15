@@ -82,6 +82,11 @@ async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> 
         jsonData = jsonModule.default;
         break;
       }
+      case '/data/BanG-Dream/Ave-Mujica/S1/Ep1/ep1.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep1/ep1.json');
+        jsonData = jsonModule.default;
+        break;
+      }
       default:
         return {};
     }
