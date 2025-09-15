@@ -69,7 +69,7 @@ const animeSeriesConfig: AnimeSeries[] = [
         ],
         totalVocabCount: 0
       },{
-            anime: "Ave Mujica",
+            anime: "Ave-Mujica",
             seasons: [
                 {
                     season: "S1",
