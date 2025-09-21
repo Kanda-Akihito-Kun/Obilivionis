@@ -79,9 +79,35 @@ const animeSeriesConfig: AnimeSeries[] = [
                             vocabCount: 0,
                             filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep1/ep1.json"
                         },
+                        {
+                            episode: "Ep2",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep2/ep2.json"
+                        },
+                        {
+                            episode: "Ep3",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep3/ep3.json"
+                        },{
+                            episode: "Ep4",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep4/ep4.json"
+                        },{
+                            episode: "Ep5",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep5/ep5.json"
+                        },{
+                            episode: "Ep6",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep6/ep6.json"
+                        },{
+                            episode: "Ep7",
+                            vocabCount: 0,
+                            filePath: "/data/BanG-Dream/Ave-Mujica/S1/Ep7/ep7.json"
+                        },
                     ],
                     totalVocabCount: 0
-                }
+                },
                 // 添加新季度时，在这里添加新的条目
             ],
             totalVocabCount: 0 // 将在运行时计算
