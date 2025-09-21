@@ -82,6 +82,35 @@ async function loadJsonFile(filePath: string): Promise<Record<string, unknown>> 
         jsonData = jsonModule.default;
         break;
       }
+      case '/data/BanG-Dream/Ave-Mujica/S1/Ep1/ep1.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep1/ep1.json');
+        jsonData = jsonModule.default;
+        break;
+      }case '/data/BanG-Dream/Ave-Mujica/S1/Ep2/ep2.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep2/ep2.json');
+        jsonData = jsonModule.default;
+        break;
+      }case '/data/BanG-Dream/Ave-Mujica/S1/Ep3/ep3.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep3/ep3.json');
+        jsonData = jsonModule.default;
+        break;
+      }case '/data/BanG-Dream/Ave-Mujica/S1/Ep4/ep4.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep4/ep4.json');
+        jsonData = jsonModule.default;
+        break;
+      }case '/data/BanG-Dream/Ave-Mujica/S1/Ep5/ep5.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep5/ep5.json');
+        jsonData = jsonModule.default;
+        break;
+      }case '/data/BanG-Dream/Ave-Mujica/S1/Ep6/ep6.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep6/ep6.json');
+        jsonData = jsonModule.default;
+        break;
+      }case '/data/BanG-Dream/Ave-Mujica/S1/Ep7/ep7.json': {
+        const jsonModule = await import('../../public/data/BanG-Dream/Ave-Mujica/S1/Ep7/ep7.json');
+        jsonData = jsonModule.default;
+        break;
+      }
       default:
         return {};
     }
